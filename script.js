@@ -80,6 +80,12 @@ const I18N = {
     "book.longStay": "Long-stay rate applied (8+ days)",
     "book.holderNote": "Enter the details of the person who will collect the vehicle. Your confirmation is sent to this e-mail.",
     "book.dob": "Date of birth",
+    "book.addTickets": "Add Zermatt Shuttle train tickets",
+    "book.ticketsInfo": "Departure on your parking start date · return any time within 30 days",
+    "book.ticketFull": "Adult",
+    "book.ticketHalf": "Reduced",
+    "book.ticketsSummary": "Shuttle tickets",
+    "book.ticketDiscount": "50% off for Half-Fare Card / Swiss Half Fare Card holders, children aged 6–15.99, and dogs taller than 30 cm.",
     "gh.title": "Parking info",
     "gh.lead": "Everything you need to know about parking at the Matterhorn Terminal in Täsch and reaching car-free Zermatt — how to arrive, charging your electric car and how the shuttle train works.",
     "gh.banner": "Zermatt is car-free. Every car stops in Täsch: park at the Matterhorn Terminal and continue by shuttle train or taxi.",
@@ -4167,6 +4173,9 @@ const PRICE = {
   charging: { base: 40, longBase: 38 },
 };
 const LONG_STAY_DAYS = 8;          // discounted rate from the 8th day on
+const TICKET_FULL = 22;            // Zermatt Shuttle return ticket (CHF)
+const TICKET_HALF = 11;            // reduced (Half-Fare Card / kids 6-15.99 / dogs >30cm)
+const TICKET_MAX = 20;             // per fare type
 const MAX_HEIGHT = "2.30";         // metres — shown as a note, no vehicle choice
 
 const CURRENCY = "CHF";
@@ -4386,6 +4395,7 @@ function newBooking(seed) {
     option: "parking",
     start: "", end: "",
     plate: "",
+    tickets: false, tFull: 0, tHalf: 0,
     firstName: "", surname: "", dob: "", email: "", terms: true,
   }, seed || {});
 }
@@ -4414,9 +4424,18 @@ function ratePerDay(option, days) {
   const p = PRICE[option] || PRICE.parking;
   return days >= LONG_STAY_DAYS ? p.longBase : p.base;
 }
-function bookingTotal(b) {
+function parkingSubtotal(b) {
   const d = stayDays(b);
   return d > 0 ? ratePerDay(b.option, d) * d : 0;
+}
+function ticketsCount(b) {
+  return b.tickets ? (b.tFull || 0) + (b.tHalf || 0) : 0;
+}
+function ticketsTotal(b) {
+  return b.tickets ? (b.tFull || 0) * TICKET_FULL + (b.tHalf || 0) * TICKET_HALF : 0;
+}
+function bookingTotal(b) {
+  return parkingSubtotal(b) + ticketsTotal(b);
 }
 function dayCountLabel(n) {
   return n + " " + (n === 1 ? t("book.day") : t("book.days"));
@@ -4511,14 +4530,17 @@ function priceRowHTML(b) {
     return `<div class="bk-price bk-price-empty">${t("book.priceHint")}</div>`;
   }
   const rate = ratePerDay(b.option, days);
-  const total = rate * days;
-  const discount = days >= LONG_STAY_DAYS ? `<span class="bk-price-note">${t("book.longStay")}</span>` : "";
+  const psub = rate * days;
+  const tt = ticketsTotal(b);
+  const tc = ticketsCount(b);
+  const longNote = days >= LONG_STAY_DAYS ? ` <span class="bk-price-note">${t("book.longStay")}</span>` : "";
+  const ticketLine = (b.tickets && tc > 0)
+    ? `<div class="bk-price-line"><span>${t("book.ticketsSummary")} · ${tc}</span><span>${money(tt)}</span></div>`
+    : "";
   return `<div class="bk-price">
-    <div class="bk-price-calc">
-      <span>${optionName(b.option)} · ${money(rate)} × ${dayCountLabel(days)}</span>
-      ${discount}
-    </div>
-    <div class="bk-price-total"><span>${t("book.totalDue")}</span><strong>${money(total)}</strong></div>
+    <div class="bk-price-line"><span>${optionName(b.option)} · ${money(rate)} × ${dayCountLabel(days)}${longNote}</span><span>${money(psub)}</span></div>
+    ${ticketLine}
+    <div class="bk-price-total"><span>${t("book.totalDue")}</span><strong>${money(psub + tt)}</strong></div>
   </div>`;
 }
 
@@ -4532,6 +4554,36 @@ function fieldIcon(name) {
   return `<svg class="bk-fb-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[name] || P.cal}</svg>`;
 }
 const CHEV = '<svg class="bk-fb-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+
+/* optional Zermatt Shuttle tickets — a toggle that reveals two compact steppers */
+function ticketStepper(kind, qty) {
+  return `<span class="bk-stepper">
+    <button type="button" class="bk-step-btn" data-role="tq-dec" data-kind="${kind}" aria-label="minus"${qty <= 0 ? " disabled" : ""}>&minus;</button>
+    <span class="bk-step-qty">${qty}</span>
+    <button type="button" class="bk-step-btn" data-role="tq-inc" data-kind="${kind}" aria-label="plus">+</button>
+  </span>`;
+}
+function ticketsBlockHTML(b) {
+  const row = (kind, name, price, qty) => `<div class="bk-ticket-row">
+    <span class="bk-ticket-info"><span class="bk-ticket-name">${name}</span><span class="bk-ticket-price">${money(price)}</span></span>
+    ${ticketStepper(kind, qty)}
+  </div>`;
+  return `<div class="bk-tickets${b.tickets ? " is-on" : ""}">
+    <label class="bk-switch">
+      <input type="checkbox" data-role="tickets-toggle"${b.tickets ? " checked" : ""}>
+      <span class="bk-switch-track" aria-hidden="true"><span class="bk-switch-thumb"></span></span>
+      <span class="bk-switch-text">
+        <span class="bk-switch-title">${t("book.addTickets")}</span>
+        <span class="bk-switch-sub">${t("book.ticketsInfo")}</span>
+      </span>
+    </label>
+    ${b.tickets ? `<div class="bk-tickets-body">
+      ${row("full", t("book.ticketFull"), TICKET_FULL, b.tFull || 0)}
+      ${row("half", t("book.ticketHalf"), TICKET_HALF, b.tHalf || 0)}
+      <p class="bk-ticket-note">${t("book.ticketDiscount")}</p>
+    </div>` : ""}
+  </div>`;
+}
 
 /* step 1 — glass booking card (Arrival / Departure / Option / Plate) */
 function bookingFieldsHTML(b) {
@@ -4574,6 +4626,7 @@ function bookingFieldsHTML(b) {
       </label>
     </div>
     <p class="bk-height-note">${t("book.maxHeight")}</p>
+    ${ticketsBlockHTML(b)}
     ${priceRowHTML(b)}
   </div>`;
 }
@@ -4632,6 +4685,10 @@ function renderStep2() {
         <span>${t("book.plate")}</span>
         <span>${plateLabel(b) || "—"}</span>
       </div>
+      ${(b.tickets && ticketsCount(b) > 0) ? `<div class="bk-summary-row">
+        <span>${t("book.ticketsSummary")} · ${ticketsCount(b)}</span>
+        <span>${money(ticketsTotal(b))}</span>
+      </div>` : ""}
       <div class="bk-summary-total">
         <span>${t("book.totalDue")}</span>
         <span>${money(total)}</span>
@@ -4665,6 +4722,11 @@ function onBookingChange(e) {
     saveState();
   } else if (role === "optsel") {
     booking.option = e.target.value === "charging" ? "charging" : "parking";
+    renderBooking();
+    saveState();
+  } else if (role === "tickets-toggle") {
+    booking.tickets = e.target.checked;
+    if (booking.tickets && (booking.tFull || 0) + (booking.tHalf || 0) === 0) booking.tFull = 1;
     renderBooking();
     saveState();
   }
@@ -4725,6 +4787,14 @@ function onBookingClick(e) {
 
   if (role === "opt") {
     booking.option = btn.dataset.opt === "charging" ? "charging" : "parking";
+    renderBooking();
+    saveState();
+    return;
+  }
+  if (role === "tq-inc" || role === "tq-dec") {
+    const key = btn.dataset.kind === "half" ? "tHalf" : "tFull";
+    let q = (booking[key] || 0) + (role === "tq-inc" ? 1 : -1);
+    booking[key] = Math.max(0, Math.min(TICKET_MAX, q));
     renderBooking();
     saveState();
     return;
@@ -4902,7 +4972,14 @@ Parking:
 - Period: ${fmtLong(b.start, "en")} → ${fmtLong(b.end, "en")} (${days} day(s))
 - Licence plate: ${plateLabel(b)}
 - Rate: ${money(ratePerDay(b.option, days))} / day
-- Total: ${money(total)}
+- Parking subtotal: ${money(parkingSubtotal(b))}
+${(b.tickets && ticketsCount(b) > 0) ? `
+Zermatt Shuttle tickets (departure ${fmtLong(b.start, "en")}, return within 30 days):
+- Adult (CHF ${TICKET_FULL}): ${b.tFull || 0}
+- Reduced (CHF ${TICKET_HALF}): ${b.tHalf || 0}
+- Tickets subtotal: ${money(ticketsTotal(b))}
+` : ""}
+Total: ${money(total)}
 
 Submitted at: ${new Date().toLocaleString()}`;
 
