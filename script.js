@@ -62,7 +62,8 @@ const I18N = {
     "footer.l.charging": "Electric vehicles",
     "footer.l.train": "Getting to Zermatt",
     "book.step1": "Parking details",
-    "book.step2": "Tickets & payment",
+    "book.step2": "Tickets",
+    "book.step3": "Payment",
     "book.chooseOption": "Choose your option",
     "book.optParking": "Parking",
     "book.optCharging": "Parking with e-charging station",
@@ -2836,7 +2837,8 @@ const I18N = {
     "footer.l.charging": "Электромобили",
     "footer.l.train": "Как добраться до Zermatt",
     "book.step1": "Детали парковки",
-    "book.step2": "Билеты и оплата",
+    "book.step2": "Билеты",
+    "book.step3": "Оплата",
     "book.chooseOption": "Выберите вариант",
     "book.optParking": "Паркинг",
     "book.optCharging": "Паркинг с зарядной станцией",
@@ -4349,7 +4351,7 @@ const I18N = {
 const OPTIONS = ["parking", "charging"];
 const PRICE = {
   parking:  { base: 32, longBase: 30 },
-  charging: { base: 40, longBase: 38 },
+  charging: { base: 32, longBase: 30 },   // same price as regular parking (per request)
 };
 const LONG_STAY_DAYS = 8;          // discounted rate from the 8th day on
 const TICKET_FULL = 22;            // Zermatt Shuttle return ticket (CHF)
@@ -4488,7 +4490,7 @@ function loadState() {
       // never allow a stored period that has slipped into the past
       if (booking.start && booking.start < MIN_DATE) { booking.start = ""; booking.end = ""; }
       if (booking.end && booking.end < booking.start) booking.end = "";
-      bookStep = state.bookStep === 2 ? 2 : 1;
+      bookStep = [1, 2, 3].includes(state.bookStep) ? state.bookStep : 1;
       return true;
     } catch (e) {
       console.error("Failed to load state:", e);
@@ -4639,7 +4641,7 @@ function validBooking(b) {
 function stepsHTML(active) {
   const item = (n, key) =>
     `<span class="bk-step${active === n ? " is-active" : ""}${active > n ? " is-done" : ""}"><b>${n}</b>${t(key)}</span>`;
-  return `<div class="bk-steps">${item(1, "book.step1")}<span class="bk-step-line"></span>${item(2, "book.step2")}</div>`;
+  return `<div class="bk-steps">${item(1, "book.step1")}<span class="bk-step-line"></span>${item(2, "book.step2")}<span class="bk-step-line"></span>${item(3, "book.step3")}</div>`;
 }
 
 /* ── Custom range date-picker ── */
@@ -4825,10 +4827,9 @@ function renderStep1() {
 }
 
 /* step 2 — ticket holder */
+/* step 2 — Zermatt Shuttle tickets + contact e-mail */
 function renderStep2() {
   const b = booking;
-  const days = stayDays(b);
-  const rate = ratePerDay(b.option, days);
   const total = bookingTotal(b);
   return `${stepsHTML(2)}
     ${ticketsBlockHTML(b)}
@@ -4840,8 +4841,22 @@ function renderStep2() {
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>
       <p>${t("book.holderNote")}</p>
     </div>
-    <label class="bk-check bk-check-terms"><input type="checkbox" data-bk="terms"${b.terms ? " checked" : ""}> ${t("book.terms")} *</label>
-    <div class="bk-summary">
+    <div class="bk-bar">
+      <button type="button" class="bk-back" data-role="back">${t("book.back")}</button>
+      <button type="button" class="bk-continue" data-role="next">${t("book.continue")}${total > 0 ? ` · ${money(total)}` : ""}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>`;
+}
+
+/* step 3 — order summary, terms & pay */
+function renderStep3() {
+  const b = booking;
+  const days = stayDays(b);
+  const rate = ratePerDay(b.option, days);
+  const total = bookingTotal(b);
+  return `${stepsHTML(3)}
+    <div class="bk-summary bk-summary-top">
       <div class="bk-summary-title">${t("book.orderSummary")}</div>
       <div class="bk-summary-row">
         <span>${optionName(b.option)}</span>
@@ -4864,6 +4879,7 @@ function renderStep2() {
         <span>${money(total)}</span>
       </div>
     </div>
+    <label class="bk-check bk-check-terms"><input type="checkbox" data-bk="terms"${b.terms ? " checked" : ""}> ${t("book.terms")} *</label>
     <div class="bk-bar">
       <button type="button" class="bk-back" data-role="back">${t("book.back")}</button>
       <button type="button" class="bk-continue" data-role="pay">${t("book.pay")} · ${money(total)}</button>
@@ -4871,7 +4887,7 @@ function renderStep2() {
 }
 
 function renderBooking() {
-  const html = bookStep === 2 ? renderStep2() : renderStep1();
+  const html = bookStep === 3 ? renderStep3() : bookStep === 2 ? renderStep2() : renderStep1();
   document.querySelectorAll("#bkContent, #bkContent2").forEach((r) => { r.innerHTML = html; });
 }
 
@@ -4926,19 +4942,25 @@ function validateStep1(root) {
   return true;
 }
 
+// step 2 → step 3 gate: a valid e-mail
 function validateStep2(root) {
   const b = booking;
-  let firstInvalid = null;
-  const mark = (sel, ok) => {
-    const ctrl = root.querySelector(sel);
-    if (!ctrl) return;
-    const field = ctrl.closest(".bk-field") || ctrl.closest(".bk-check");
-    if (field) field.classList.toggle("is-invalid", !ok);
-    if (!ok && !firstInvalid) firstInvalid = field;
-  };
-  mark('[data-bk="email"]', /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(b.email.trim()));
-  mark('[data-bk="terms"]', !!b.terms);
-  if (firstInvalid) { toast(t("book.msgIncomplete")); firstInvalid.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
+  const ctrl = root.querySelector('[data-bk="email"]');
+  const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((b.email || "").trim());
+  const field = ctrl && ctrl.closest(".bk-field");
+  if (field) field.classList.toggle("is-invalid", !ok);
+  if (!ok) { toast(t("book.msgIncomplete")); if (field) field.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
+  return true;
+}
+
+// step 3 → pay gate: the terms box must be ticked
+function validateStep3(root) {
+  const b = booking;
+  const ctrl = root.querySelector('[data-bk="terms"]');
+  const ok = !!b.terms;
+  const field = ctrl && ctrl.closest(".bk-check");
+  if (field) field.classList.toggle("is-invalid", !ok);
+  if (!ok) { toast(t("book.msgIncomplete")); if (field) field.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
   return true;
 }
 
@@ -5008,11 +5030,12 @@ function onBookingClick(e) {
     return;
   }
   if (role === "next") {
-    if (validateStep1(e.currentTarget)) { bookStep = 2; renderBooking(); scrollCardIntoView(e.currentTarget); saveState(); }
+    const ok = bookStep === 2 ? validateStep2(e.currentTarget) : validateStep1(e.currentTarget);
+    if (ok) { bookStep = Math.min(3, bookStep + 1); renderBooking(); scrollCardIntoView(e.currentTarget); saveState(); }
   } else if (role === "back") {
-    bookStep = 1; renderBooking(); scrollCardIntoView(e.currentTarget); saveState();
+    bookStep = Math.max(1, bookStep - 1); renderBooking(); scrollCardIntoView(e.currentTarget); saveState();
   } else if (role === "pay") {
-    if (validateStep2(e.currentTarget)) {
+    if (validateStep3(e.currentTarget)) {
       sendBookingEmail();
       showServiceError();
     }

@@ -1112,6 +1112,10 @@ body {
 .bk-add:hover { border-color: var(--green); color: var(--green); }
 .bk-add svg { width: 18px; height: 18px; }
 .bk-continue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding: 14px 42px;
   border: 0;
   border-radius: 12px;
@@ -1124,6 +1128,7 @@ body {
   transition: background .18s ease;
 }
 .bk-continue:hover { background: var(--green-700); }
+.bk-continue svg { width: 20px; height: 20px; flex: none; }
 
 .bk-confirm {
   margin-top: 24px;
@@ -1590,6 +1595,9 @@ body {
 
 /* single-column field row (e.g. the lone e-mail field on step 2) */
 .bk-grid.bk-grid-1 { grid-template-columns: 1fr; }
+
+/* on step 3 the order summary sits right under the step indicator */
+.bk-summary.bk-summary-top { margin-top: 4px; }
 
 /* iOS Safari zooms the page in when a focused field's text is < 16px.
    Keep every booking-form control at 16px on phones so tapping a field
