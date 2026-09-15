@@ -62,7 +62,7 @@ const I18N = {
     "footer.l.charging": "Electric vehicles",
     "footer.l.train": "Getting to Zermatt",
     "book.step1": "Parking details",
-    "book.step2": "Ticket holder",
+    "book.step2": "Tickets & payment",
     "book.chooseOption": "Choose your option",
     "book.optParking": "Parking",
     "book.optCharging": "Parking with e-charging station",
@@ -78,7 +78,7 @@ const I18N = {
     "book.maxHeight": "Maximum height for vehicles: 2.30 meters.",
     "book.priceHint": "Select your dates to see the price.",
     "book.longStay": "Long-stay rate applied (8+ days)",
-    "book.holderNote": "Enter the details of the person who will collect the vehicle. Your confirmation is sent to this e-mail.",
+    "book.holderNote": "Your booking confirmation will be sent to this e-mail address.",
     "book.dob": "Date of birth",
     "book.addTickets": "Add Zermatt Shuttle train tickets",
     "book.ticketsInfo": "Departure on your parking start date · return any time within 30 days",
@@ -2836,7 +2836,7 @@ const I18N = {
     "footer.l.charging": "Электромобили",
     "footer.l.train": "Как добраться до Zermatt",
     "book.step1": "Детали парковки",
-    "book.step2": "Владелец билета",
+    "book.step2": "Билеты и оплата",
     "book.chooseOption": "Выберите вариант",
     "book.optParking": "Паркинг",
     "book.optCharging": "Паркинг с зарядной станцией",
@@ -2852,7 +2852,7 @@ const I18N = {
     "book.maxHeight": "Максимальная высота автомобиля: 2,30 метра.",
     "book.priceHint": "Выберите даты, чтобы увидеть цену.",
     "book.longStay": "Применён тариф для длительного пребывания (от 8 дней)",
-    "book.holderNote": "Укажите данные человека, который заберёт автомобиль. Подтверждение придёт на этот адрес электронной почты.",
+    "book.holderNote": "Подтверждение бронирования придёт на этот адрес электронной почты.",
     "book.dob": "Дата рождения",
     "book.addTickets": "Добавить билеты на поезд Zermatt Shuttle",
     "book.ticketsInfo": "Отправление в день начала парковки · возврат в любое время в течение 30 дней",
@@ -4360,7 +4360,7 @@ const MAX_HEIGHT = "2.30";         // metres — shown as a note, no vehicle cho
 const CURRENCY = "CHF";
 function money(n) { return CURRENCY + " " + n; }
 
-const LOCALE = { en: "en-GB", de: "de-DE", it: "it-IT", fr: "fr-FR", es: "es-ES", hu: "hu-HU", pl: "pl-PL", ro: "ro-RO", cs: "cs-CZ", nl: "nl-NL", sl: "sl-SI", pt: "pt-PT", hr: "hr-HR", sk: "sk-SK", sr: "sr-RS", uk: "uk-UA", da: "da-DK", nb: "nb-NO", tr: "tr-TR", zh: "zh-CN", ja: "ja-JP", ko: "ko-KR", hi: "hi-IN", ar: "ar-EG-u-nu-latn" };
+const LOCALE = { en: "en-GB", de: "de-DE", it: "it-IT", fr: "fr-FR", es: "es-ES", hu: "hu-HU", pl: "pl-PL", ro: "ro-RO", cs: "cs-CZ", nl: "nl-NL", sl: "sl-SI", pt: "pt-PT", hr: "hr-HR", sk: "sk-SK", sr: "sr-RS", uk: "uk-UA", ru: "ru-RU", da: "da-DK", nb: "nb-NO", tr: "tr-TR", zh: "zh-CN", ja: "ja-JP", ko: "ko-KR", hi: "hi-IN", ar: "ar-EG-u-nu-latn" };
 
 /* the earliest bookable day is tomorrow (period may start no sooner) */
 const _d = new Date();
@@ -4574,8 +4574,8 @@ function newBooking(seed) {
     option: "parking",
     start: "", end: "",
     plate: "",
-    tickets: false, tFull: 0, tHalf: 0,
-    firstName: "", surname: "", dob: "", email: "", terms: true,
+    tickets: true, tFull: 1, tHalf: 0,   // shuttle tickets chosen on step 2, on by default
+    email: "", terms: true,
   }, seed || {});
 }
 
@@ -4588,7 +4588,12 @@ function esc(s) {
 
 function fmtLong(iso, l = lang) {
   if (!iso) return "—";
-  return new Date(iso + "T00:00:00").toLocaleDateString(LOCALE[l], { day: "numeric", month: "long", year: "numeric" });
+  return new Date(iso + "T00:00:00").toLocaleDateString(LOCALE[l] || "en-GB", { weekday: "short", day: "numeric", month: "long", year: "numeric" });
+}
+/* compact form for the date pills — short weekday so you can see which day you picked */
+function fmtField(iso, l = lang) {
+  if (!iso) return "—";
+  return new Date(iso + "T00:00:00").toLocaleDateString(LOCALE[l] || "en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" });
 }
 
 /* ---------- pricing ---------- */
@@ -4698,7 +4703,7 @@ function dpOpen(calEl, startISO, endISO) {
 
 function dateFieldVal(iso, ph) {
   return iso
-    ? `<span class="bk-fb-val">${fmtLong(iso)}</span>`
+    ? `<span class="bk-fb-val">${fmtField(iso)}</span>`
     : `<span class="bk-fb-val is-ph">${ph}</span>`;
 }
 
@@ -4710,16 +4715,11 @@ function priceRowHTML(b) {
   }
   const rate = ratePerDay(b.option, days);
   const psub = rate * days;
-  const tt = ticketsTotal(b);
-  const tc = ticketsCount(b);
   const longNote = days >= LONG_STAY_DAYS ? ` <span class="bk-price-note">${t("book.longStay")}</span>` : "";
-  const ticketLine = (b.tickets && tc > 0)
-    ? `<div class="bk-price-line"><span>${t("book.ticketsSummary")} · ${tc}</span><span>${money(tt)}</span></div>`
-    : "";
+  // step 1 shows the parking price only — shuttle tickets are added on step 2
   return `<div class="bk-price">
     <div class="bk-price-line"><span>${optionName(b.option)} · ${money(rate)} × ${dayCountLabel(days)}${longNote}</span><span>${money(psub)}</span></div>
-    ${ticketLine}
-    <div class="bk-price-total"><span>${t("book.totalDue")}</span><strong>${money(psub + tt)}</strong></div>
+    <div class="bk-price-total"><span>${t("book.totalDue")}</span><strong>${money(psub)}</strong></div>
   </div>`;
 }
 
@@ -4805,13 +4805,12 @@ function bookingFieldsHTML(b) {
       </label>
     </div>
     <p class="bk-height-note">${t("book.maxHeight")}</p>
-    ${ticketsBlockHTML(b)}
     ${priceRowHTML(b)}
   </div>`;
 }
 
 function renderStep1() {
-  const total = bookingTotal(booking);
+  const total = parkingSubtotal(booking);   // tickets are added on step 2
   const cta = total > 0 ? `${t("book.continue")} · ${money(total)}` : t("book.continue");
   return `<div class="bk-cardhead">
       <span class="bk-cardhead-ic" aria-hidden="true">
@@ -4831,23 +4830,15 @@ function renderStep2() {
   const days = stayDays(b);
   const rate = ratePerDay(b.option, days);
   const total = bookingTotal(b);
-  const today = MIN_DATE;               // any past date is fine for DOB; cap only the max
-  const _t = new Date();
-  const maxDob = `${_t.getFullYear()}-${String(_t.getMonth() + 1).padStart(2, "0")}-${String(_t.getDate()).padStart(2, "0")}`;
   return `${stepsHTML(2)}
+    ${ticketsBlockHTML(b)}
+    <div class="bk-grid bk-grid-1">
+      <label class="bk-field"><span class="bk-label">${t("book.email")} *</span>
+        <span class="bk-control"><input type="email" class="bk-input" data-bk="email" placeholder="${t("book.emailPh")}" value="${esc(b.email)}"></span></label>
+    </div>
     <div class="bk-note">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>
       <p>${t("book.holderNote")}</p>
-    </div>
-    <div class="bk-grid">
-      <label class="bk-field"><span class="bk-label">${t("book.firstName")} *</span>
-        <span class="bk-control"><input type="text" class="bk-input" data-bk="firstName" placeholder="${t("book.firstNamePh")}" value="${esc(b.firstName)}"></span></label>
-      <label class="bk-field"><span class="bk-label">${t("book.surname")} *</span>
-        <span class="bk-control"><input type="text" class="bk-input" data-bk="surname" placeholder="${t("book.surnamePh")}" value="${esc(b.surname)}"></span></label>
-      <label class="bk-field"><span class="bk-label">${t("book.dob")} *</span>
-        <span class="bk-control"><input type="date" class="bk-input" data-bk="dob" max="${maxDob}" value="${esc(b.dob)}"></span></label>
-      <label class="bk-field"><span class="bk-label">${t("book.email")} *</span>
-        <span class="bk-control"><input type="email" class="bk-input" data-bk="email" placeholder="${t("book.emailPh")}" value="${esc(b.email)}"></span></label>
     </div>
     <label class="bk-check bk-check-terms"><input type="checkbox" data-bk="terms"${b.terms ? " checked" : ""}> ${t("book.terms")} *</label>
     <div class="bk-summary">
@@ -4945,9 +4936,6 @@ function validateStep2(root) {
     if (field) field.classList.toggle("is-invalid", !ok);
     if (!ok && !firstInvalid) firstInvalid = field;
   };
-  mark('[data-bk="firstName"]', !!b.firstName.trim());
-  mark('[data-bk="surname"]', !!b.surname.trim());
-  mark('[data-bk="dob"]', !!b.dob);
   mark('[data-bk="email"]', /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(b.email.trim()));
   mark('[data-bk="terms"]', !!b.terms);
   if (firstInvalid) { toast(t("book.msgIncomplete")); firstInvalid.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
@@ -5161,10 +5149,7 @@ async function sendBookingEmail() {
 
   const message = `BOOKING REQUEST — Täsch Parking
 
-Ticket holder:
-- First name: ${b.firstName}
-- Surname: ${b.surname}
-- Date of birth: ${b.dob}
+Contact:
 - E-mail: ${b.email}
 
 Parking:
