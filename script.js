@@ -4386,7 +4386,7 @@ function newBooking(seed) {
     option: "parking",
     start: "", end: "",
     plate: "",
-    firstName: "", surname: "", dob: "", email: "", terms: false,
+    firstName: "", surname: "", dob: "", email: "", terms: true,
   }, seed || {});
 }
 
@@ -4535,9 +4535,14 @@ const CHEV = '<svg class="bk-fb-chev" viewBox="0 0 24 24" fill="none" stroke="cu
 
 /* step 1 — glass booking card (Arrival / Departure / Option / Plate) */
 function bookingFieldsHTML(b) {
-  const optOpts = OPTIONS.map((o) =>
-    `<option value="${o}"${b.option === o ? " selected" : ""}>${optionName(o)} · ${money(PRICE[o].base)}/${t("book.perDay")}</option>`
-  ).join("");
+  const optBtn = (opt, sub) => {
+    const active = b.option === opt ? " is-active" : "";
+    return `<button type="button" class="bk-opt${active}" data-role="opt" data-opt="${opt}" aria-pressed="${b.option === opt}">
+      <span class="bk-opt-check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <span class="bk-opt-body"><span class="bk-opt-name">${optionName(opt)}</span><span class="bk-opt-sub">${sub}</span></span>
+      <span class="bk-opt-price">${money(PRICE[opt].base)}<small>/${t("book.perDay")}</small></span>
+    </button>`;
+  };
   return `<div class="bk-vehicle" data-index="0">
     <div class="bk-grid2">
       <div class="bk-dp-wrap bk-daterow">
@@ -4555,12 +4560,13 @@ function bookingFieldsHTML(b) {
         </div>
         <div class="bk-dp-cal" data-role="dp-cal" hidden></div>
       </div>
-      <label class="bk-fieldbtn bk-fieldsel">
-        ${fieldIcon("car")}
-        <span class="bk-fb-body"><span class="bk-fb-label">${t("book.chooseOption")} *</span>
-          <select class="bk-fb-sel" data-role="optsel">${optOpts}</select></span>
-        ${CHEV}
-      </label>
+      <div class="bk-optsfield">
+        <span class="bk-opts-label">${t("book.chooseOption")} *</span>
+        <div class="bk-opts">
+          ${optBtn("parking", t("book.optParkingSub"))}
+          ${optBtn("charging", t("book.optChargingSub"))}
+        </div>
+      </div>
       <label class="bk-fieldbtn bk-fieldinput">
         ${fieldIcon("plate")}
         <span class="bk-fb-body"><span class="bk-fb-label">${t("book.plate")} *</span>
@@ -4573,6 +4579,8 @@ function bookingFieldsHTML(b) {
 }
 
 function renderStep1() {
+  const total = bookingTotal(booking);
+  const cta = total > 0 ? `${t("book.continue")} · ${money(total)}` : t("book.continue");
   return `<div class="bk-cardhead">
       <span class="bk-cardhead-ic" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M9 16.5V7.5h3.6a3 3 0 0 1 0 6H9"/></svg>
@@ -4580,7 +4588,7 @@ function renderStep1() {
       <h3 class="bk-cardhead-title">${t("book.cardTitle")}</h3>
     </div>
     <div class="bk-vehicles">${bookingFieldsHTML(booking)}</div>
-    <button type="button" class="bk-cta" data-role="next">${t("book.continue")}
+    <button type="button" class="bk-cta" data-role="next">${cta}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
     </button>`;
 }

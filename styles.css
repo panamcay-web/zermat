@@ -1557,3 +1557,52 @@ body {
 [dir="rtl"] .hero-content { align-items: flex-end; }
 [dir="rtl"] .hero-copy { text-align: right; }
 [dir="rtl"] .bk-fieldbtn { text-align: right; }
+
+/* ============================================================
+   Form fixes (2026-09-15): option buttons, side padding, mobile
+   ============================================================ */
+/* option shown as buttons (like the earlier version), glass styled */
+.bk-optsfield { display: flex; flex-direction: column; gap: 8px; }
+.bk-opts-label { font-size: 11.5px; font-weight: 600; letter-spacing: .02em; color: rgba(255,255,255,.6); padding-left: 2px; }
+.booking-card .bk-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0; }
+.booking-card .bk-opt {
+  display: flex; align-items: center; gap: 10px; padding: 12px 13px;
+  border: 1px solid rgba(255,255,255,.18); border-radius: 13px;
+  background: rgba(255,255,255,.08); color: #fff; font: inherit; text-align: left; cursor: pointer;
+  transition: border-color .15s ease, background .15s ease;
+}
+.booking-card .bk-opt:hover { background: rgba(255,255,255,.13); border-color: rgba(255,255,255,.3); }
+.booking-card .bk-opt.is-active { border-color: #3b82f6; background: rgba(37,99,235,.24); }
+.booking-card .bk-opt-check { display: grid; place-items: center; width: 22px; height: 22px; border: 1.5px solid rgba(255,255,255,.4); border-radius: 999px; color: #fff; flex: none; }
+.booking-card .bk-opt-check svg { width: 13px; height: 13px; opacity: 0; }
+.booking-card .bk-opt.is-active .bk-opt-check { background: #2563eb; border-color: #2563eb; }
+.booking-card .bk-opt.is-active .bk-opt-check svg { opacity: 1; }
+.booking-card .bk-opt-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.booking-card .bk-opt-name { font-size: 14px; font-weight: 600; color: #fff; }
+.booking-card .bk-opt-sub { font-size: 11px; color: rgba(255,255,255,.6); line-height: 1.25; }
+.booking-card .bk-opt-price { margin-left: auto; padding-left: 6px; font-size: 14px; font-weight: 700; color: #fff; white-space: nowrap; }
+.booking-card .bk-opt-price small { font-size: 10.5px; font-weight: 500; color: rgba(255,255,255,.6); }
+
+/* the field grid is a simple vertical stack of rows now */
+.bk-grid2 { display: flex; flex-direction: column; gap: 12px; }
+
+/* restore the hero's side gutter (a stale padding:0 had removed it) */
+.hero-content { padding-inline: var(--pad); }
+
+/* ---- mobile polish for the hero ---- */
+@media (max-width: 700px) {
+  .hero-content { padding-block: 16px 38px; }
+  .hero-copy { max-width: 100%; }
+  .hero-title { font-size: clamp(1.85rem, 8.4vw, 3rem); line-height: 1.06; }
+  .hero-eyebrow { font-size: 11px; letter-spacing: .15em; margin-bottom: 10px; }
+  .hero-sub { font-size: 1rem; margin-top: 13px; }
+  .hero-badges { gap: 10px 22px; margin-top: 18px; }
+  .hb-ic { width: 36px; height: 36px; }
+  .hb-ic svg { width: 19px; height: 19px; }
+  .hero-badge { font-size: 13px; }
+  .booking-card { padding: 18px; }
+  .bk-cardhead-title { font-size: 1.06rem; }
+}
+@media (max-width: 560px) {
+  .booking-card .bk-opts { grid-template-columns: 1fr; }
+}
