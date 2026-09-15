@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taesch-parking.online/sitemap.xml
