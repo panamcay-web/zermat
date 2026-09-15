@@ -1367,8 +1367,12 @@ body {
   isolation: isolate;
   overflow: hidden;
 }
+/* pinned to the viewport (not the hero's content height) so the photo never
+   re-scales/jumps when the booking form grows or the tickets toggle expands.
+   The hero is transparent and every following section is opaque, so this
+   fixed layer only ever shows through the hero itself. */
 .hero-bg {
-  position: absolute;
+  position: fixed;
   inset: 0;
   width: 100%;
   height: 100%;
@@ -1377,7 +1381,7 @@ body {
   display: block;
   z-index: -2;
 }
-.hero::before { z-index: -2; background-color: #86b3d8; }
+.hero::before { position: fixed; inset: 0; z-index: -3; background-color: #86b3d8; }
 .hero::after {
   z-index: -1;
   pointer-events: none;
