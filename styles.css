@@ -753,7 +753,7 @@ body {
 .back-link:hover { text-decoration: underline; }
 
 /* Footer */
-.site-footer { background: var(--green-900); color: rgba(255, 255, 255, .8); }
+.site-footer { background: #0b1626; color: rgba(255, 255, 255, .8); border-top: 3px solid var(--green); }
 .site-footer > .wrap { padding-block: 48px; display: flex; flex-wrap: wrap; gap: 40px 64px; }
 .site-footer .brand { color: #fff; }
 .site-footer .brand-mark { width: 44px; height: 44px; }
