@@ -346,6 +346,9 @@ body {
   transition: opacity .16s ease, transform .16s ease;
 }
 .menu-open > .select-menu { opacity: 1; transform: translateY(0); pointer-events: auto; }
+/* closed menus leave the tab order (options are keyboard-focusable); hide after the fade-out */
+.select-menu { visibility: hidden; transition: opacity .16s ease, transform .16s ease, visibility 0s linear .16s; }
+.menu-open > .select-menu { visibility: visible; transition-delay: 0s; }
 
 .lang-menu {
   left: auto;

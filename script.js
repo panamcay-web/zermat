@@ -32,7 +32,6 @@ const I18N = {
     "pg.readMore": "Read more",
     "pg.goodToKnow": "Good to know:",
     "pg.inShort": "Tip:",
-    "msg.navDemo": "This is a demo of the booking screen only.",
     "hero.title": "Book your parking<br>in Täsch for Zermatt",
     "hero.subtitle": "Reserve your space at the Matterhorn Terminal in Täsch and ride the shuttle train into car-free Zermatt.",
     "info.title": "Park & ride to Zermatt",
@@ -194,7 +193,6 @@ const I18N = {
     "pg.readMore": "Mehr erfahren",
     "pg.goodToKnow": "Gut zu wissen:",
     "pg.inShort": "Tipp:",
-    "msg.navDemo": "Dies ist nur eine Demo des Buchungsbildschirms.",
     "hero.title": "Parkplatz buchen<br>in Täsch für Zermatt",
     "hero.subtitle": "Reservieren Sie Ihren Platz am Matterhorn Terminal in Täsch und fahren Sie mit dem Shuttlezug ins autofreie Zermatt.",
     "info.title": "Park & Ride nach Zermatt",
@@ -356,7 +354,6 @@ const I18N = {
     "pg.readMore": "Scopri di più",
     "pg.goodToKnow": "Da sapere:",
     "pg.inShort": "Consiglio:",
-    "msg.navDemo": "Questa è solo una demo della schermata di prenotazione.",
     "hero.title": "Prenota il tuo parcheggio<br>a Täsch per Zermatt",
     "hero.subtitle": "Prenota il tuo posto al Matterhorn Terminal di Täsch e raggiungi Zermatt senza auto con il treno navetta.",
     "info.title": "Parcheggia e raggiungi Zermatt",
@@ -518,7 +515,6 @@ const I18N = {
     "pg.readMore": "En savoir plus",
     "pg.goodToKnow": "Bon à savoir :",
     "pg.inShort": "Astuce :",
-    "msg.navDemo": "Ceci est une démonstration de l'écran de réservation uniquement.",
     "hero.title": "Réservez votre parking<br>à Täsch pour Zermatt",
     "hero.subtitle": "Réservez votre place au Matterhorn Terminal de Täsch et rejoignez Zermatt, station sans voitures, en navette ferroviaire.",
     "info.title": "Se garer et rejoindre Zermatt",
@@ -680,7 +676,6 @@ const I18N = {
     "pg.readMore": "Leer más",
     "pg.goodToKnow": "A tener en cuenta:",
     "pg.inShort": "Consejo:",
-    "msg.navDemo": "Esta es solo una demostración de la pantalla de reserva.",
     "hero.title": "Reserva tu parking<br>en Täsch para Zermatt",
     "hero.subtitle": "Reserva tu plaza en el Matterhorn Terminal de Täsch y viaja en tren lanzadera a Zermatt, el pueblo sin coches.",
     "info.title": "Aparca y llega a Zermatt",
@@ -842,7 +837,6 @@ const I18N = {
     "pg.readMore": "Tovább olvasom",
     "pg.goodToKnow": "Jó tudni:",
     "pg.inShort": "Tipp:",
-    "msg.navDemo": "Ez csak a foglalási képernyő bemutatója.",
     "hero.title": "Foglaljon parkolóhelyet<br>Täschben, Zermatt kapujában",
     "hero.subtitle": "Foglaljon helyet a täschi Matterhorn Terminalban, és utazzon az autómentes Zermattba az ingavonattal.",
     "info.title": "Parkoljon, és utazzon tovább Zermattba",
@@ -1004,7 +998,6 @@ const I18N = {
     "pg.readMore": "Czytaj więcej",
     "pg.goodToKnow": "Warto wiedzieć:",
     "pg.inShort": "Wskazówka:",
-    "msg.navDemo": "To jest tylko demonstracja ekranu rezerwacji.",
     "hero.title": "Zarezerwuj parking<br>w Täsch w drodze do Zermatt",
     "hero.subtitle": "Zarezerwuj miejsce w Matterhorn Terminal w Täsch i wjedź do wolnego od samochodów Zermatt pociągiem wahadłowym.",
     "info.title": "Zaparkuj i jedź do Zermatt",
@@ -1168,7 +1161,6 @@ const I18N = {
     "pg.readMore": "Citește mai mult",
     "pg.goodToKnow": "Bine de știut:",
     "pg.inShort": "Sfat:",
-    "msg.navDemo": "Aceasta este doar o demonstrație a ecranului de rezervare.",
     "hero.title": "Rezervă parcarea<br>în Täsch pentru Zermatt",
     "hero.subtitle": "Rezervă-ți locul la Matterhorn Terminal din Täsch și ajungi cu trenul navetă în Zermatt, stațiunea fără mașini.",
     "info.title": "Parchează și continuă spre Zermatt",
@@ -1331,7 +1323,6 @@ const I18N = {
     "pg.readMore": "Číst dále",
     "pg.goodToKnow": "Dobré vědět:",
     "pg.inShort": "Tip:",
-    "msg.navDemo": "Toto je pouze ukázka rezervační obrazovky.",
     "hero.title": "Rezervujte si parkování<br>v Täsch, bráně do Zermattu",
     "hero.subtitle": "Rezervujte si místo v Matterhorn Terminalu v Täsch a do Zermattu, kde auta nejezdí, se svezte kyvadlovým vlakem.",
     "info.title": "Zaparkujte a pokračujte do Zermattu",
@@ -1495,7 +1486,6 @@ const I18N = {
     "pg.readMore": "Lees meer",
     "pg.goodToKnow": "Goed om te weten:",
     "pg.inShort": "Tip:",
-    "msg.navDemo": "Dit is alleen een demo van het reserveringsscherm.",
     "hero.title": "Reserveer je parkeerplaats<br>in Täsch voor Zermatt",
     "hero.subtitle": "Reserveer je plek bij de Matterhorn Terminal in Täsch en reis met de pendeltrein het autovrije Zermatt in.",
     "info.title": "Park & Ride naar Zermatt",
@@ -1657,7 +1647,6 @@ const I18N = {
     "pg.readMore": "Preberite več",
     "pg.goodToKnow": "Dobro je vedeti:",
     "pg.inShort": "Nasvet:",
-    "msg.navDemo": "To je le predstavitev zaslona za rezervacijo.",
     "hero.title": "Rezervirajte parkirno mesto<br>v Täschu za obisk Zermatta",
     "hero.subtitle": "Rezervirajte mesto na Matterhorn Terminalu v Täschu in se z vlakom pripeljite v Zermatt brez avtomobilov.",
     "info.title": "Parkirajte in nadaljujte v Zermatt",
@@ -1821,7 +1810,6 @@ const I18N = {
     "pg.readMore": "Saber mais",
     "pg.goodToKnow": "A ter em conta:",
     "pg.inShort": "Dica:",
-    "msg.navDemo": "Esta é apenas uma demonstração do ecrã de reserva.",
     "hero.title": "Reserve o seu estacionamento<br>em Täsch para Zermatt",
     "hero.subtitle": "Reserve o seu lugar no Matterhorn Terminal em Täsch e siga no comboio de ligação até Zermatt, a vila sem carros.",
     "info.title": "Estacione e siga para Zermatt",
@@ -1983,7 +1971,6 @@ const I18N = {
     "pg.readMore": "Pročitaj više",
     "pg.goodToKnow": "Dobro je znati:",
     "pg.inShort": "Savjet:",
-    "msg.navDemo": "Ovo je samo demonstracija zaslona za rezervaciju.",
     "hero.title": "Rezervirajte parking<br>u Täschu za Zermatt",
     "hero.subtitle": "Rezervirajte mjesto na Matterhorn Terminalu u Täschu i vlakom se dovezite u Zermatt bez automobila.",
     "info.title": "Parkirajte i nastavite u Zermatt",
@@ -2146,7 +2133,6 @@ const I18N = {
     "pg.readMore": "Čítať ďalej",
     "pg.goodToKnow": "Dobré vedieť:",
     "pg.inShort": "Tip:",
-    "msg.navDemo": "Toto je len ukážka rezervačnej obrazovky.",
     "hero.title": "Rezervujte si parkovanie<br>v Täsch, bráne do Zermattu",
     "hero.subtitle": "Rezervujte si miesto v Matterhorn Termináli v Täsch a do Zermattu, kde autá nejazdia, sa zvezte kyvadlovým vlakom.",
     "info.title": "Zaparkujte a pokračujte do Zermattu",
@@ -2310,7 +2296,6 @@ const I18N = {
     "pg.readMore": "Pročitaj više",
     "pg.goodToKnow": "Dobro je znati:",
     "pg.inShort": "Savet:",
-    "msg.navDemo": "Ovo je samo demonstracija ekrana za rezervaciju.",
     "hero.title": "Rezervišite parking<br>u Täschu za Zermatt",
     "hero.subtitle": "Rezervišite mesto na Matterhorn Terminalu u Täschu i vozom se dovezite u Zermatt bez automobila.",
     "info.title": "Parkirajte i nastavite u Zermatt",
@@ -2473,7 +2458,6 @@ const I18N = {
     "pg.readMore": "Докладніше",
     "pg.goodToKnow": "Варто знати:",
     "pg.inShort": "Порада:",
-    "msg.navDemo": "Це лише демонстрація екрана бронювання.",
     "hero.title": "Забронюйте паркування<br>у Täsch для Zermatt",
     "hero.subtitle": "Забронюйте місце в Matterhorn Terminal у Täsch і доїжджайте потягом-шатлом до Zermatt, де немає автомобілів.",
     "info.title": "Припаркуйтеся та їдьте до Zermatt",
@@ -2637,7 +2621,6 @@ const I18N = {
     "pg.readMore": "Подробнее",
     "pg.goodToKnow": "Полезно знать:",
     "pg.inShort": "Совет:",
-    "msg.navDemo": "Это лишь демонстрация экрана бронирования.",
     "hero.title": "Забронируйте парковку<br>в Täsch для Zermatt",
     "hero.subtitle": "Забронируйте место на терминале Matterhorn Terminal в Täsch и доезжайте на поезде-шаттле до Zermatt, где нет машин.",
     "info.title": "Паркуйтесь и езжайте в Zermatt",
@@ -2801,7 +2784,6 @@ const I18N = {
     "pg.readMore": "Læs mere",
     "pg.goodToKnow": "Godt at vide:",
     "pg.inShort": "Tip:",
-    "msg.navDemo": "Dette er kun en demo af bookingskærmen.",
     "hero.title": "Book din parkering<br>i Täsch til Zermatt",
     "hero.subtitle": "Reservér din plads ved Matterhorn Terminal i Täsch, og tag shuttletoget ind i det bilfrie Zermatt.",
     "info.title": "Parkér og rejs videre til Zermatt",
@@ -2963,7 +2945,6 @@ const I18N = {
     "pg.readMore": "Les mer",
     "pg.goodToKnow": "Greit å vite:",
     "pg.inShort": "Tips:",
-    "msg.navDemo": "Dette er kun en demo av bestillingsskjermen.",
     "hero.title": "Bestill parkering<br>i Täsch til Zermatt",
     "hero.subtitle": "Reserver plassen din ved Matterhorn Terminal i Täsch, og ta pendeltoget inn i det bilfrie Zermatt.",
     "info.title": "Parker og reis videre til Zermatt",
@@ -3125,7 +3106,6 @@ const I18N = {
     "pg.readMore": "Devamını okuyun",
     "pg.goodToKnow": "Bilmekte fayda var:",
     "pg.inShort": "İpucu:",
-    "msg.navDemo": "Bu yalnızca rezervasyon ekranının bir demosudur.",
     "hero.title": "Zermatt için<br>Täsch'te otopark ayırtın",
     "hero.subtitle": "Täsch'teki Matterhorn Terminal'de yerinizi ayırtın ve mekik trenle otomobilsiz Zermatt'a geçin.",
     "info.title": "Park edin ve Zermatt'a geçin",
@@ -3287,7 +3267,6 @@ const I18N = {
     "pg.readMore": "了解更多",
     "pg.goodToKnow": "温馨提示：",
     "pg.inShort": "小贴士：",
-    "msg.navDemo": "这仅为预订页面的演示。",
     "hero.title": "在 Täsch 预订停车位<br>前往 Zermatt",
     "hero.subtitle": "在 Täsch 的 Matterhorn Terminal 预订车位，乘坐接驳列车前往无车的 Zermatt。",
     "info.title": "停车换乘前往 Zermatt",
@@ -3449,7 +3428,6 @@ const I18N = {
     "pg.readMore": "詳しく見る",
     "pg.goodToKnow": "知っておきたいこと：",
     "pg.inShort": "ヒント：",
-    "msg.navDemo": "これは予約画面のデモです。",
     "hero.title": "Zermatt へは<br>Täsch で駐車予約",
     "hero.subtitle": "Täsch の Matterhorn Terminal で駐車スペースを予約し、シャトル列車でカーフリーの Zermatt へ。",
     "info.title": "駐車して Zermatt へ",
@@ -3611,7 +3589,6 @@ const I18N = {
     "pg.readMore": "자세히 보기",
     "pg.goodToKnow": "알아두세요:",
     "pg.inShort": "팁:",
-    "msg.navDemo": "예약 화면의 데모입니다.",
     "hero.title": "Zermatt로 가는<br>Täsch 주차 예약",
     "hero.subtitle": "Täsch의 Matterhorn Terminal에서 자리를 예약하고 셔틀 열차로 차 없는 Zermatt로 이동하세요.",
     "info.title": "주차 후 Zermatt로 이동",
@@ -3773,7 +3750,6 @@ const I18N = {
     "pg.readMore": "और पढ़ें",
     "pg.goodToKnow": "जानने योग्य:",
     "pg.inShort": "सुझाव:",
-    "msg.navDemo": "यह केवल बुकिंग स्क्रीन का डेमो है।",
     "hero.title": "Zermatt के लिए<br>Täsch में पार्किंग बुक करें",
     "hero.subtitle": "Täsch में Matterhorn Terminal पर अपनी जगह आरक्षित करें और शटल ट्रेन से कार-मुक्त Zermatt में जाएँ।",
     "info.title": "पार्क करें और Zermatt जाएँ",
@@ -3935,7 +3911,6 @@ const I18N = {
     "pg.readMore": "اقرأ المزيد",
     "pg.goodToKnow": "من المفيد معرفته:",
     "pg.inShort": "نصيحة:",
-    "msg.navDemo": "هذا عرض توضيحي لشاشة الحجز فقط.",
     "hero.title": "احجز موقف سيارتك<br>في Täsch للوصول إلى Zermatt",
     "hero.subtitle": "احجز مكانك في Matterhorn Terminal في Täsch واركب قطار المكوك إلى Zermatt الخالية من السيارات.",
     "info.title": "اركن وتابع إلى Zermatt",
@@ -4073,30 +4048,34 @@ const I18N = {
 
 /* ======================================================================
    Täsch Parking — pricing & booking logic
-   Official Matterhorn Terminal rates ×2:
-     Parking                        CHF 32 / day  (CHF 30 / day for 8+ days)
-     Parking with e-charging        CHF 40 / day  (CHF 38 / day for 8+ days)
+   Parking and parking with e-charging cost the same:
+     CHF 32 / day  (CHF 30 / day for 8+ days); the energy itself is paid at the charger
    ====================================================================== */
-const OPTIONS = ["parking", "charging"];
 const PRICE = {
   parking:  { base: 32, longBase: 30 },
   charging: { base: 32, longBase: 30 },   // same price as regular parking (per request)
 };
 const LONG_STAY_DAYS = 8;          // discounted rate from the 8th day on
 const TICKET_FULL = 22;            // Zermatt Shuttle return ticket (CHF)
-const TICKET_HALF = 11;            // reduced (Half-Fare Card / kids 6-15.99 / dogs >30cm)
+const TICKET_HALF = 11;            // half fare (Half Fare travelcard / children 6–15 / dogs over 30 cm)
 const TICKET_MAX = 20;             // per fare type
-const MAX_HEIGHT = "2.30";         // metres — shown as a note, no vehicle choice
 
 const CURRENCY = "CHF";
 function money(n) { return CURRENCY + " " + n; }
 
 const LOCALE = { en: "en-GB", de: "de-DE", it: "it-IT", fr: "fr-FR", es: "es-ES", hu: "hu-HU", pl: "pl-PL", ro: "ro-RO", cs: "cs-CZ", nl: "nl-NL", sl: "sl-SI", pt: "pt-PT", hr: "hr-HR", sk: "sk-SK", sr: "sr-RS", uk: "uk-UA", ru: "ru-RU", da: "da-DK", nb: "nb-NO", tr: "tr-TR", zh: "zh-CN", ja: "ja-JP", ko: "ko-KR", hi: "hi-IN", ar: "ar-EG-u-nu-latn" };
 
-/* the earliest bookable day is tomorrow (period may start no sooner) */
-const _d = new Date();
-_d.setDate(_d.getDate() + 1);
-const MIN_DATE = `${_d.getFullYear()}-${String(_d.getMonth() + 1).padStart(2, "0")}-${String(_d.getDate()).padStart(2, "0")}`;
+/* the earliest bookable day is tomorrow (period may start no sooner) — computed on
+   every use, so a tab left open past midnight doesn't start allowing same-day bookings */
+function minDate() {
+  const d = new Date();
+  d.setDate(d.getDate() + 1);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+function validEmail(s) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(s || "").trim());
+}
 
 /* pick the visitor's language from the browser, falling back to English */
 const RTL_LANGS = ["ar", "he", "fa", "ur"];
@@ -4174,7 +4153,7 @@ function applyMeta() {
   setMetaTag('meta[name="description"]', "content", desc);
   setMetaTag('meta[property="og:title"]', "content", full);
   setMetaTag('meta[property="og:description"]', "content", desc);
-  setMetaTag('meta[property="og:locale"]', "content", lang);
+  setMetaTag('meta[property="og:locale"]', "content", (LOCALE[lang] || "en-GB").split("-").slice(0, 2).join("_"));
   setMetaTag('meta[property="og:type"]', "content", "website");
   setMetaTag('meta[property="og:site_name"]', "content", SITE_NAME);
 
@@ -4185,7 +4164,8 @@ function applyMeta() {
     link.rel = "canonical";
     document.head.appendChild(link);
   }
-  const base = location.origin + location.pathname;
+  // /index.html and / are the same page; hreflang tags and the sitemap use "/"
+  const base = location.origin + location.pathname.replace(/\/index\.html$/, "/");
   link.href = lang === "en" ? base : base + "?lang=" + lang;
   setMetaTag('meta[property="og:url"]', "content", link.href);
 }
@@ -4214,11 +4194,14 @@ function loadState() {
       const state = JSON.parse(stored);
       // an explicit ?lang= in the URL outranks whatever was stored last time
       if (!langFromUrl() && state.lang && I18N[state.lang]) lang = state.lang;
-      booking = Object.assign(newBooking(), state.booking || {});
+      booking = sanitizeBooking(state.booking);
       // never allow a stored period that has slipped into the past
-      if (booking.start && booking.start < MIN_DATE) { booking.start = ""; booking.end = ""; }
+      if (booking.start && booking.start < minDate()) { booking.start = ""; booking.end = ""; }
       if (booking.end && booking.end < booking.start) booking.end = "";
       bookStep = [1, 2, 3].includes(state.bookStep) ? state.bookStep : 1;
+      // a later step may only be restored while everything before it is still valid
+      if (bookStep > 1 && !validBooking(booking)) bookStep = 1;
+      if (bookStep > 2 && !validEmail(booking.email)) bookStep = 2;
       return true;
     } catch (e) {
       console.error("Failed to load state:", e);
@@ -4228,20 +4211,10 @@ function loadState() {
   return false;
 }
 
-function clearState() {
-  try { localStorage.removeItem("taesch_booking_state"); } catch (e) {}
-}
-
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
 const t = (key) => (I18N[lang] && I18N[lang][key]) || I18N.en[key] || key;
-
-function formatDate(iso, l = lang) {
-  if (!iso) return "";
-  const d = new Date(iso + "T00:00:00");
-  return d.toLocaleDateString(LOCALE[l], { weekday: "short", day: "numeric", month: "long" });
-}
 
 /* ---------- i18n / render ---------- */
 function applyI18n() {
@@ -4280,9 +4253,10 @@ function toggleMenu(container) {
 function syncLangUI() {
   const badge = $("#langCode");
   if (badge) badge.textContent = lang.toUpperCase();
-  $$("#langMenu .select-option").forEach((o) =>
-    o.classList.toggle("is-active", o.dataset.lang === lang)
-  );
+  $$("#langMenu .select-option").forEach((o) => {
+    o.classList.toggle("is-active", o.dataset.lang === lang);
+    o.setAttribute("aria-selected", String(o.dataset.lang === lang));
+  });
   document.documentElement.setAttribute("lang", lang);
   document.documentElement.setAttribute("dir", RTL_LANGS.includes(lang) ? "rtl" : "ltr");
 }
@@ -4298,7 +4272,7 @@ function setLang(l) {
 }
 
 /* ======================================================================
-   Booking form (single reservation: option + period + plate + holder)
+   Booking form (one reservation: option + period + plate, shuttle tickets, e-mail)
    ====================================================================== */
 function newBooking(seed) {
   return Object.assign({
@@ -4310,8 +4284,24 @@ function newBooking(seed) {
   }, seed || {});
 }
 
+/* restored state comes from localStorage — rebuild it field by field so tampered or
+   stale values can't break the price maths or end up in the markup */
+function sanitizeBooking(raw) {
+  const b = Object.assign(newBooking(), raw && typeof raw === "object" ? raw : {});
+  const qty = (v) => Math.max(0, Math.min(TICKET_MAX, Math.floor(Number(v)) || 0));
+  return {
+    option: b.option === "charging" ? "charging" : "parking",
+    start: ISO_DATE.test(b.start) ? b.start : "",
+    end: ISO_DATE.test(b.end) ? b.end : "",
+    plate: String(b.plate || "").slice(0, 32),
+    tickets: !!b.tickets, tFull: qty(b.tFull), tHalf: qty(b.tHalf),
+    email: String(b.email || "").slice(0, 254),
+    terms: !!b.terms,
+  };
+}
+
 let booking = newBooking();
-let bookStep = 1; // 1 = parking details, 2 = ticket holder
+let bookStep = 1; // 1 = parking details, 2 = shuttle tickets + e-mail, 3 = summary & payment
 
 function esc(s) {
   return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
@@ -4371,7 +4361,7 @@ function plateLabel(b) {
   return (b.plate || "").trim().toUpperCase();
 }
 function validBooking(b) {
-  return !!b.start && !!b.end && b.start >= MIN_DATE && b.end >= b.start && !!(b.plate && b.plate.trim());
+  return !!b.start && !!b.end && b.start >= minDate() && b.end >= b.start && !!(b.plate && b.plate.trim());
 }
 
 function stepsHTML(active) {
@@ -4397,6 +4387,7 @@ function dpRender(calEl, startISO, endISO) {
   const year  = +calEl.dataset.dpYear;
   const month = +calEl.dataset.dpMonth;
   const DOW = dowLabels();
+  const min = minDate();
   const monthLabel = new Date(year, month, 1)
     .toLocaleDateString(LOCALE[lang] || "en-GB", { month: "long", year: "numeric" });
   const firstDay = new Date(year, month, 1).getDay();
@@ -4407,7 +4398,7 @@ function dpRender(calEl, startISO, endISO) {
   for (let i = 0; i < offset; i++) cells += `<span class="bk-dp-empty"></span>`;
   for (let d = 1; d <= total; d++) {
     const iso = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-    const dis = iso < MIN_DATE;
+    const dis = iso < min;
     if (dis) { cells += `<span class="bk-dp-cell is-dis">${d}</span>`; continue; }
     let cls = "bk-dp-cell";
     if (startISO && iso === startISO) cls += " is-sel is-start";
@@ -4431,7 +4422,8 @@ function dpRender(calEl, startISO, endISO) {
 }
 
 function dpOpen(calEl, startISO, endISO) {
-  const ref = startISO && startISO >= MIN_DATE ? startISO : MIN_DATE;
+  const min = minDate();
+  const ref = startISO && startISO >= min ? startISO : min;
   const d = new Date(ref + "T00:00:00");
   calEl.dataset.dpYear  = d.getFullYear();
   calEl.dataset.dpMonth = d.getMonth();
@@ -4562,7 +4554,6 @@ function renderStep1() {
     </button>`;
 }
 
-/* step 2 — ticket holder */
 /* step 2 — Zermatt Shuttle tickets + contact e-mail */
 function renderStep2() {
   const b = booking;
@@ -4604,7 +4595,7 @@ function renderStep3() {
       </div>
       <div class="bk-summary-row">
         <span>${t("book.plate")}</span>
-        <span>${plateLabel(b) || "—"}</span>
+        <span>${esc(plateLabel(b)) || "—"}</span>
       </div>
       ${(b.tickets && ticketsCount(b) > 0) ? `<div class="bk-summary-row">
         <span>${t("book.ticketsSummary")} · ${ticketsCount(b)}</span>
@@ -4642,10 +4633,6 @@ function onBookingChange(e) {
     const field = e.target.closest(".bk-fieldbtn") || e.target.closest(".bk-field");
     if (field) field.classList.remove("is-invalid");
     saveState();
-  } else if (role === "optsel") {
-    booking.option = e.target.value === "charging" ? "charging" : "parking";
-    renderBooking();
-    saveState();
   } else if (role === "tickets-toggle") {
     booking.tickets = e.target.checked;
     if (booking.tickets && (booking.tFull || 0) + (booking.tHalf || 0) === 0) booking.tFull = 1;
@@ -4682,7 +4669,7 @@ function validateStep1(root) {
 function validateStep2(root) {
   const b = booking;
   const ctrl = root.querySelector('[data-bk="email"]');
-  const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((b.email || "").trim());
+  const ok = validEmail(b.email);
   const field = ctrl && ctrl.closest(".bk-field");
   if (field) field.classList.toggle("is-invalid", !ok);
   if (!ok) { toast(t("book.msgIncomplete")); if (field) field.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
@@ -4771,16 +4758,15 @@ function onBookingClick(e) {
   } else if (role === "back") {
     bookStep = Math.max(1, bookStep - 1); renderBooking(); scrollCardIntoView(e.currentTarget); saveState();
   } else if (role === "pay") {
-    if (validateStep3(e.currentTarget)) {
+    // re-check the earlier steps as well: the card may have been restored or edited in the other widget
+    const root = e.currentTarget;
+    if (!validBooking(booking)) { bookStep = 1; renderBooking(); saveState(); validateStep1(root); return; }
+    if (!validEmail(booking.email)) { bookStep = 2; renderBooking(); saveState(); validateStep2(root); return; }
+    if (validateStep3(root)) {
       sendBookingEmail();
       showServiceError();
     }
   }
-}
-
-function goToBooking() {
-  const book = document.querySelector("#book");
-  if (book) book.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function initBooking() {
@@ -4946,7 +4932,7 @@ function showServiceError() {
   const modal = document.createElement("div");
   modal.className = "modal-overlay";
   modal.innerHTML = `
-    <div class="modal-dialog">
+    <div class="modal-dialog" role="dialog" aria-modal="true">
       <div class="modal-header">
         <h2>${t("book.serviceError")}</h2>
         <button class="modal-close" aria-label="${t("ui.close")}">&times;</button>
@@ -4959,14 +4945,24 @@ function showServiceError() {
       </div>
     </div>
   `;
+  const opener = document.activeElement;
   document.body.appendChild(modal);
 
+  const openedAt = Date.now();
   const closeBtn = modal.querySelector(".modal-close");
   const backBtn = modal.querySelector(".modal-btn");
-  const close = () => modal.remove();
-  closeBtn?.addEventListener("click", close);
-  backBtn?.addEventListener("click", close);
-  modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+  const onKey = (e) => { if (e.key === "Escape") close(); };
+  const close = () => {
+    modal.remove();
+    document.removeEventListener("keydown", onKey);
+    if (opener && opener.isConnected) opener.focus();
+  };
+  closeBtn.addEventListener("click", close);
+  backBtn.addEventListener("click", close);
+  // the dialog appears under the pointer mid-click — ignore the second click of a double-click
+  modal.addEventListener("click", (e) => { if (e.target === modal && Date.now() - openedAt > 400) close(); });
+  document.addEventListener("keydown", onKey);
+  backBtn.focus();
 }
 
 /* ---------- wiring ---------- */
@@ -4977,16 +4973,16 @@ function init() {
   const langWrap = $("#lang");
   const langBtn = $("#langBtn");
   if (langBtn) langBtn.addEventListener("click", (e) => { e.stopPropagation(); toggleMenu(langWrap); });
-  $$("#langMenu .select-option").forEach((li) =>
-    li.addEventListener("click", (e) => { e.stopPropagation(); setLang(li.dataset.lang); lockHeroPhoto(); })
-  );
-
-  // Nav links: real links navigate; placeholder (#) links show a demo toast
-  $$(".nav-link").forEach((a) =>
-    a.addEventListener("click", (e) => {
-      if (a.getAttribute("href") === "#") { e.preventDefault(); toast(t("msg.navDemo")); }
-    })
-  );
+  $$("#langMenu .select-option").forEach((li) => {
+    li.tabIndex = 0;   // reachable with Tab while the menu is open (closed menus are visibility:hidden)
+    const pick = (e, viaKey) => {
+      e.preventDefault(); e.stopPropagation();
+      setLang(li.dataset.lang); lockHeroPhoto();
+      if (viaKey && langBtn) langBtn.focus();
+    };
+    li.addEventListener("click", (e) => pick(e, false));
+    li.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") pick(e, true); });
+  });
 
   // Global close
   document.addEventListener("click", closeMenus);
@@ -5005,9 +5001,12 @@ function init() {
   window.addEventListener("load", lockHeroPhoto);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(lockHeroPhoto);
 
-  // only a new window size may re-fit the hero photo — the form never does
-  let heroFitTimer;
+  // only a new window width may re-fit the hero photo — the form never does, and neither
+  // do mobile browser toolbars collapsing on scroll (they change the height only)
+  let heroFitTimer, heroFitWidth = window.innerWidth;
   window.addEventListener("resize", () => {
+    if (window.innerWidth === heroFitWidth) return;
+    heroFitWidth = window.innerWidth;
     clearTimeout(heroFitTimer);
     heroFitTimer = setTimeout(lockHeroPhoto, 150);
   });

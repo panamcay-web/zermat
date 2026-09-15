@@ -466,6 +466,35 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/"/>
   </url>
   <url>
+    <loc>https://taesch-parking.online/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taesch-parking.online/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://taesch-parking.online/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://taesch-parking.online/?lang=hu"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taesch-parking.online/?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://taesch-parking.online/?lang=ro"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://taesch-parking.online/?lang=cs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://taesch-parking.online/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://taesch-parking.online/?lang=sl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://taesch-parking.online/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://taesch-parking.online/?lang=hr"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://taesch-parking.online/?lang=sk"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://taesch-parking.online/?lang=sr"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://taesch-parking.online/?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taesch-parking.online/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://taesch-parking.online/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://taesch-parking.online/?lang=nb"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://taesch-parking.online/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://taesch-parking.online/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://taesch-parking.online/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://taesch-parking.online/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://taesch-parking.online/?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://taesch-parking.online/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/"/>
+  </url>
+  <url>
     <loc>https://taesch-parking.online/?lang=da</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/?lang=de"/>
@@ -1134,6 +1163,35 @@
   </url>
   <url>
     <loc>https://taesch-parking.online/getting-here.html?lang=uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/getting-here.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/getting-here.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/getting-here.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taesch-parking.online/getting-here.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://taesch-parking.online/getting-here.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://taesch-parking.online/getting-here.html?lang=hu"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taesch-parking.online/getting-here.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://taesch-parking.online/getting-here.html?lang=ro"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://taesch-parking.online/getting-here.html?lang=cs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://taesch-parking.online/getting-here.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://taesch-parking.online/getting-here.html?lang=sl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://taesch-parking.online/getting-here.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://taesch-parking.online/getting-here.html?lang=hr"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://taesch-parking.online/getting-here.html?lang=sk"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://taesch-parking.online/getting-here.html?lang=sr"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://taesch-parking.online/getting-here.html?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taesch-parking.online/getting-here.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://taesch-parking.online/getting-here.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://taesch-parking.online/getting-here.html?lang=nb"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://taesch-parking.online/getting-here.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://taesch-parking.online/getting-here.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://taesch-parking.online/getting-here.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://taesch-parking.online/getting-here.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://taesch-parking.online/getting-here.html?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://taesch-parking.online/getting-here.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/getting-here.html"/>
+  </url>
+  <url>
+    <loc>https://taesch-parking.online/getting-here.html?lang=ru</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/getting-here.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/getting-here.html?lang=de"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/getting-here.html?lang=it"/>
@@ -1858,6 +1916,35 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/arrival-car.html"/>
   </url>
   <url>
+    <loc>https://taesch-parking.online/arrival-car.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-car.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-car.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/arrival-car.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taesch-parking.online/arrival-car.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://taesch-parking.online/arrival-car.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://taesch-parking.online/arrival-car.html?lang=hu"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taesch-parking.online/arrival-car.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://taesch-parking.online/arrival-car.html?lang=ro"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://taesch-parking.online/arrival-car.html?lang=cs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://taesch-parking.online/arrival-car.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://taesch-parking.online/arrival-car.html?lang=sl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://taesch-parking.online/arrival-car.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://taesch-parking.online/arrival-car.html?lang=hr"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://taesch-parking.online/arrival-car.html?lang=sk"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://taesch-parking.online/arrival-car.html?lang=sr"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://taesch-parking.online/arrival-car.html?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taesch-parking.online/arrival-car.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://taesch-parking.online/arrival-car.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://taesch-parking.online/arrival-car.html?lang=nb"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://taesch-parking.online/arrival-car.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://taesch-parking.online/arrival-car.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://taesch-parking.online/arrival-car.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://taesch-parking.online/arrival-car.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://taesch-parking.online/arrival-car.html?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://taesch-parking.online/arrival-car.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/arrival-car.html"/>
+  </url>
+  <url>
     <loc>https://taesch-parking.online/arrival-car.html?lang=da</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-car.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-car.html?lang=de"/>
@@ -2526,6 +2613,35 @@
   </url>
   <url>
     <loc>https://taesch-parking.online/arrival-charging.html?lang=uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-charging.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-charging.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/arrival-charging.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taesch-parking.online/arrival-charging.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://taesch-parking.online/arrival-charging.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://taesch-parking.online/arrival-charging.html?lang=hu"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taesch-parking.online/arrival-charging.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://taesch-parking.online/arrival-charging.html?lang=ro"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://taesch-parking.online/arrival-charging.html?lang=cs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://taesch-parking.online/arrival-charging.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://taesch-parking.online/arrival-charging.html?lang=sl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://taesch-parking.online/arrival-charging.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://taesch-parking.online/arrival-charging.html?lang=hr"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://taesch-parking.online/arrival-charging.html?lang=sk"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://taesch-parking.online/arrival-charging.html?lang=sr"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://taesch-parking.online/arrival-charging.html?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taesch-parking.online/arrival-charging.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://taesch-parking.online/arrival-charging.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://taesch-parking.online/arrival-charging.html?lang=nb"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://taesch-parking.online/arrival-charging.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://taesch-parking.online/arrival-charging.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://taesch-parking.online/arrival-charging.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://taesch-parking.online/arrival-charging.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://taesch-parking.online/arrival-charging.html?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://taesch-parking.online/arrival-charging.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/arrival-charging.html"/>
+  </url>
+  <url>
+    <loc>https://taesch-parking.online/arrival-charging.html?lang=ru</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-charging.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-charging.html?lang=de"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/arrival-charging.html?lang=it"/>
@@ -3250,6 +3366,35 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/arrival-train.html"/>
   </url>
   <url>
+    <loc>https://taesch-parking.online/arrival-train.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-train.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-train.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/arrival-train.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taesch-parking.online/arrival-train.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://taesch-parking.online/arrival-train.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://taesch-parking.online/arrival-train.html?lang=hu"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taesch-parking.online/arrival-train.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://taesch-parking.online/arrival-train.html?lang=ro"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://taesch-parking.online/arrival-train.html?lang=cs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://taesch-parking.online/arrival-train.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://taesch-parking.online/arrival-train.html?lang=sl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://taesch-parking.online/arrival-train.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://taesch-parking.online/arrival-train.html?lang=hr"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://taesch-parking.online/arrival-train.html?lang=sk"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://taesch-parking.online/arrival-train.html?lang=sr"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://taesch-parking.online/arrival-train.html?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taesch-parking.online/arrival-train.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://taesch-parking.online/arrival-train.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://taesch-parking.online/arrival-train.html?lang=nb"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://taesch-parking.online/arrival-train.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://taesch-parking.online/arrival-train.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://taesch-parking.online/arrival-train.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://taesch-parking.online/arrival-train.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://taesch-parking.online/arrival-train.html?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://taesch-parking.online/arrival-train.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/arrival-train.html"/>
+  </url>
+  <url>
     <loc>https://taesch-parking.online/arrival-train.html?lang=da</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-train.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-train.html?lang=de"/>
@@ -3918,6 +4063,35 @@
   </url>
   <url>
     <loc>https://taesch-parking.online/arrival-reduced-mobility.html?lang=uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-reduced-mobility.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=hu"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=ro"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=cs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=sl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=hr"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=sk"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=sr"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=uk"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=nb"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taesch-parking.online/arrival-reduced-mobility.html"/>
+  </url>
+  <url>
+    <loc>https://taesch-parking.online/arrival-reduced-mobility.html?lang=ru</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://taesch-parking.online/arrival-reduced-mobility.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=de"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://taesch-parking.online/arrival-reduced-mobility.html?lang=it"/>
