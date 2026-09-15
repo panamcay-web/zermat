@@ -4868,6 +4868,27 @@ function initBooking() {
   });
 }
 
+/* ---------- keep the hero photo still while the form is used ----------
+   The hero's height follows its content and .hero-bg is height:100% with
+   object-fit:cover, so every time the booking card grew (picking dates,
+   opening the Zermatt Shuttle tickets block) the photo was re-scaled and
+   visibly jumped. Pin the photo to the height the hero has on load, so the
+   framing stays exactly as designed and the form can no longer resize it.
+   Whatever the growing card uncovers below is filled by .hero::before, which
+   carries the same photo. Only a new window size re-fits it. */
+function lockHeroPhoto() {
+  const hero = document.querySelector(".hero");
+  const img = hero && hero.querySelector(".hero-bg");
+  if (!hero || !img) return;
+
+  img.style.height = "";        // measure against the stylesheet's own height:100%
+  img.style.bottom = "";
+  const h = hero.offsetHeight;  // the height the hero has on this screen
+
+  img.style.bottom = "auto";    // inset:0 would otherwise fight an explicit height
+  img.style.height = h + "px";
+}
+
 /* ---------- weather (live, Open-Meteo — no API key) — Zermatt / Matterhorn ---------- */
 const WEATHER_URL =
   "https://api.open-meteo.com/v1/forecast?latitude=46.0207&longitude=7.7491" +
@@ -5034,7 +5055,7 @@ function init() {
   const langBtn = $("#langBtn");
   if (langBtn) langBtn.addEventListener("click", (e) => { e.stopPropagation(); toggleMenu(langWrap); });
   $$("#langMenu .select-option").forEach((li) =>
-    li.addEventListener("click", (e) => { e.stopPropagation(); setLang(li.dataset.lang); })
+    li.addEventListener("click", (e) => { e.stopPropagation(); setLang(li.dataset.lang); lockHeroPhoto(); })
   );
 
   // Nav links: real links navigate; placeholder (#) links show a demo toast
@@ -5054,6 +5075,19 @@ function init() {
   syncLangUrl();
   loadWeather();
   initBooking();
+  lockHeroPhoto();
+
+  // web fonts land after DOMContentLoaded and nudge the hero's height, so take
+  // the measurement again once everything has actually loaded
+  window.addEventListener("load", lockHeroPhoto);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(lockHeroPhoto);
+
+  // only a new window size may re-fit the hero photo — the form never does
+  let heroFitTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(heroFitTimer);
+    heroFitTimer = setTimeout(lockHeroPhoto, 150);
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);
