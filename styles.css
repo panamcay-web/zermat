@@ -21,7 +21,7 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
   color: var(--ink);
   background: #0b1220;
   -webkit-font-smoothing: antialiased;
@@ -177,7 +177,7 @@ body {
 
 .hero-title {
   margin: 0;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(2.7rem, 5.4vw, 5.1rem);
   line-height: 1.04;
@@ -635,7 +635,7 @@ body {
 .breadcrumb span:last-child { color: #fff; font-weight: 500; }
 .section-hero h1 {
   margin: 0;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(2.1rem, 4vw, 3.4rem);
   line-height: 1.08;
@@ -706,7 +706,7 @@ body {
 .prose { max-width: 700px; }
 .prose > p:first-of-type { font-size: 1.16rem; color: #2f3a35; line-height: 1.6; }
 .prose h2 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--ink);
@@ -846,7 +846,7 @@ body {
 .section-head { max-width: 640px; margin: 0 auto 56px; text-align: center; }
 .section-head h2 {
   margin: 0;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-weight: 600;
   font-size: clamp(2rem, 3.6vw, 2.9rem);
   color: var(--ink);
@@ -1419,7 +1419,7 @@ body {
 }
 .hero-title {
   margin: 0;
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-family: var(--font-display);
   font-weight: 800;
   font-size: clamp(2.6rem, 5.4vw, 4.7rem);
   line-height: 1.02;
@@ -1609,3 +1609,40 @@ body {
 
 /* fix: hero content must receive clicks (a stale pointer-events:none disabled the form) */
 .hero-content { pointer-events: auto; }
+
+/* ============================================================
+   Typography — Manrope (display) + Inter (UI / body)
+   ============================================================ */
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Manrope", "Inter", system-ui, -apple-system, sans-serif;
+}
+body { font-family: var(--font-sans); }
+
+.hero-title, .section-hero h1, .section-head h2, .prose h2,
+.adv h3, .arrive-card h3, .bk-cardhead-title, .bk-done h3,
+.modal-header h2, .brand-name { font-family: var(--font-display); }
+
+.hero-title        { font-weight: 800; letter-spacing: -.03em;  line-height: 1.02; }
+.section-head h2   { font-weight: 800; letter-spacing: -.025em; line-height: 1.12; }
+.section-hero h1   { font-weight: 800; letter-spacing: -.025em; line-height: 1.06; }
+.prose h2          { font-weight: 700; letter-spacing: -.015em; font-size: 1.42rem; margin: 38px 0 12px; }
+.adv h3, .arrive-card h3 { font-weight: 700; letter-spacing: -.01em; }
+.bk-cardhead-title { font-weight: 800; letter-spacing: -.015em; }
+.modal-header h2   { font-weight: 700; letter-spacing: -.015em; }
+.brand-name        { font-weight: 800; }
+
+/* supporting copy */
+.section-head p          { font-size: 1.06rem; line-height: 1.55; }
+.prose > p:first-of-type { font-size: 1.13rem; line-height: 1.65; }
+.prose p                 { line-height: 1.75; }
+
+/* small tracked labels stay in the UI face */
+.footer-col h4, .facts h3, .facts dt, .bk-summary-title,
+.hero-eyebrow, .bk-fb-label, .bk-opts-label { font-family: var(--font-sans); }
+.footer-col h4, .facts h3 { font-weight: 700; }
+
+/* prices, dates and temperatures line up */
+.bk-fb-val, .bk-opt-price, .bk-price, .bk-price-total strong,
+.bk-summary-row, .bk-summary-total, .bk-cta, .bk-continue,
+.wday-temp, .bk-dp-grid { font-variant-numeric: tabular-nums; }
