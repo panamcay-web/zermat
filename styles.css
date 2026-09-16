@@ -773,8 +773,10 @@ body {
   .article { grid-template-columns: 1fr; }
   .facts { position: static; }
 }
-@media (max-width: 680px) {
+@media (max-width: 860px) {
   .page-nav a:not(.page-nav-cta) { display: none; }
+  /* with the text links gone, keep the booking button next to the language pill */
+  .page-header .page-nav { margin-inline-start: auto; }
 }
 
 /* ============================================================
@@ -1710,3 +1712,166 @@ body { font-family: var(--font-sans); }
   .hero-copy { max-width: 820px; }
   .hero-title { font-size: clamp(2.6rem, 4.4vw, 3.9rem); }
 }
+
+/* ============================================================
+   Phone header (2026-09-16). Brand + language pill needed ~430px on the
+   home page and brand + "Book parking" + pill ~520px on the sub-pages, so
+   on nearly every phone the pill was cut off at the right edge and the
+   sub-pages were rendered zoomed out to fit their header. On phones the
+   wordmark tightens, the pill slims down and the sub-page booking link
+   becomes an icon button (its name stays in aria-label).
+   ============================================================ */
+.page-nav-cta { display: inline-flex; align-items: center; gap: 8px; }
+.page-nav-cta-ic { display: none; flex: none; }
+
+@media (max-width: 560px) {
+  .header-inner { gap: 10px; }
+  .site-header .brand, .page-header .brand { gap: 8px; }
+  .site-header .hero-wordmark, .page-header .hero-wordmark { gap: 7px; }
+  .site-header .brand-mark, .page-header .brand-mark { width: 30px; height: 30px; }
+  .site-header .hero-wordmark .brand-name,
+  .page-header .hero-wordmark .brand-name { font-size: 13px; letter-spacing: .12em; }
+  .site-header .brand-arrow, .page-header .brand-arrow { font-size: 13px; }
+
+  .lang-btn { height: 40px; min-width: 64px; justify-content: center; padding-inline: 12px; gap: 6px; font-size: 14px; }
+  .lang-btn .icon { width: 17px; height: 17px; }
+  .lang-btn .chevron { width: 14px; height: 14px; }
+
+}
+
+@media (max-width: 680px) {
+  .page-header .page-nav { gap: 0; margin-inline-start: auto; }
+  .page-header .page-nav-cta { justify-content: center; width: 40px; height: 40px; padding: 0; }
+  .page-header .page-nav-cta span { display: none; }
+  .page-header .page-nav-cta-ic { display: block; width: 22px; height: 22px; }
+}
+
+@media (max-width: 400px) {
+  :root { --pad: 20px; }
+  .header-inner { gap: 8px; }
+  .site-header .brand, .page-header .brand { gap: 7px; }
+  .site-header .hero-wordmark, .page-header .hero-wordmark { gap: 5px; }
+  .site-header .brand-mark, .page-header .brand-mark { width: 26px; height: 26px; }
+  .site-header .hero-wordmark .brand-name,
+  .page-header .hero-wordmark .brand-name { font-size: 12px; letter-spacing: .07em; }
+  .lang-btn { padding-inline: 10px; }
+}
+
+/* the two text links in the home-page header only fit next to the brand and the pill in
+   every language from ~1003px (pt is the longest) — below that the pill was cut off */
+@media (max-width: 1010px) {
+  .hero-nav { display: none; }
+}
+
+@media (max-width: 350px) {
+  .header-inner { gap: 6px; }
+  .site-header .hero-wordmark .brand-name,
+  .page-header .hero-wordmark .brand-name { letter-spacing: .05em; }
+  .lang-btn { min-width: 60px; }
+  .lang-btn .icon { display: none; }
+}
+
+/* ============================================================
+   Booking card on narrow screens (2026-09-16)
+   ============================================================ */
+/* the 3-step indicator never pushes the card wider: labels shrink with an ellipsis */
+.bk-step { min-width: 0; }
+.bk-step b { flex: none; }
+.bk-step-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* price line: the calculation may wrap, the amount never does */
+.booking-card .bk-price-line > span:first-child { min-width: 0; }
+.booking-card .bk-price-line > span:last-child { flex: none; white-space: nowrap; }
+
+@media (max-width: 700px) {
+  /* all three labels ("Detalhes do estacionamento · Bilhetes · Pagamento") only fit on a
+     wide card — on phones the done/upcoming steps keep just their number */
+  .booking-card .bk-steps { gap: 8px; }
+  .booking-card .bk-step:not(.is-active) { gap: 0; }
+  .booking-card .bk-step:not(.is-active) .bk-step-label { display: none; }
+  .booking-card .bk-step-line { max-width: none; }
+
+  /* "Long-stay rate (8+ days)" was nowrap and pushed the amount off the card
+     (282px in Russian on a 242px card) — on phones it gets its own line */
+  .booking-card .bk-price-note { display: block; white-space: normal; margin-top: 2px; }
+}
+
+/* the terms checkbox is a flex item: a long label used to squeeze it to 13px wide */
+.bk-check input { flex: none; }
+.bk-check-terms { align-items: flex-start; }
+.bk-check-terms input { margin-top: 2px; }
+
+/* phones in either orientation (and tablets): anything touched with a finger */
+@media (max-width: 560px), (pointer: coarse) {
+  /* touch targets: footer links were 23px tall, the forecast credit 16px */
+  .footer-col a { margin: 0; padding-block: 8px; }
+  .breadcrumb a { display: inline-block; padding: 9px 6px; margin: -9px -6px; }
+  .breadcrumb { row-gap: 16px; }
+  .back-link { padding-block: 10px; margin-top: 28px; }
+  .footer-col p { margin: 8px 0; }
+  .weather-source a { display: inline-block; padding-block: 8px; }
+  .booking-card .bk-check input { width: 20px; height: 20px; }
+
+  /* nothing on the card below 12px on a phone */
+  .booking-card .bk-opt-sub { font-size: 12px; }
+  .booking-card .bk-opt-price small { font-size: 12px; }
+}
+
+/* date pills: a grid track can't get narrower than its content by default, so a long
+   placeholder ("Válassza ki a dátumokat") pushed the two side-by-side pills off the card
+   at 561-600px; the tracks may shrink now and a placeholder wraps instead */
+.bk-dates > .bk-fieldbtn { min-width: 0; }
+.bk-fb-val.is-ph { white-space: normal; }
+@media (min-width: 561px) {
+  .bk-dates { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+/* option buttons: same grid-track minimum ("Estacionamento com estação de carregamento"
+   pushed the pair 4px past the card at 568px) */
+.bk-opt, .bk-opt-body { min-width: 0; }
+@media (min-width: 561px) {
+  .bk-opts, .booking-card .bk-opts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 400px) {
+  /* one option per row, but the price beside the text left the description ~85px wide
+     ("Крытое / место с / зарядной / станцией") — the price moves under the name instead */
+  .booking-card .bk-opt { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 12px; row-gap: 3px; }
+  .booking-card .bk-opt-check { grid-row: 1 / span 2; }
+  .booking-card .bk-opt-price { grid-column: 2; justify-self: start; margin: 0; padding: 0; }
+}
+/* a long option name ("…estação de carregamento", "…töltőállomással") may break inside a word
+   rather than run past the button */
+.bk-opt-name { overflow-wrap: anywhere; hyphens: auto; }
+
+/* iOS zooms into a focused field under 16px — landscape iPhones (844/932px wide) are
+   wider than the 820px rule above, so key the 16px size to touch screens as well */
+@media (pointer: coarse) {
+  .booking-card input,
+  .booking-card select,
+  .booking-card textarea,
+  .booking-card .bk-fb-input,
+  .booking-card .bk-input,
+  .booking-card .bk-select { font-size: 16px; }
+}
+
+/* headings: a single long word must never run out of its box (the section hero clips it) */
+.hero-title, .section-hero h1, .section-head h2, .prose h2 { overflow-wrap: break-word; }
+
+@media (max-width: 400px) {
+  /* 2.1rem (33.6px) left no room for "akadálymentesség" (hu) or "Parkeerinformatie" (nl)
+     inside 280px — scale with the screen instead */
+  .section-hero h1 { font-size: clamp(1.75rem, 9vw, 2.1rem); }
+}
+
+/* the mountain mark was white-on-white in the light sub-page header (copied from the
+   hero, where it sits on the photo) — it takes the header's ink colour like the wordmark */
+.page-header .brand-mark { color: inherit; }
+
+/* an amount never breaks between "CHF" and the number ("CHF / 360" on a 320px card) */
+.bk-price-total strong,
+.bk-summary-total > span:last-child,
+.bk-summary-row > span:last-child,
+.bk-ticket-price { white-space: nowrap; }
+.bk-price-total > span:first-child,
+.bk-summary-total > span:first-child,
+.bk-summary-row > span:first-child { min-width: 0; }

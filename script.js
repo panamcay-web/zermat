@@ -4389,7 +4389,7 @@ function validBooking(b) {
 
 function stepsHTML(active) {
   const item = (n, key) =>
-    `<span class="bk-step${active === n ? " is-active" : ""}${active > n ? " is-done" : ""}"><b>${n}</b>${t(key)}</span>`;
+    `<span class="bk-step${active === n ? " is-active" : ""}${active > n ? " is-done" : ""}"><b>${n}</b><span class="bk-step-label">${t(key)}</span></span>`;
   return `<div class="bk-steps">${item(1, "book.step1")}<span class="bk-step-line"></span>${item(2, "book.step2")}<span class="bk-step-line"></span>${item(3, "book.step3")}</div>`;
 }
 
