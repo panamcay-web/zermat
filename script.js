@@ -26,16 +26,16 @@ const I18N = {
     "book.msgIncomplete": "Please fill in all required fields.",
     "pg.nav.home": "Home",
     "pg.nav.book": "Book parking",
-    "pg.backLink": "Back to all arrival options",
+    "pg.backLink": "Back to parking info",
     "pg.keyFacts": "Key facts",
     "pg.ctaBook": "Book your parking",
     "pg.readMore": "Read more",
     "pg.goodToKnow": "Good to know:",
     "pg.inShort": "Tip:",
     "hero.title": "Book your parking<br>in Täsch for Zermatt",
-    "hero.subtitle": "Reserve your space at the Matterhorn Terminal in Täsch and ride the shuttle train into car-free Zermatt.",
+    "hero.subtitle": "Reserve your space at the Matterhorn Terminal in Täsch and take the shuttle train into car-free Zermatt.",
     "info.title": "Park & ride to Zermatt",
-    "info.guarantee": "Zermatt is car-free. Leave your car at the Matterhorn Terminal in Täsch and take the shuttle train — it runs about every 20 minutes and reaches Zermatt in around 12 minutes.",
+    "info.guarantee": "Zermatt is car-free. Leave your car at the Matterhorn Terminal in Täsch and take the shuttle train — it runs about every 20 minutes and reaches Zermatt in 12 minutes.",
     "info.process": "Book online in a few clicks. After payment, you'll receive a confirmation email. Your licence plate is saved with the booking, so the barrier recognises it and opens on arrival — no ticket to lose.",
     "info.extra": "The terminal has around 2,100 covered spaces and 131 e-charging stations. When you book, choose “Parking with e-charging station” to get a space with a charger for your electric car.",
     "adv.title": "Advantages",
@@ -45,7 +45,7 @@ const I18N = {
     "adv.plate.t": "Plate recognition",
     "adv.plate.d": "Your licence plate opens the barrier automatically — drive straight in, no ticket needed.",
     "adv.shuttle.t": "Shuttle to Zermatt",
-    "adv.shuttle.d": "The train to car-free Zermatt leaves right from the terminal, roughly every 20 minutes — add your tickets straight to your parking booking.",
+    "adv.shuttle.d": "The train to car-free Zermatt leaves right from the terminal, roughly every 20 minutes — you can add your tickets when you book your parking.",
     "adv.charge.t": "E-charging on site",
     "adv.charge.d": "131 charging stations for electric cars — reserve a space with a charger when you book.",
     "weather.title": "Weather in Zermatt",
@@ -61,7 +61,7 @@ const I18N = {
     "book.optParking": "Parking",
     "book.optCharging": "Parking with e-charging station",
     "book.optParkingSub": "Covered space at the terminal",
-    "book.optChargingSub": "Covered space + EV charging bay",
+    "book.optChargingSub": "Covered space with a charger",
     "book.perDay": "day",
     "book.periodPh": "Select your dates",
     "book.selectEnd": "Now select your departure date",
@@ -77,24 +77,24 @@ const I18N = {
     "book.ticketFull": "Adult",
     "book.ticketHalf": "Half fare",
     "book.ticketsSummary": "Shuttle tickets",
-    "book.ticketDiscount": "Half fare applies to Half Fare travelcard and Swiss Half Fare Card holders, children aged 6–15 and dogs over 30 cm at the shoulder.",
+    "book.ticketDiscount": "Half price for Half Fare travelcard and Swiss Half Fare Card holders, children aged 6–15, and dogs over 30 cm at the shoulder.",
     "gh.title": "Parking info",
     "gh.lead": "Everything you need to know about parking at the Matterhorn Terminal in Täsch and reaching car-free Zermatt — how to get there, how to charge your electric car and how the shuttle train works.",
     "gh.banner": "Zermatt is car-free. Every car stops in Täsch: park at the Matterhorn Terminal and continue by shuttle train or taxi.",
     "gh.car.d": "Drive to Täsch on the valley road, park in the covered terminal and hop on the train. See the route and the height limit.",
     "gh.charging.d": "131 charging stations at the terminal. Reserve a space with a charger and top up while you're in Zermatt.",
-    "gh.train.d": "The shuttle train links Täsch and Zermatt in about 12 minutes, roughly every 20 minutes. Add your tickets straight to your parking booking, or buy them at the terminal.",
+    "gh.train.d": "The shuttle train links Täsch and Zermatt in about 12 minutes and runs roughly every 20 minutes. Add your tickets straight to your parking booking, or buy them at the terminal.",
     "gh.reduced.d": "Accessible spaces close to the lifts and step-free access to the shuttle-train platform.",
     "car.h1": "Arriving by car",
     "car.lead": "How to drive to the Matterhorn Terminal in Täsch and where to leave the car for Zermatt.",
-    "car.p1": "Zermatt is car-free, so every road trip to the Matterhorn ends in Täsch. From the Rhône valley you follow the cantonal road up through Visp, St. Niklaus and Randa; the Matterhorn Terminal sits right beside Täsch station at the end of the valley road. Set your sat-nav to “Matterhorn Terminal Täsch” and it takes you straight to the entrance.",
+    "car.p1": "Zermatt is car-free, so every road trip to the Matterhorn ends in Täsch. From the Rhône valley you follow the cantonal road up through Visp, St. Niklaus and Randa; the Matterhorn Terminal sits right beside Täsch station at the end of the valley road. Set your sat-nav to “Matterhorn Terminal Täsch” and it will bring you straight to the entrance.",
     "car.h2a": "Parking at the terminal",
-    "car.p2": "The terminal is a covered multi-storey car park with around 2,100 spaces. When you book online your licence plate is stored, so the barrier opens automatically on arrival and you drive straight to a space — there is no paper ticket to keep. Book “Parking” for a standard space, or “Parking with e-charging station” if your car needs to charge.",
+    "car.p2": "The terminal is a covered multi-storey car park with around 2,100 spaces. When you book online, your licence plate is stored, so the barrier opens automatically on arrival and you drive straight to a space — there is no paper ticket to keep. Book “Parking” for a standard space, or “Parking with e-charging station” if your car needs to charge.",
     "car.callout": "Book online before you set off. Your plate is recognised at the barrier, so you skip the pay machines on the way in and out.",
     "car.h2b": "The height limit",
     "car.p3": "The maximum vehicle height is 2.30 metres — enough for regular cars, estates and most SUVs without a roof box. Taller vehicles, such as motorhomes, can't use the covered garage.",
     "car.h2c": "From the car to Zermatt",
-    "car.p4": "The shuttle-train platform is a two-minute walk from the garage. Trains to car-free Zermatt run about every 20 minutes and take around 12 minutes; taxis and hotel electric shuttles also pick up at the terminal.",
+    "car.p4": "The shuttle-train platform is a two-minute walk from the garage. Trains to car-free Zermatt run about every 20 minutes and take 12 minutes; taxis and hotel electric shuttles also pick up at the terminal.",
     "car.f1k": "Car park",
     "car.f1v": "Matterhorn Terminal, Täsch",
     "car.f2k": "Spaces",
@@ -110,7 +110,7 @@ const I18N = {
     "chg.p2": "When you book, choose “Parking with e-charging station” instead of standard parking. That reserves a space next to a charger for the whole of your stay, so you don't have to hunt for a free charger when you arrive.",
     "chg.callout": "Choose “Parking with e-charging station” in the first step of the booking form to guarantee a charger for your dates.",
     "chg.h2b": "Paying for the energy",
-    "chg.p3": "Your reservation covers the parking space and the charging bay. The energy you actually draw is billed separately at the station by QR code — credit card, TWINT, Apple Pay and Google Pay are all accepted — so you only ever pay for the electricity you use.",
+    "chg.p3": "Your reservation covers the parking space and the charging bay. The energy you actually draw is billed separately at the station by QR code — credit card, TWINT, Apple Pay and Google Pay are all accepted — so you only pay for the electricity you use.",
     "chg.f1k": "Stations",
     "chg.f1v": "131, in the garage",
     "chg.f2k": "Power",
@@ -139,7 +139,7 @@ const I18N = {
     "red.lead": "Accessible parking at the terminal and step-free access to the shuttle train.",
     "red.p1": "The Matterhorn Terminal is designed to be step-free. Accessible parking spaces sit close to the lifts, which take you directly down to the shuttle-train platform without stairs.",
     "red.h2a": "Parking close to the lifts",
-    "red.p2": "Reserve a standard space online in the usual way; if you hold a disabled parking badge, park in a marked accessible bay near the lifts when you arrive. The number-plate barrier means there is no machine to reach from the car.",
+    "red.p2": "Reserve a standard space online in the usual way; if you hold a disabled parking badge, park in a marked accessible bay near the lifts when you arrive. The barrier reads your licence plate, so there is no machine to reach from the car.",
     "red.h2b": "Onto the train and into Zermatt",
     "red.p3": "Lifts and ramps connect the car park to the platform, and the shuttle trains take wheelchairs. In Zermatt, electric taxis can be booked to continue to your hotel. Bring what you need for a smooth transfer:",
     "red.li1": "Your parking confirmation (tied to your licence plate)",
@@ -152,7 +152,7 @@ const I18N = {
     "red.f3v": "Wheelchair-accessible shuttle",
     "red.f4k": "Bring",
     "red.f4v": "Confirmation + disabled badge",
-    "book.cardTitle": "Book your parking spot in Täsch",
+    "book.cardTitle": "Book your parking space in Täsch",
     "book.arrivalDate": "Arrival date",
     "book.departureDate": "Departure date",
     "footer.country": "Switzerland",
@@ -187,7 +187,7 @@ const I18N = {
     "book.msgIncomplete": "Bitte füllen Sie alle Pflichtfelder aus.",
     "pg.nav.home": "Startseite",
     "pg.nav.book": "Parkplatz buchen",
-    "pg.backLink": "Zurück zu allen Anreisearten",
+    "pg.backLink": "Zurück zu den Parkplatz-Infos",
     "pg.keyFacts": "Auf einen Blick",
     "pg.ctaBook": "Parkplatz buchen",
     "pg.readMore": "Mehr erfahren",
@@ -215,7 +215,7 @@ const I18N = {
     "footer.legal": "© 2026 Täsch Parking",
     "footer.l.charging": "Elektrofahrzeuge",
     "footer.l.train": "Anreise nach Zermatt",
-    "book.step1": "Parkdetails",
+    "book.step1": "Parkplatz",
     "book.step2": "Tickets",
     "book.chooseOption": "Option wählen",
     "book.optParking": "Parken",
@@ -223,7 +223,7 @@ const I18N = {
     "book.optParkingSub": "Überdachter Platz am Terminal",
     "book.optChargingSub": "Überdachter Platz mit Ladesäule",
     "book.perDay": "Tag",
-    "book.periodPh": "Datum wählen",
+    "book.periodPh": "Zeitraum wählen",
     "book.selectEnd": "Wählen Sie jetzt das Abreisedatum",
     "book.selectDates": "Bitte wählen Sie An- und Abreisedatum.",
     "book.day": "Tag",
@@ -237,7 +237,7 @@ const I18N = {
     "gh.banner": "Zermatt ist autofrei. Jedes Auto hält in Täsch: am Matterhorn Terminal parken und mit Shuttlezug oder Taxi weiterfahren.",
     "gh.car.d": "Fahren Sie über die Talstrasse nach Täsch, parken Sie im überdachten Terminal und steigen Sie in den Zug. Route und Höhenbegrenzung.",
     "gh.charging.d": "131 Ladestationen am Terminal. Reservieren Sie einen Platz mit Ladesäule und laden Sie, während Sie in Zermatt sind.",
-    "gh.train.d": "Der Shuttlezug verbindet Täsch und Zermatt in rund 12 Minuten, etwa alle 20 Minuten. Die Tickets buchen Sie direkt mit dem Parkplatz oder kaufen sie am Terminal.",
+    "gh.train.d": "Der Shuttlezug verbindet Täsch und Zermatt in rund 12 Minuten und fährt etwa alle 20 Minuten. Die Tickets buchen Sie direkt mit dem Parkplatz oder kaufen sie am Terminal.",
     "gh.reduced.d": "Barrierefreie Plätze nahe den Aufzügen und stufenloser Zugang zum Bahnsteig des Shuttlezugs.",
     "car.h1": "Anreise mit dem Auto",
     "car.lead": "Wie Sie zum Matterhorn Terminal in Täsch fahren und wo Sie das Auto für Zermatt abstellen.",
@@ -248,7 +248,7 @@ const I18N = {
     "car.h2b": "Die Höhenbegrenzung",
     "car.p3": "Die maximale Fahrzeughöhe beträgt 2,30 Meter – genug für normale Autos, Kombis und die meisten SUVs ohne Dachbox. Höhere Fahrzeuge wie Wohnmobile können das überdachte Parkhaus nicht nutzen.",
     "car.h2c": "Vom Auto nach Zermatt",
-    "car.p4": "Der Bahnsteig des Shuttlezugs ist zwei Gehminuten von der Garage entfernt. Züge ins autofreie Zermatt fahren etwa alle 20 Minuten und brauchen rund 12 Minuten; Taxis und Hotel-Elektroshuttles halten ebenfalls am Terminal.",
+    "car.p4": "Der Bahnsteig des Shuttlezugs ist zwei Gehminuten vom Parkhaus entfernt. Züge ins autofreie Zermatt fahren etwa alle 20 Minuten und brauchen rund 12 Minuten; Taxis und Hotel-Elektroshuttles halten ebenfalls am Terminal.",
     "car.f1k": "Parkhaus",
     "car.f1v": "Matterhorn Terminal, Täsch",
     "car.f2k": "Plätze",
@@ -280,7 +280,7 @@ const I18N = {
     "trn.p2": "Der Bahnsteig liegt direkt neben dem Parkhaus – keine Strasse zu überqueren, mit Aufzügen und Rampen zu den Gleisen. Am einfachsten buchen Sie die Shuttle-Tickets gleich zusammen mit Ihrem Parkplatz; alternativ erhalten Sie sie an den Automaten im Terminal oder in einer Bahn-App.",
     "trn.callout": "Buchen Sie Ihre Zermatt-Shuttle-Tickets gleich im selben Formular wie den Parkplatz – oder kaufen Sie sie später an den Automaten im Terminal.",
     "trn.h2b": "Gepäck & Weiterreise",
-    "trn.p3": "Auf beiden Bahnsteigen gibt es Gepäckwagen, und viele Hotels schicken ein Elektrotaxi, das ihre Gäste in Zermatt abholt. Planen Sie in der Hochsaison etwas mehr Zeit ein, wenn Züge und Bahnsteige voll sind.",
+    "trn.p3": "Auf beiden Bahnsteigen gibt es Gepäckwagen, und viele Hotels schicken ein Elektrotaxi, das die Gäste in Zermatt abholt. Planen Sie in der Hochsaison etwas mehr Zeit ein, wenn Züge und Bahnsteige voll sind.",
     "trn.f1k": "Linie",
     "trn.f1v": "Shuttle Täsch ⇄ Zermatt",
     "trn.f2k": "Takt",
@@ -293,11 +293,11 @@ const I18N = {
     "red.lead": "Barrierefreies Parken am Terminal und stufenloser Zugang zum Shuttlezug.",
     "red.p1": "Das Matterhorn Terminal ist stufenlos gestaltet. Barrierefreie Parkplätze liegen nahe den Aufzügen, die Sie ohne Treppen direkt zum Bahnsteig des Shuttlezugs bringen.",
     "red.h2a": "Parken nahe den Aufzügen",
-    "red.p2": "Reservieren Sie online wie gewohnt einen normalen Platz; wenn Sie einen Behindertenparkausweis besitzen, parken Sie bei der Ankunft auf einem markierten Behindertenparkplatz nahe den Aufzügen. Dank der Schranke mit Kennzeichenerkennung müssen Sie vom Auto aus keinen Automaten erreichen.",
+    "red.p2": "Reservieren Sie online wie gewohnt einen normalen Platz; wenn Sie einen Behindertenparkausweis besitzen, parken Sie bei der Ankunft auf einem markierten Behindertenparkplatz nahe den Aufzügen. Dank der Kennzeichenerkennung müssen Sie vom Auto aus keinen Automaten bedienen.",
     "red.h2b": "In den Zug und nach Zermatt",
-    "red.p3": "Aufzüge und Rampen verbinden das Parkhaus mit dem Bahnsteig, und die Shuttlezüge nehmen Rollstühle mit. In Zermatt können Elektrotaxis für die Weiterfahrt zum Hotel gebucht werden. Bringen Sie mit, was Sie für einen reibungslosen Transfer brauchen:",
+    "red.p3": "Aufzüge und Rampen verbinden das Parkhaus mit dem Bahnsteig, und die Shuttlezüge nehmen Rollstühle mit. In Zermatt können Elektrotaxis für die Weiterfahrt zum Hotel gebucht werden. Bringen Sie mit, was Sie für einen reibungslosen Umstieg brauchen:",
     "red.li1": "Ihre Parkbestätigung (an Ihr Kennzeichen gebunden)",
-    "red.li2": "Einen gültigen Behindertenparkausweis für die Behindertenparkplätze",
+    "red.li2": "Einen gültigen Behindertenparkausweis für die markierten Plätze",
     "red.f1k": "Zugang",
     "red.f1v": "Stufenlos, Aufzüge zum Bahnsteig",
     "red.f2k": "Plätze",
@@ -348,17 +348,17 @@ const I18N = {
     "book.msgIncomplete": "Compila tutti i campi obbligatori.",
     "pg.nav.home": "Home",
     "pg.nav.book": "Prenota il parcheggio",
-    "pg.backLink": "Torna a tutte le modalità di arrivo",
+    "pg.backLink": "Torna alle info parcheggio",
     "pg.keyFacts": "In sintesi",
     "pg.ctaBook": "Prenota il parcheggio",
     "pg.readMore": "Scopri di più",
     "pg.goodToKnow": "Da sapere:",
     "pg.inShort": "Consiglio:",
     "hero.title": "Prenota il tuo parcheggio<br>a Täsch per Zermatt",
-    "hero.subtitle": "Prenota il tuo posto al Matterhorn Terminal di Täsch e raggiungi con il treno navetta Zermatt, il paese senza auto.",
+    "hero.subtitle": "Prenota il tuo posto al Matterhorn Terminal di Täsch e raggiungi Zermatt, il paese senza auto, con il treno navetta.",
     "info.title": "Parcheggia e raggiungi Zermatt",
     "info.guarantee": "Zermatt è una località senza auto. Lascia l'auto al Matterhorn Terminal di Täsch e prendi il treno navetta – parte circa ogni 20 minuti e raggiunge Zermatt in circa 12 minuti.",
-    "info.process": "Prenota online in pochi clic. Dopo il pagamento riceverai un'e-mail di conferma. La targa viene registrata alla sbarra: grazie al riconoscimento automatico, all'arrivo entri direttamente nel parcheggio coperto – nessun biglietto da perdere.",
+    "info.process": "Prenota online in pochi clic. Dopo il pagamento riceverai un'e-mail di conferma. La targa viene registrata insieme alla prenotazione: all'arrivo la sbarra la riconosce e si apre da sola – nessun biglietto da perdere.",
     "info.extra": "Il terminal dispone di circa 2.100 posti coperti e 131 colonnine di ricarica. Al momento della prenotazione scegli «Parcheggio con stazione di ricarica» per avere un posto con colonnina per la tua auto elettrica.",
     "adv.title": "Vantaggi",
     "adv.subtitle": "Tutto ciò che ottieni prenotando con noi",
@@ -398,7 +398,7 @@ const I18N = {
     "gh.banner": "Zermatt è una località senza auto. Ogni auto si ferma a Täsch: parcheggia al Matterhorn Terminal e prosegui in treno navetta o taxi.",
     "gh.car.d": "Raggiungi Täsch lungo la strada della valle, parcheggia nel terminal coperto e sali sul treno. Percorso e limite di altezza.",
     "gh.charging.d": "131 colonnine di ricarica al terminal. Prenota un posto con colonnina e ricarica mentre sei a Zermatt.",
-    "gh.train.d": "Il treno navetta collega Täsch e Zermatt in circa 12 minuti, all'incirca ogni 20 minuti. Prenota i biglietti insieme al parcheggio o acquistali al terminal.",
+    "gh.train.d": "Il treno navetta collega Täsch e Zermatt in circa 12 minuti e parte all'incirca ogni 20 minuti. Prenota i biglietti insieme al parcheggio o acquistali al terminal.",
     "gh.reduced.d": "Posti accessibili vicino agli ascensori e accesso senza gradini al binario della navetta.",
     "car.h1": "Arrivare in auto",
     "car.lead": "Come raggiungere il Matterhorn Terminal di Täsch e dove lasciare l'auto per Zermatt.",
@@ -419,9 +419,9 @@ const I18N = {
     "car.f4k": "Per Zermatt",
     "car.f4v": "Treno navetta, ≈ 12 min",
     "chg.h1": "Veicoli elettrici e ricarica",
-    "chg.lead": "Ricaricare l'auto elettrica durante la visita a Zermatt e come riservare una piazzola di ricarica.",
+    "chg.lead": "Ricaricare l'auto elettrica durante la visita a Zermatt e come riservare un posto con colonnina.",
     "chg.p1": "Il Matterhorn Terminal è uno dei più grandi punti di ricarica delle Alpi, con 131 colonnine integrate nel parcheggio coperto. Le colonnine erogano fino a 22 kW (AC) con cavo fisso e connettore Type 2, così la maggior parte delle auto elettriche si ricarica comodamente mentre sei a Zermatt.",
-    "chg.h2a": "Riservare una piazzola di ricarica",
+    "chg.h2a": "Riservare un posto con colonnina",
     "chg.p2": "Al momento della prenotazione scegli «Parcheggio con stazione di ricarica» anziché il parcheggio standard. Così ti riservi un posto accanto a una colonnina per tutto il soggiorno, senza dover cercarne una libera all'arrivo.",
     "chg.callout": "Scegli «Parcheggio con stazione di ricarica» al primo passaggio del modulo di prenotazione per avere la colonnina garantita nelle tue date.",
     "chg.h2b": "Pagare l'energia",
@@ -438,7 +438,7 @@ const I18N = {
     "trn.lead": "Come il treno navetta collega Täsch a Zermatt, il paese senza auto.",
     "trn.p1": "Poiché a Zermatt le auto con motore a combustione sono vietate, l'ultimo tratto si percorre in treno. Il treno navetta circola tra Täsch e Zermatt dal primo mattino fino a tarda sera, circa ogni 20 minuti, e copre la distanza in circa 12 minuti.",
     "trn.h2a": "Biglietti e binario",
-    "trn.p2": "Il binario è proprio accanto al parcheggio – nessuna strada da attraversare, con ascensori e rampe. Il modo più semplice è aggiungere i biglietti della navetta alla prenotazione del parcheggio; in alternativa puoi acquistarli alle macchinette del terminal o in un'app ferroviaria.",
+    "trn.p2": "Il binario è proprio accanto al parcheggio – nessuna strada da attraversare, con ascensori e rampe fino ai binari. Il modo più semplice è aggiungere i biglietti della navetta alla prenotazione del parcheggio; in alternativa puoi acquistarli alle macchinette del terminal o in un'app ferroviaria.",
     "trn.callout": "Aggiungi i biglietti dello Zermatt Shuttle nello stesso modulo in cui prenoti il parcheggio – oppure acquistali più tardi alle macchinette del terminal.",
     "trn.h2b": "Bagagli e proseguimento",
     "trn.p3": "Su entrambi i binari ci sono carrelli portabagagli, e molti hotel di Zermatt mandano un taxi elettrico ad accogliere gli ospiti all'arrivo. In alta stagione, quando treni e binari sono affollati, calcola un po' di margine.",
@@ -454,7 +454,7 @@ const I18N = {
     "red.lead": "Parcheggio accessibile al terminal e accesso senza gradini alla navetta.",
     "red.p1": "Il Matterhorn Terminal è progettato senza gradini. I posti accessibili si trovano vicino agli ascensori, che ti portano direttamente al binario della navetta senza scale.",
     "red.h2a": "Parcheggiare vicino agli ascensori",
-    "red.p2": "Prenota online un posto standard come di consueto; se hai un contrassegno per disabili, all'arrivo parcheggia in uno dei posti riservati vicino agli ascensori. Grazie alla sbarra con riconoscimento targa non devi raggiungere nessuna macchinetta dall'auto.",
+    "red.p2": "Prenota online un posto standard come di consueto; se hai un contrassegno per disabili, all'arrivo parcheggia in uno dei posti riservati vicino agli ascensori. Grazie alla sbarra con riconoscimento targa, dall'auto non devi usare nessuna macchinetta.",
     "red.h2b": "Sul treno e verso Zermatt",
     "red.p3": "Ascensori e rampe collegano il parcheggio al binario, e i treni navetta accolgono le sedie a rotelle. A Zermatt si possono prenotare taxi elettrici per proseguire fino all'hotel. Porta con te ciò che serve per un trasferimento senza intoppi:",
     "red.li1": "La conferma del parcheggio (legata alla tua targa)",
@@ -462,7 +462,7 @@ const I18N = {
     "red.f1k": "Accesso",
     "red.f1v": "Senza gradini, ascensori al binario",
     "red.f2k": "Posti",
-    "red.f2v": "Piazzole accessibili vicino agli ascensori",
+    "red.f2v": "Posti accessibili vicino agli ascensori",
     "red.f3k": "Treno",
     "red.f3v": "Navetta accessibile in carrozzina",
     "red.f4k": "Da portare",
@@ -482,7 +482,7 @@ const I18N = {
     "ui.decrease": "Diminuisci",
     "ui.increase": "Aumenta",
     "ui.mainNav": "Menu principale",
-    "ui.homeLink": "Täsch Parking – home page"
+    "ui.homeLink": "Täsch Parking – pagina iniziale"
   },
   "fr": {
     "nav.parking": "Infos parking",
@@ -509,7 +509,7 @@ const I18N = {
     "book.msgIncomplete": "Veuillez remplir tous les champs obligatoires.",
     "pg.nav.home": "Accueil",
     "pg.nav.book": "Réserver le parking",
-    "pg.backLink": "Retour à toutes les options d'arrivée",
+    "pg.backLink": "Retour aux infos parking",
     "pg.keyFacts": "À retenir",
     "pg.ctaBook": "Réservez votre parking",
     "pg.readMore": "En savoir plus",
@@ -519,7 +519,7 @@ const I18N = {
     "hero.subtitle": "Réservez votre place au Matterhorn Terminal de Täsch et rejoignez Zermatt, station sans voitures, en navette ferroviaire.",
     "info.title": "Se garer et rejoindre Zermatt",
     "info.guarantee": "Zermatt est une station sans voitures. Laissez votre véhicule au Matterhorn Terminal de Täsch et prenez la navette — elle circule toutes les 20 minutes environ et rejoint Zermatt en 12 minutes.",
-    "info.process": "Réservez en ligne en quelques clics. Après le paiement, vous recevez un e-mail de confirmation. Votre plaque est enregistrée : grâce à la lecture de plaque, la barrière s'ouvre et vous entrez directement dans le parking couvert — aucun ticket à perdre.",
+    "info.process": "Réservez en ligne en quelques clics. Après le paiement, vous recevez un e-mail de confirmation. Votre plaque est enregistrée avec la réservation : à l'arrivée, la barrière la reconnaît et s'ouvre toute seule — aucun ticket à perdre.",
     "info.extra": "Le terminal compte environ 2 100 places couvertes et 131 bornes de recharge. Au moment de réserver, choisissez « Parking avec borne de recharge » : vous aurez une place équipée d'une borne pour votre voiture électrique.",
     "adv.title": "Avantages",
     "adv.subtitle": "Tout ce dont vous bénéficiez en réservant chez nous",
@@ -543,7 +543,7 @@ const I18N = {
     "book.optParking": "Parking",
     "book.optCharging": "Parking avec borne de recharge",
     "book.optParkingSub": "Place couverte au terminal",
-    "book.optChargingSub": "Place couverte + borne de recharge",
+    "book.optChargingSub": "Place couverte avec borne de recharge",
     "book.perDay": "jour",
     "book.periodPh": "Choisissez vos dates",
     "book.selectEnd": "Choisissez maintenant la date de départ",
@@ -555,11 +555,11 @@ const I18N = {
     "book.longStay": "Tarif longue durée (dès 8 jours)",
     "book.holderNote": "La confirmation de réservation sera envoyée à cette adresse e-mail.",
     "gh.title": "Infos parking",
-    "gh.lead": "Tout ce qu'il faut savoir pour se garer au Matterhorn Terminal de Täsch et rejoindre Zermatt sans voiture — l'accès, la recharge de votre voiture électrique et le fonctionnement de la navette.",
-    "gh.banner": "Zermatt est sans voiture. Toutes les voitures s'arrêtent à Täsch : garez-vous au Matterhorn Terminal et continuez en navette ou en taxi.",
+    "gh.lead": "Tout ce qu'il faut savoir pour se garer au Matterhorn Terminal de Täsch et rejoindre Zermatt, station sans voitures — l'accès, la recharge de votre voiture électrique et le fonctionnement de la navette.",
+    "gh.banner": "Zermatt est une station sans voitures. Toutes les voitures s'arrêtent à Täsch : garez-vous au Matterhorn Terminal et continuez en navette ou en taxi.",
     "gh.car.d": "Rejoignez Täsch par la route de la vallée, garez-vous dans le terminal couvert et montez dans le train. Itinéraire et limite de hauteur.",
     "gh.charging.d": "131 bornes de recharge au terminal. Réservez une place équipée et rechargez pendant votre séjour à Zermatt.",
-    "gh.train.d": "La navette relie Täsch et Zermatt en 12 minutes environ, à peu près toutes les 20 minutes. Ajoutez vos billets à votre réservation ou achetez-les au terminal.",
+    "gh.train.d": "La navette relie Täsch et Zermatt en 12 minutes environ et circule à peu près toutes les 20 minutes. Ajoutez vos billets à votre réservation ou achetez-les au terminal.",
     "gh.reduced.d": "Places accessibles près des ascenseurs et accès de plain-pied au quai de la navette.",
     "car.h1": "Arriver en voiture",
     "car.lead": "Comment rejoindre le Matterhorn Terminal de Täsch et où laisser la voiture pour Zermatt.",
@@ -570,7 +570,7 @@ const I18N = {
     "car.h2b": "La limite de hauteur",
     "car.p3": "La hauteur maximale est de 2,30 mètres : de quoi accueillir les voitures classiques, les breaks et la plupart des SUV sans coffre de toit. Les véhicules plus hauts, comme les camping-cars, ne peuvent pas accéder au parking couvert.",
     "car.h2c": "De la voiture à Zermatt",
-    "car.p4": "Le quai de la navette est à deux minutes à pied du parking. Les trains vers Zermatt partent environ toutes les 20 minutes et le trajet dure environ 12 minutes ; des taxis et les navettes électriques des hôtels prennent aussi les voyageurs au terminal.",
+    "car.p4": "Le quai de la navette est à deux minutes à pied du parking. Les trains vers Zermatt partent environ toutes les 20 minutes et le trajet dure 12 minutes ; des taxis et les navettes électriques des hôtels prennent aussi les voyageurs au terminal.",
     "car.f1k": "Parking",
     "car.f1v": "Matterhorn Terminal, Täsch",
     "car.f2k": "Places",
@@ -596,7 +596,7 @@ const I18N = {
     "chg.f4k": "Énergie",
     "chg.f4v": "Payée à la borne via QR code",
     "trn.h1": "Rejoindre Zermatt",
-    "trn.lead": "Comment la navette relie Täsch et Zermatt sans voiture.",
+    "trn.lead": "Comment la navette relie Täsch à Zermatt, station sans voitures.",
     "trn.p1": "Les voitures thermiques étant interdites à Zermatt, la dernière partie du trajet se fait en train. La navette circule entre Täsch et Zermatt du petit matin jusque tard le soir, environ toutes les 20 minutes, et parcourt la distance en 12 minutes environ.",
     "trn.h2a": "Billets & quai",
     "trn.p2": "Le quai est juste à côté du parking — aucune rue à traverser, avec ascenseurs et rampes jusqu'aux voies. Le plus simple est d'ajouter les billets de navette à votre réservation de parking ; vous pouvez aussi les acheter aux automates du terminal ou dans une application ferroviaire.",
@@ -615,7 +615,7 @@ const I18N = {
     "red.lead": "Stationnement accessible au terminal et accès de plain-pied à la navette.",
     "red.p1": "Le Matterhorn Terminal est conçu de plain-pied. Les places accessibles se trouvent près des ascenseurs, qui vous conduisent directement au quai de la navette sans escaliers.",
     "red.h2a": "Se garer près des ascenseurs",
-    "red.p2": "Réservez une place standard en ligne comme d'habitude ; si vous détenez une carte de stationnement pour personnes handicapées, garez-vous à l'arrivée sur une place réservée près des ascenseurs. Grâce à la lecture de plaque, pas besoin d'atteindre un automate depuis la voiture.",
+    "red.p2": "Réservez une place standard en ligne comme d'habitude ; si vous détenez une carte de stationnement pour personnes handicapées, garez-vous à l'arrivée sur une place réservée près des ascenseurs. Grâce à la lecture de plaque, vous n'avez aucun automate à manipuler depuis la voiture.",
     "red.h2b": "Monter dans le train et rejoindre Zermatt",
     "red.p3": "Ascenseurs et rampes relient le parking au quai, et les navettes accueillent les fauteuils roulants. À Zermatt, des taxis électriques peuvent être réservés pour rejoindre votre hôtel. Munissez-vous de ce qu'il faut pour un transfert sans souci :",
     "red.li1": "Votre confirmation de parking (liée à votre plaque)",
@@ -627,7 +627,7 @@ const I18N = {
     "red.f3k": "Train",
     "red.f3v": "Navette accessible en fauteuil",
     "red.f4k": "À prévoir",
-    "red.f4v": "Confirmation + carte handicapé",
+    "red.f4v": "Confirmation + carte de stationnement",
     "book.cardTitle": "Réservez votre place à Täsch",
     "book.arrivalDate": "Date d'arrivée",
     "book.departureDate": "Date de départ",
@@ -669,23 +669,23 @@ const I18N = {
     "book.serviceErrorMsg": "El servicio de pago no está disponible en este momento. Inténtalo de nuevo más tarde.",
     "book.msgIncomplete": "Rellena todos los campos obligatorios.",
     "pg.nav.home": "Inicio",
-    "pg.nav.book": "Reservar aparcamiento",
-    "pg.backLink": "Volver a todas las formas de llegada",
+    "pg.nav.book": "Reservar parking",
+    "pg.backLink": "Volver a la información del parking",
     "pg.keyFacts": "Datos clave",
     "pg.ctaBook": "Reserva tu parking",
-    "pg.readMore": "Leer más",
+    "pg.readMore": "Saber más",
     "pg.goodToKnow": "A tener en cuenta:",
     "pg.inShort": "Consejo:",
     "hero.title": "Reserva tu parking<br>en Täsch para Zermatt",
     "hero.subtitle": "Reserva tu plaza en el Matterhorn Terminal de Täsch y viaja en tren lanzadera a Zermatt, el pueblo sin coches.",
     "info.title": "Aparca y llega a Zermatt",
     "info.guarantee": "Zermatt es un pueblo sin coches. Deja el coche en el Matterhorn Terminal de Täsch y toma el tren lanzadera — sale aproximadamente cada 20 minutos y llega a Zermatt en unos 12 minutos.",
-    "info.process": "Reserva online en pocos clics. Tras el pago, recibirás un correo de confirmación. Tu matrícula queda registrada: gracias al reconocimiento de matrículas, la barrera se abre y entras directamente en el aparcamiento cubierto — sin ticket que perder.",
+    "info.process": "Reserva online en pocos clics. Tras el pago, recibirás un correo de confirmación. Tu matrícula queda vinculada a la reserva: al llegar, la barrera la reconoce y se abre sola — sin ticket que perder.",
     "info.extra": "El terminal cuenta con unas 2100 plazas cubiertas y 131 estaciones de recarga. Al reservar, elige «Parking con estación de recarga» para tener una plaza con cargador para tu coche eléctrico.",
     "adv.title": "Ventajas",
     "adv.subtitle": "Todo lo que obtienes al reservar con nosotros",
     "adv.covered.t": "Aparcamiento cubierto",
-    "adv.covered.d": "Una plaza protegida de las inclemencias del tiempo en el terminal de varias plantas, haga el tiempo que haga en la montaña.",
+    "adv.covered.d": "Una plaza cubierta en el aparcamiento de varias plantas del terminal, haga el tiempo que haga en la montaña.",
     "adv.plate.t": "Reconocimiento de matrícula",
     "adv.plate.d": "Tu matrícula abre la barrera automáticamente — entra directamente, sin ticket.",
     "adv.shuttle.t": "Lanzadera a Zermatt",
@@ -704,7 +704,7 @@ const I18N = {
     "book.optParking": "Parking",
     "book.optCharging": "Parking con estación de recarga",
     "book.optParkingSub": "Plaza cubierta en el terminal",
-    "book.optChargingSub": "Plaza cubierta + punto de recarga",
+    "book.optChargingSub": "Plaza cubierta con cargador",
     "book.perDay": "día",
     "book.periodPh": "Elige tus fechas",
     "book.selectEnd": "Ahora elige la fecha de salida",
@@ -720,7 +720,7 @@ const I18N = {
     "gh.banner": "Zermatt es un pueblo sin coches. Todos los coches se detienen en Täsch: aparca en el Matterhorn Terminal y continúa en tren lanzadera o taxi.",
     "gh.car.d": "Llega a Täsch por la carretera del valle, aparca en el terminal cubierto y sube al tren. Ruta y límite de altura.",
     "gh.charging.d": "131 estaciones de recarga en el terminal. Reserva una plaza con cargador y carga el coche mientras estás en Zermatt.",
-    "gh.train.d": "El tren lanzadera une Täsch y Zermatt en unos 12 minutos, aproximadamente cada 20 minutos. Añade los billetes a tu reserva o cómpralos en el terminal.",
+    "gh.train.d": "El tren lanzadera une Täsch y Zermatt en unos 12 minutos y circula aproximadamente cada 20 minutos. Añade los billetes a tu reserva o cómpralos en el terminal.",
     "gh.reduced.d": "Plazas accesibles cerca de los ascensores y acceso sin escalones al andén de la lanzadera.",
     "car.h1": "Llegar en coche",
     "car.lead": "Cómo llegar al Matterhorn Terminal de Täsch y dónde dejar el coche para Zermatt.",
@@ -731,7 +731,7 @@ const I18N = {
     "car.h2b": "El límite de altura",
     "car.p3": "La altura máxima es de 2,30 metros: suficiente para turismos, familiares y la mayoría de los SUV sin cofre de techo. Los vehículos más altos, como las autocaravanas, no pueden usar el aparcamiento cubierto.",
     "car.h2c": "Del coche a Zermatt",
-    "car.p4": "El andén de la lanzadera está a dos minutos a pie del aparcamiento. Los trenes a Zermatt salen aproximadamente cada 20 minutos y tardan unos 12 minutos; también hay taxis y lanzaderas eléctricas de hotel que recogen en el terminal.",
+    "car.p4": "El andén de la lanzadera está a dos minutos a pie del aparcamiento. Los trenes a Zermatt salen aproximadamente cada 20 minutos y tardan unos 12 minutos; también hay taxis y lanzaderas eléctricas de hotel que recogen pasajeros en el terminal.",
     "car.f1k": "Aparcamiento",
     "car.f1v": "Matterhorn Terminal, Täsch",
     "car.f2k": "Plazas",
@@ -776,7 +776,7 @@ const I18N = {
     "red.lead": "Aparcamiento accesible en el terminal y acceso sin escalones a la lanzadera.",
     "red.p1": "El Matterhorn Terminal está diseñado sin escalones. Las plazas accesibles están cerca de los ascensores, que te llevan directamente al andén de la lanzadera sin escaleras.",
     "red.h2a": "Aparcar cerca de los ascensores",
-    "red.p2": "Reserva una plaza estándar online como de costumbre; si tienes tarjeta de estacionamiento para personas con discapacidad, al llegar aparca en una plaza accesible señalizada cerca de los ascensores. Gracias al reconocimiento de matrículas, no tienes que alcanzar ninguna máquina desde el coche.",
+    "red.p2": "Reserva una plaza estándar online como de costumbre; si tienes tarjeta de estacionamiento para personas con discapacidad, al llegar aparca en una plaza accesible señalizada cerca de los ascensores. Gracias al reconocimiento de matrículas, no tienes que manipular ninguna máquina desde el coche.",
     "red.h2b": "Al tren y hacia Zermatt",
     "red.p3": "Ascensores y rampas conectan el aparcamiento con el andén, y los trenes lanzadera admiten sillas de ruedas. En Zermatt se pueden reservar taxis eléctricos para continuar hasta tu hotel. Lleva lo que necesites para un traslado sin complicaciones:",
     "red.li1": "Tu confirmación de aparcamiento (vinculada a tu matrícula)",
@@ -796,7 +796,7 @@ const I18N = {
     "book.addTickets": "Añadir billetes del Zermatt Shuttle",
     "book.ticketsInfo": "Täsch → Zermatt el día de llegada · vuelta en un plazo de 30 días",
     "book.ticketFull": "Adulto",
-    "book.ticketHalf": "Mitad de precio",
+    "book.ticketHalf": "Tarifa reducida",
     "book.ticketsSummary": "Billetes de lanzadera",
     "book.ticketDiscount": "Mitad de precio para titulares del abono Half Fare o de la Swiss Half Fare Card, niños de 6 a 15 años y perros de más de 30 cm a la cruz.",
     "footer.country": "Suiza",
@@ -831,7 +831,7 @@ const I18N = {
     "book.msgIncomplete": "Kérjük, töltse ki az összes kötelező mezőt.",
     "pg.nav.home": "Főoldal",
     "pg.nav.book": "Parkolóhely foglalása",
-    "pg.backLink": "Vissza az összes érkezési módhoz",
+    "pg.backLink": "Vissza a parkolási információkhoz",
     "pg.keyFacts": "Röviden",
     "pg.ctaBook": "Foglaljon parkolóhelyet",
     "pg.readMore": "Tovább olvasom",
@@ -981,7 +981,7 @@ const I18N = {
     "book.platePlaceholder": "Wpisz numer rejestracyjny",
     "book.email": "E-mail",
     "book.emailPh": "Podaj swój adres e-mail",
-    "book.terms": "Akceptuję regulamin i warunki rezerwacji.",
+    "book.terms": "Zapoznałem/am się z regulaminem i akceptuję jego warunki.",
     "book.pay": "Zapłać i zarezerwuj",
     "book.back": "Wstecz",
     "book.continue": "Dalej",
@@ -992,10 +992,10 @@ const I18N = {
     "book.msgIncomplete": "Wypełnij wszystkie wymagane pola.",
     "pg.nav.home": "Strona główna",
     "pg.nav.book": "Zarezerwuj parking",
-    "pg.backLink": "Wróć do wszystkich sposobów dojazdu",
+    "pg.backLink": "Wróć do informacji o parkingu",
     "pg.keyFacts": "Najważniejsze informacje",
     "pg.ctaBook": "Zarezerwuj parking",
-    "pg.readMore": "Czytaj więcej",
+    "pg.readMore": "Dowiedz się więcej",
     "pg.goodToKnow": "Warto wiedzieć:",
     "pg.inShort": "Wskazówka:",
     "hero.title": "Zarezerwuj parking<br>w Täsch w drodze do Zermatt",
@@ -1003,20 +1003,20 @@ const I18N = {
     "info.title": "Zaparkuj i jedź do Zermatt",
     "info.guarantee": "Do Zermatt nie wjeżdżają samochody. Zostaw auto w Matterhorn Terminal w Täsch i wsiądź do pociągu wahadłowego – kursuje mniej więcej co 20 minut i dociera do Zermatt w około 12 minut.",
     "info.process": "Zarezerwuj online w kilka kliknięć. Po płatności otrzymasz e-mail z potwierdzeniem rezerwacji. Twoja tablica rejestracyjna zapisuje się razem z rezerwacją, więc szlaban rozpoznaje ją po przyjeździe i otwiera się sam – bez biletu, który można zgubić.",
-    "info.extra": "Terminal ma około 2100 zadaszonych miejsc i 131 stacji ładowania. Podczas rezerwacji wybierz „Parking ze stacją ładowania”, aby zarezerwować miejsce z ładowarką dla swojego samochodu elektrycznego.",
+    "info.extra": "Terminal ma około 2100 zadaszonych miejsc i 131 stacji ładowania. Podczas rezerwacji wybierz „Parking ze stacją ładowania”, a dostaniesz miejsce z ładowarką dla swojego samochodu elektrycznego.",
     "adv.title": "Zalety",
     "adv.subtitle": "Wszystko, co zyskujesz, rezerwując u nas",
     "adv.covered.t": "Zadaszony parking",
     "adv.covered.d": "Zadaszone miejsce w wielopoziomowym terminalu – niezależnie od górskiej pogody.",
     "adv.plate.t": "Rozpoznawanie tablic",
-    "adv.plate.d": "Twoja tablica otwiera szlaban automatycznie – wjeżdżasz prosto, bez biletu.",
+    "adv.plate.d": "Twoja tablica otwiera szlaban automatycznie – wjeżdżasz od razu, bez biletu.",
     "adv.shuttle.t": "Pociąg do Zermatt",
     "adv.shuttle.d": "Pociąg do Zermatt odjeżdża prosto z terminalu, mniej więcej co 20 minut – bilety dodasz od razu do rezerwacji parkingu.",
     "adv.charge.t": "Ładowanie na miejscu",
     "adv.charge.d": "131 stacji ładowania dla aut elektrycznych – przy rezerwacji wybierz miejsce z ładowarką.",
     "weather.title": "Pogoda w Zermatt",
     "weather.subtitle": "Twoja 7-dniowa prognoza dla Zermatt (1608 m)",
-    "footer.tagline": "Zarezerwuj miejsce w Matterhorn Terminal w Täsch – bezstresowa brama do wolnego od samochodów Zermatt.",
+    "footer.tagline": "Zarezerwuj miejsce w Matterhorn Terminal w Täsch – wygodny początek podróży do Zermatt, gdzie nie ma samochodów.",
     "footer.legal": "© 2026 Täsch Parking",
     "footer.l.charging": "Pojazdy elektryczne",
     "footer.l.train": "Dojazd do Zermatt",
@@ -1043,9 +1043,9 @@ const I18N = {
     "gh.car.d": "Dojedź do Täsch drogą dolinną, zaparkuj w zadaszonym terminalu i wsiądź do pociągu. Trasa i ograniczenie wysokości.",
     "gh.charging.d": "131 stacji ładowania przy terminalu. Zarezerwuj miejsce z ładowarką i ładuj auto, gdy jesteś w Zermatt.",
     "gh.train.d": "Pociąg wahadłowy łączy Täsch i Zermatt w około 12 minut i kursuje mniej więcej co 20 minut. Bilety dodasz do rezerwacji parkingu albo kupisz w terminalu.",
-    "gh.reduced.d": "Miejsca dostępne blisko wind i bezprogowy dostęp do peronu pociągu wahadłowego.",
+    "gh.reduced.d": "Miejsca dla osób z niepełnosprawnością blisko wind i dostęp na peron bez schodów.",
     "car.h1": "Przyjazd samochodem",
-    "car.lead": "Jak dojechać do Matterhorn Terminal w Täsch i gdzie zostawić samochód do Zermatt.",
+    "car.lead": "Jak dojechać do Matterhorn Terminal w Täsch i gdzie zostawić samochód, jadąc do Zermatt.",
     "car.p1": "Do Zermatt nie wjeżdżają samochody, więc każda podróż autem pod Matterhorn kończy się w Täsch. Z doliny Rodanu jedziesz drogą kantonalną w górę przez Visp, St. Niklaus i Randę; Matterhorn Terminal znajduje się tuż obok dworca w Täsch, na końcu drogi dolinnej. Ustaw nawigację na „Matterhorn Terminal Täsch”, a poprowadzi Cię prosto do wjazdu.",
     "car.h2a": "Parkowanie przy terminalu",
     "car.p2": "Terminal to zadaszony, wielopoziomowy parking na około 2100 miejsc. Przy rezerwacji online zapisywana jest Twoja tablica, więc szlaban otwiera się automatycznie po przyjeździe i jedziesz prosto na miejsce – bez papierowego biletu do przechowywania. Wybierz „Parking” dla zwykłego miejsca lub „Parking ze stacją ładowania”, jeśli auto ma się ładować.",
@@ -1053,7 +1053,7 @@ const I18N = {
     "car.h2b": "Ograniczenie wysokości",
     "car.p3": "Maksymalna wysokość pojazdu to 2,30 m – wystarczy dla zwykłych aut, kombi i większości SUV-ów bez boksu dachowego. Wyższe pojazdy, np. kampery, nie wjadą na zadaszony parking.",
     "car.h2c": "Z auta do Zermatt",
-    "car.p4": "Peron pociągu wahadłowego znajduje się dwie minuty spacerem od parkingu. Pociągi do Zermatt odjeżdżają mniej więcej co 20 minut, a przejazd trwa około 12 minut; z terminalu zabierają pasażerów także taksówki i elektryczne transfery hotelowe.",
+    "car.p4": "Peron pociągu wahadłowego znajduje się dwie minuty spacerem od parkingu. Pociągi do Zermatt odjeżdżają mniej więcej co 20 minut, a przejazd trwa około 12 minut; z terminalu zabierają pasażerów także taksówki i hotelowe pojazdy elektryczne.",
     "car.f1k": "Parking",
     "car.f1v": "Matterhorn Terminal, Täsch",
     "car.f2k": "Miejsca",
@@ -1066,12 +1066,12 @@ const I18N = {
     "chg.lead": "Ładowanie samochodu elektrycznego podczas wizyty w Zermatt i jak zarezerwować miejsce z ładowarką.",
     "chg.p1": "Matterhorn Terminal to jedno z największych miejsc ładowania w Alpach, ze 131 stacjami wbudowanymi w zadaszony parking. Stacje zapewniają do 22 kW (AC) ze stałym kablem i wtyczką Type 2, więc większość aut elektrycznych ładuje się wygodnie, gdy jesteś w Zermatt.",
     "chg.h2a": "Rezerwacja miejsca z ładowarką",
-    "chg.p2": "Podczas rezerwacji wybierz „Parking ze stacją ładowania” zamiast zwykłego parkingu. Rezerwuje to miejsce obok ładowarki na cały pobyt, więc po przyjeździe nie musisz szukać wolnego stanowiska.",
+    "chg.p2": "Podczas rezerwacji wybierz „Parking ze stacją ładowania” zamiast zwykłego parkingu. Dzięki temu na cały pobyt masz zarezerwowane miejsce obok ładowarki i po przyjeździe nie musisz szukać wolnego stanowiska.",
     "chg.callout": "wybierz „Parking ze stacją ładowania” w pierwszym kroku formularza, a ładowarka w wybranych dniach będzie na Ciebie czekać.",
     "chg.h2b": "Płatność za energię",
     "chg.p3": "Rezerwacja obejmuje miejsce parkingowe i miejsce z ładowarką. Faktycznie pobrana energia jest rozliczana osobno przy stacji kodem QR – akceptowane są karta kredytowa, TWINT, Apple Pay i Google Pay – więc płacisz tylko za prąd, który zużyjesz.",
     "chg.f1k": "Stacje",
-    "chg.f1v": "131, w parkingu",
+    "chg.f1v": "131, na parkingu",
     "chg.f2k": "Moc",
     "chg.f2v": "do 22 kW AC, Type 2",
     "chg.f3k": "Rezerwacja",
@@ -1082,7 +1082,7 @@ const I18N = {
     "trn.lead": "Jak pociąg wahadłowy łączy Täsch z Zermatt, gdzie nie ma samochodów.",
     "trn.p1": "Ponieważ w Zermatt obowiązuje zakaz ruchu samochodów spalinowych, ostatni odcinek pokonasz koleją. Pociąg wahadłowy kursuje między Täsch a Zermatt od wczesnego ranka do późnego wieczora, mniej więcej co 20 minut, i pokonuje trasę w około 12 minut.",
     "trn.h2a": "Bilety i peron",
-    "trn.p2": "Peron znajduje się tuż obok parkingu – bez przechodzenia przez ulicę, z windami i pochylniami. Najprościej dodać bilety na pociąg do rezerwacji parkingu; możesz je też kupić w automatach w terminalu lub w aplikacji kolejowej.",
+    "trn.p2": "Peron znajduje się tuż obok parkingu – bez przechodzenia przez ulicę, z windami i pochylniami prowadzącymi na perony. Najprościej dodać bilety na pociąg do rezerwacji parkingu; możesz je też kupić w automatach w terminalu lub w aplikacji kolejowej.",
     "trn.callout": "dodaj bilety na Zermatt Shuttle w tym samym formularzu, w którym rezerwujesz parking – albo kup je później w automatach w terminalu.",
     "trn.h2b": "Bagaż i dalsza podróż",
     "trn.p3": "Na obu peronach są wózki bagażowe, a wiele hoteli w Zermatt wysyła elektryczną taksówkę po przyjeżdżających gości. W szczycie sezonu, gdy pociągi i perony są zatłoczone, zaplanuj trochę zapasu czasu.",
@@ -1095,22 +1095,22 @@ const I18N = {
     "trn.f4k": "Bilety",
     "trn.f4v": "Online lub w terminalu",
     "red.h1": "Ograniczona mobilność i dostępność",
-    "red.lead": "Dostępny parking przy terminalu i bezprogowy dostęp do pociągu wahadłowego.",
+    "red.lead": "Dostępny parking przy terminalu i wejście do pociągu bez schodów.",
     "red.p1": "Matterhorn Terminal zaprojektowano bez progów i schodów. Dostępne miejsca parkingowe znajdują się blisko wind, które zawożą Cię prosto na peron pociągu wahadłowego.",
     "red.h2a": "Parkowanie blisko wind",
-    "red.p2": "Zarezerwuj online zwykłe miejsce w standardowy sposób; jeśli masz kartę parkingową dla osób z niepełnosprawnością, po przyjeździe zaparkuj na oznaczonym miejscu dla osób z niepełnosprawnością przy windach. Dzięki rozpoznawaniu tablic nie musisz sięgać z auta do żadnego automatu.",
+    "red.p2": "Zarezerwuj zwykłe miejsce online jak zawsze; jeśli masz kartę parkingową dla osób z niepełnosprawnością, po przyjeździe zaparkuj na oznaczonym miejscu przy windach. Dzięki rozpoznawaniu tablic nie musisz sięgać z auta do żadnego automatu.",
     "red.h2b": "Do pociągu i do Zermatt",
     "red.p3": "Windy i pochylnie łączą parking z peronem, a pociągi wahadłowe zabierają wózki inwalidzkie. W Zermatt można zamówić elektryczną taksówkę do hotelu. Zabierz to, czego potrzebujesz, żeby przesiadka przebiegła sprawnie:",
     "red.li1": "Potwierdzenie parkingu (powiązane z Twoją tablicą)",
-    "red.li2": "Ważną kartę parkingową dla osób z niepełnosprawnością na miejsca dostępne",
+    "red.li2": "Ważną kartę parkingową dla osób z niepełnosprawnością",
     "red.f1k": "Dostęp",
-    "red.f1v": "Bezprogowo, windy na peron",
+    "red.f1v": "Bez schodów, windy na peron",
     "red.f2k": "Miejsca",
     "red.f2v": "Dostępne miejsca przy windach",
     "red.f3k": "Pociąg",
     "red.f3v": "Pociąg dostępny dla wózków",
     "red.f4k": "Zabierz",
-    "red.f4v": "Potwierdzenie + karta niepełnosprawności",
+    "red.f4v": "Potwierdzenie + karta parkingowa",
     "book.cardTitle": "Zarezerwuj miejsce w Täsch",
     "book.arrivalDate": "Data przyjazdu",
     "book.departureDate": "Data wyjazdu",
@@ -1155,7 +1155,7 @@ const I18N = {
     "book.msgIncomplete": "Te rugăm să completezi toate câmpurile obligatorii.",
     "pg.nav.home": "Acasă",
     "pg.nav.book": "Rezervă parcarea",
-    "pg.backLink": "Înapoi la toate modalitățile de sosire",
+    "pg.backLink": "Înapoi la informații parcare",
     "pg.keyFacts": "Pe scurt",
     "pg.ctaBook": "Rezervă-ți parcarea",
     "pg.readMore": "Citește mai mult",
@@ -1317,7 +1317,7 @@ const I18N = {
     "book.msgIncomplete": "Vyplňte prosím všechna povinná pole.",
     "pg.nav.home": "Domů",
     "pg.nav.book": "Rezervovat parkování",
-    "pg.backLink": "Zpět na všechny způsoby příjezdu",
+    "pg.backLink": "Zpět na informace o parkování",
     "pg.keyFacts": "Ve zkratce",
     "pg.ctaBook": "Rezervujte si parkování",
     "pg.readMore": "Číst dále",
@@ -1480,7 +1480,7 @@ const I18N = {
     "book.msgIncomplete": "Vul alle verplichte velden in.",
     "pg.nav.home": "Home",
     "pg.nav.book": "Parkeerplaats boeken",
-    "pg.backLink": "Terug naar alle aankomstopties",
+    "pg.backLink": "Terug naar de parkeerinformatie",
     "pg.keyFacts": "Kort samengevat",
     "pg.ctaBook": "Reserveer je parkeerplaats",
     "pg.readMore": "Lees meer",
@@ -1641,7 +1641,7 @@ const I18N = {
     "book.msgIncomplete": "Izpolnite vsa obvezna polja.",
     "pg.nav.home": "Domov",
     "pg.nav.book": "Rezerviraj parkiranje",
-    "pg.backLink": "Nazaj na vse načine prihoda",
+    "pg.backLink": "Nazaj na informacije o parkiranju",
     "pg.keyFacts": "Na kratko",
     "pg.ctaBook": "Rezervirajte parkiranje",
     "pg.readMore": "Preberite več",
@@ -1804,7 +1804,7 @@ const I18N = {
     "book.msgIncomplete": "Preencha todos os campos obrigatórios.",
     "pg.nav.home": "Início",
     "pg.nav.book": "Reservar estacionamento",
-    "pg.backLink": "Voltar a todas as formas de chegada",
+    "pg.backLink": "Voltar às info de estacionamento",
     "pg.keyFacts": "Dados essenciais",
     "pg.ctaBook": "Reserve o seu estacionamento",
     "pg.readMore": "Saber mais",
@@ -1965,7 +1965,7 @@ const I18N = {
     "book.msgIncomplete": "Ispunite sva obvezna polja.",
     "pg.nav.home": "Početna",
     "pg.nav.book": "Rezerviraj parkiranje",
-    "pg.backLink": "Natrag na sve načine dolaska",
+    "pg.backLink": "Natrag na informacije o parkingu",
     "pg.keyFacts": "Ukratko",
     "pg.ctaBook": "Rezervirajte parkiranje",
     "pg.readMore": "Pročitaj više",
@@ -2127,7 +2127,7 @@ const I18N = {
     "book.msgIncomplete": "Vyplňte prosím všetky povinné polia.",
     "pg.nav.home": "Domov",
     "pg.nav.book": "Rezervovať parkovanie",
-    "pg.backLink": "Späť na všetky spôsoby príchodu",
+    "pg.backLink": "Späť na informácie o parkovaní",
     "pg.keyFacts": "V skratke",
     "pg.ctaBook": "Rezervujte si parkovanie",
     "pg.readMore": "Čítať ďalej",
@@ -2290,7 +2290,7 @@ const I18N = {
     "book.msgIncomplete": "Popunite sva obavezna polja.",
     "pg.nav.home": "Početna",
     "pg.nav.book": "Rezerviši parking",
-    "pg.backLink": "Nazad na sve načine dolaska",
+    "pg.backLink": "Nazad na informacije o parkingu",
     "pg.keyFacts": "Ukratko",
     "pg.ctaBook": "Rezervišite parking",
     "pg.readMore": "Pročitaj više",
@@ -2452,7 +2452,7 @@ const I18N = {
     "book.msgIncomplete": "Будь ласка, заповніть усі обов'язкові поля.",
     "pg.nav.home": "Головна",
     "pg.nav.book": "Забронювати паркування",
-    "pg.backLink": "Назад до всіх способів прибуття",
+    "pg.backLink": "Назад до інформації про паркування",
     "pg.keyFacts": "Коротко про головне",
     "pg.ctaBook": "Забронюйте паркування",
     "pg.readMore": "Докладніше",
@@ -2594,7 +2594,7 @@ const I18N = {
     "nav.parking": "Информация о парковке",
     "weather.today": "Сегодня",
     "weather.loading": "Загружаем последний прогноз…",
-    "weather.error": "Не удалось загрузить прогноз. Попробуйте, пожалуйста, позже.",
+    "weather.error": "Не удалось загрузить прогноз. Пожалуйста, попробуйте позже.",
     "weather.source": "Прогноз от Open-Meteo",
     "footer.links": "Информация о парковке",
     "footer.l.car": "На автомобиле",
@@ -2608,23 +2608,23 @@ const I18N = {
     "book.pay": "Оплатить и забронировать",
     "book.back": "Назад",
     "book.continue": "Далее",
-    "book.orderSummary": "Детали бронирования",
+    "book.orderSummary": "Ваше бронирование",
     "book.totalDue": "Итого к оплате",
     "book.serviceError": "Сервис недоступен",
-    "book.serviceErrorMsg": "Платёжный сервис временно недоступен. Попробуйте, пожалуйста, позже.",
+    "book.serviceErrorMsg": "Платёжный сервис временно недоступен. Пожалуйста, попробуйте позже.",
     "book.msgIncomplete": "Пожалуйста, заполните все обязательные поля.",
     "pg.nav.home": "Главная",
     "pg.nav.book": "Забронировать парковку",
-    "pg.backLink": "Ко всем способам добраться",
+    "pg.backLink": "Назад к информации о парковке",
     "pg.keyFacts": "Коротко о главном",
     "pg.ctaBook": "Забронировать парковку",
     "pg.readMore": "Подробнее",
     "pg.goodToKnow": "Полезно знать:",
     "pg.inShort": "Совет:",
-    "hero.title": "Забронируйте парковку<br>в Täsch для Zermatt",
+    "hero.title": "Забронируйте парковку<br>в Täsch по пути в Zermatt",
     "hero.subtitle": "Забронируйте место в Matterhorn Terminal в Täsch — а до Zermatt, где нет машин, довезёт поезд-шаттл.",
-    "info.title": "Паркуйтесь и езжайте в Zermatt",
-    "info.guarantee": "Zermatt закрыт для автомобилей. Оставьте машину в Matterhorn Terminal в Täsch и пересядьте на поезд — он ходит примерно каждые 20 минут и доезжает до Zermatt примерно за 12 минут.",
+    "info.title": "Оставьте машину и езжайте в Zermatt",
+    "info.guarantee": "Zermatt закрыт для автомобилей. Оставьте машину в Matterhorn Terminal в Täsch и пересядьте на поезд — он ходит примерно каждые 20 минут и довозит до Zermatt за 12 минут.",
     "info.process": "Бронируйте онлайн в несколько кликов. После оплаты вы получите письмо с подтверждением. Номер машины привязывается к брони: шлагбаум узнает его на въезде и откроется сам — никаких талонов, которые можно потерять.",
     "info.extra": "В терминале около 2 100 крытых мест и 131 зарядная станция. При бронировании выберите «Паркинг с зарядной станцией» — и получите место с зарядкой для электромобиля.",
     "adv.title": "Преимущества",
@@ -2672,14 +2672,14 @@ const I18N = {
     "gh.banner": "Zermatt закрыт для автомобилей. Каждая машина останавливается в Täsch: паркуйтесь в Matterhorn Terminal и продолжайте путь на поезде или такси.",
     "gh.car.d": "Доезжайте до Täsch по дороге вдоль долины, оставляйте машину в крытом паркинге терминала и садитесь на поезд. Маршрут и ограничение по высоте.",
     "gh.charging.d": "131 зарядная станция в терминале. Забронируйте место с зарядной станцией и заряжайте автомобиль, пока вы в Zermatt.",
-    "gh.train.d": "Поезд-шаттл связывает Täsch и Zermatt примерно за 12 минут и ходит примерно каждые 20 минут. Добавьте билеты прямо к брони парковки или купите их в терминале.",
+    "gh.train.d": "Поезд-шаттл довозит из Täsch в Zermatt примерно за 12 минут и ходит каждые 20 минут. Билеты можно добавить к брони парковки или купить в терминале.",
     "gh.reduced.d": "Доступные места рядом с лифтами и безбарьерный доступ к платформе поезда-шаттла.",
     "car.h1": "Прибытие на автомобиле",
     "car.lead": "Как доехать до Matterhorn Terminal в Täsch и где оставить машину на время поездки в Zermatt.",
     "car.p1": "Zermatt закрыт для автомобилей, поэтому любая поездка на машине к Маттерхорну заканчивается в Täsch. Из долины Роны дорога идёт по кантональной трассе через Visp, St. Niklaus и Randa; Matterhorn Terminal находится прямо у станции Täsch, в конце дороги вдоль долины. Задайте в навигаторе «Matterhorn Terminal Täsch» — и он приведёт вас прямо ко въезду.",
-    "car.h2a": "Парковка на терминале",
-    "car.p2": "Терминал — это крытый многоуровневый паркинг примерно на 2 100 мест. При онлайн-бронировании сохраняется номер вашего автомобиля, поэтому по прибытии шлагбаум откроется автоматически и вы сразу проедете к месту — бумажный билет не нужен. Выберите «Паркинг» для обычного места или «Паркинг с зарядной станцией», если автомобиль нужно зарядить.",
-    "car.callout": "бронируйте онлайн заранее. Шлагбаум распознаёт ваш номер, поэтому на въезде и выезде не придётся платить в автоматах.",
+    "car.h2a": "Парковка в терминале",
+    "car.p2": "Терминал — это крытый многоуровневый паркинг примерно на 2 100 мест. При онлайн-бронировании сохраняется номер вашего автомобиля, поэтому по прибытии шлагбаум откроется автоматически и вы сразу проедете к месту — бумажный талон не нужен. Выберите «Паркинг» для обычного места или «Паркинг с зарядной станцией», если автомобиль нужно зарядить.",
+    "car.callout": "бронируйте онлайн заранее. Шлагбаум распознаёт ваш номер, поэтому на въезде и выезде не нужно останавливаться у автоматов оплаты.",
     "car.h2b": "Ограничение по высоте",
     "car.p3": "Максимальная высота автомобиля — 2,30 м: этого достаточно для обычных легковых машин, универсалов и большинства внедорожников без бокса на крыше. Более высокие автомобили, например автодома, в крытый паркинг не заедут.",
     "car.h2c": "От машины до Zermatt",
@@ -2687,11 +2687,11 @@ const I18N = {
     "car.f1k": "Паркинг",
     "car.f1v": "Matterhorn Terminal, Täsch",
     "car.f2k": "Места",
-    "car.f2v": "≈ 2100, крытые",
+    "car.f2v": "≈ 2 100, крытые",
     "car.f3k": "Макс. высота",
     "car.f3v": "2,30 м",
     "car.f4k": "До Zermatt",
-    "car.f4v": "Поезд, ≈ 12 мин",
+    "car.f4v": "Поезд-шаттл, ≈ 12 мин",
     "chg.h1": "Электромобили и зарядка",
     "chg.lead": "Зарядка электромобиля во время поездки в Zermatt и как забронировать место с зарядкой.",
     "chg.p1": "Matterhorn Terminal — один из крупнейших пунктов зарядки в Альпах: 131 зарядная станция встроена прямо в крытый паркинг. Станции выдают до 22 кВт (AC) через фиксированный кабель с разъёмом Type 2, поэтому большинство электромобилей спокойно заряжаются, пока вы наверху, в Zermatt.",
@@ -2710,12 +2710,12 @@ const I18N = {
     "chg.f4v": "Оплата на станции по QR-коду",
     "trn.h1": "Как добраться до Zermatt",
     "trn.lead": "Как поезд-шаттл связывает Täsch и Zermatt, где нет машин.",
-    "trn.p1": "Поскольку в Zermatt запрещены автомобили с двигателем внутреннего сгорания, последний участок пути нужно проехать по железной дороге. Поезд-шаттл курсирует между Täsch и Zermatt с раннего утра до позднего вечера примерно каждые 20 минут и преодолевает расстояние примерно за 12 минут.",
+    "trn.p1": "Поскольку в Zermatt запрещены автомобили с двигателем внутреннего сгорания, последний отрезок пути вы проедете на поезде. Поезд-шаттл курсирует между Täsch и Zermatt с раннего утра до позднего вечера — примерно каждые 20 минут, дорога занимает около 12 минут.",
     "trn.h2a": "Билеты и платформа",
     "trn.p2": "Платформа находится прямо рядом с паркингом — не нужно переходить дорогу, к путям ведут лифты и пандусы. Проще всего добавить билеты на шаттл сразу к брони парковки; купить их можно и в автоматах в терминале, и в приложении железной дороги.",
     "trn.callout": "добавьте билеты на Zermatt Shuttle в той же форме, где бронируете парковку, — или купите их позже в автоматах в терминале.",
     "trn.h2b": "Багаж и дальнейший путь",
-    "trn.p3": "На обеих платформах есть тележки для багажа, а многие отели Zermatt присылают электротакси встречать гостей на вокзале в Zermatt. В высокий сезон закладывайте немного больше времени — поезда и платформы бывают загружены.",
+    "trn.p3": "На обеих платформах есть тележки для багажа, а многие отели присылают электротакси встречать гостей на вокзале в Zermatt. В высокий сезон закладывайте немного больше времени — поезда и платформы бывают загружены.",
     "trn.f1k": "Линия",
     "trn.f1v": "Шаттл Täsch ⇄ Zermatt",
     "trn.f2k": "Частота",
@@ -2723,12 +2723,12 @@ const I18N = {
     "trn.f3k": "В пути",
     "trn.f3v": "≈ 12 мин",
     "trn.f4k": "Билеты",
-    "trn.f4v": "Онлайн или на терминале",
+    "trn.f4v": "Онлайн или в терминале",
     "red.h1": "Гостям с ограниченной мобильностью",
-    "red.lead": "Доступная парковка на терминале и безбарьерный доступ к поезду-шаттлу.",
+    "red.lead": "Доступная парковка в терминале и безбарьерный доступ к поезду-шаттлу.",
     "red.p1": "Matterhorn Terminal спроектирован без ступеней. Доступные парковочные места расположены рядом с лифтами, которые без лестниц довезут вас прямо до платформы поезда-шаттла.",
     "red.h2a": "Парковка рядом с лифтами",
-    "red.p2": "Бронируйте стандартное место онлайн, как обычно; если у вас есть парковочное удостоверение для людей с инвалидностью, по приезде паркуйтесь на размеченном месте для людей с инвалидностью у лифтов. Благодаря распознаванию номеров не нужно тянуться из машины к автомату.",
+    "red.p2": "Бронируйте стандартное место онлайн, как обычно; если у вас есть парковочное удостоверение для людей с инвалидностью, по приезде паркуйтесь на размеченном месте у лифтов. Благодаря распознаванию номеров не нужно тянуться из машины к автомату.",
     "red.h2b": "К поезду и в Zermatt",
     "red.p3": "Лифты и пандусы соединяют паркинг с платформой, а поезда-шаттлы принимают инвалидные коляски. В Zermatt можно заказать электротакси до отеля. Возьмите с собой всё необходимое для удобной пересадки:",
     "red.li1": "Подтверждение брони парковки (привязано к номеру автомобиля)",
@@ -2778,7 +2778,7 @@ const I18N = {
     "book.msgIncomplete": "Udfyld venligst alle obligatoriske felter.",
     "pg.nav.home": "Forside",
     "pg.nav.book": "Book parkering",
-    "pg.backLink": "Tilbage til alle ankomstmuligheder",
+    "pg.backLink": "Tilbage til parkeringsinfo",
     "pg.keyFacts": "Kort fortalt",
     "pg.ctaBook": "Book din parkering",
     "pg.readMore": "Læs mere",
@@ -2939,7 +2939,7 @@ const I18N = {
     "book.msgIncomplete": "Fyll ut alle obligatoriske felt.",
     "pg.nav.home": "Forsiden",
     "pg.nav.book": "Bestill parkering",
-    "pg.backLink": "Tilbake til alle ankomstmåter",
+    "pg.backLink": "Tilbake til parkeringsinfo",
     "pg.keyFacts": "Kort fortalt",
     "pg.ctaBook": "Bestill parkeringen din",
     "pg.readMore": "Les mer",
@@ -3100,7 +3100,7 @@ const I18N = {
     "book.msgIncomplete": "Lütfen tüm zorunlu alanları doldurun.",
     "pg.nav.home": "Ana sayfa",
     "pg.nav.book": "Otopark rezervasyonu",
-    "pg.backLink": "Tüm ulaşım seçeneklerine dön",
+    "pg.backLink": "Otopark bilgilerine dön",
     "pg.keyFacts": "Özet bilgiler",
     "pg.ctaBook": "Otoparkınızı ayırtın",
     "pg.readMore": "Devamını okuyun",
@@ -3261,7 +3261,7 @@ const I18N = {
     "book.msgIncomplete": "请填写所有必填项。",
     "pg.nav.home": "首页",
     "pg.nav.book": "预订停车位",
-    "pg.backLink": "返回所有到达方式",
+    "pg.backLink": "返回停车信息",
     "pg.keyFacts": "要点速览",
     "pg.ctaBook": "预订您的停车位",
     "pg.readMore": "了解更多",
@@ -3422,7 +3422,7 @@ const I18N = {
     "book.msgIncomplete": "必須項目をすべてご入力ください。",
     "pg.nav.home": "ホーム",
     "pg.nav.book": "駐車場を予約",
-    "pg.backLink": "すべてのアクセス方法に戻る",
+    "pg.backLink": "駐車案内に戻る",
     "pg.keyFacts": "要点",
     "pg.ctaBook": "駐車場を予約する",
     "pg.readMore": "詳しく見る",
@@ -3583,7 +3583,7 @@ const I18N = {
     "book.msgIncomplete": "필수 항목을 모두 입력해 주세요.",
     "pg.nav.home": "홈",
     "pg.nav.book": "주차 예약",
-    "pg.backLink": "모든 도착 방법으로 돌아가기",
+    "pg.backLink": "주차 안내로 돌아가기",
     "pg.keyFacts": "핵심 정보",
     "pg.ctaBook": "주차를 예약하세요",
     "pg.readMore": "자세히 보기",
@@ -3744,7 +3744,7 @@ const I18N = {
     "book.msgIncomplete": "कृपया सभी ज़रूरी फ़ील्ड भरें।",
     "pg.nav.home": "होम",
     "pg.nav.book": "पार्किंग बुक करें",
-    "pg.backLink": "सभी आगमन विकल्पों पर लौटें",
+    "pg.backLink": "पार्किंग जानकारी पर लौटें",
     "pg.keyFacts": "मुख्य बातें",
     "pg.ctaBook": "अपनी पार्किंग बुक करें",
     "pg.readMore": "और पढ़ें",
@@ -3905,7 +3905,7 @@ const I18N = {
     "book.msgIncomplete": "يرجى تعبئة جميع الحقول المطلوبة.",
     "pg.nav.home": "الرئيسية",
     "pg.nav.book": "حجز موقف",
-    "pg.backLink": "العودة إلى جميع طرق الوصول",
+    "pg.backLink": "العودة إلى معلومات المواقف",
     "pg.keyFacts": "معلومات أساسية",
     "pg.ctaBook": "احجز موقف سيارتك",
     "pg.readMore": "اقرأ المزيد",
@@ -4072,6 +4072,13 @@ function minDate() {
   d.setDate(d.getDate() + 1);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
+/* the booking window ends 12 months out — without an upper bound the calendar
+   pages forward for ever and a period in, say, 2099 counts as a valid booking */
+function maxDate() {
+  const d = new Date();
+  d.setFullYear(d.getFullYear() + 1);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 function validEmail(s) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(s || "").trim());
@@ -4207,8 +4214,8 @@ function loadState() {
         langExplicit = true;
       }
       booking = sanitizeBooking(state.booking);
-      // never allow a stored period that has slipped into the past
-      if (booking.start && booking.start < minDate()) { booking.start = ""; booking.end = ""; }
+      // a departure date without an arrival date can't be shown or priced
+      if (!booking.start) booking.end = "";
       if (booking.end && booking.end < booking.start) booking.end = "";
       bookStep = [1, 2, 3].includes(state.bookStep) ? state.bookStep : 1;
       // a later step may only be restored while everything before it is still valid
@@ -4238,6 +4245,7 @@ function applyI18n() {
   $$("[data-i18n-aria]").forEach((el) => el.setAttribute("aria-label", t(el.dataset.i18nAria)));
 
   if (weatherData) renderWeather();
+  else if (weatherFailed) renderWeatherError();   // the error text is translated too
   renderBooking();
   document.documentElement.lang = lang;
 }
@@ -4302,10 +4310,11 @@ function newBooking(seed) {
 function sanitizeBooking(raw) {
   const b = Object.assign(newBooking(), raw && typeof raw === "object" ? raw : {});
   const qty = (v) => Math.max(0, Math.min(TICKET_MAX, Math.floor(Number(v)) || 0));
+  const inWindow = (d) => ISO_DATE.test(d) && d >= minDate() && d <= maxDate();
   return {
     option: b.option === "charging" ? "charging" : "parking",
-    start: ISO_DATE.test(b.start) ? b.start : "",
-    end: ISO_DATE.test(b.end) ? b.end : "",
+    start: inWindow(b.start) ? b.start : "",
+    end: inWindow(b.end) ? b.end : "",
     plate: String(b.plate || "").slice(0, 32),
     tickets: !!b.tickets, tFull: qty(b.tFull), tHalf: qty(b.tHalf),
     email: String(b.email || "").slice(0, 254),
@@ -4374,7 +4383,8 @@ function plateLabel(b) {
   return (b.plate || "").trim().toUpperCase();
 }
 function validBooking(b) {
-  return !!b.start && !!b.end && b.start >= minDate() && b.end >= b.start && !!(b.plate && b.plate.trim());
+  return !!b.start && !!b.end && b.start >= minDate() && b.end >= b.start
+    && b.end <= maxDate() && !!(b.plate && b.plate.trim());
 }
 
 function stepsHTML(active) {
@@ -4401,6 +4411,7 @@ function dpRender(calEl, startISO, endISO) {
   const month = +calEl.dataset.dpMonth;
   const DOW = dowLabels();
   const min = minDate();
+  const max = maxDate();
   const monthLabel = new Date(year, month, 1)
     .toLocaleDateString(LOCALE[lang] || "en-GB", { month: "long", year: "numeric" });
   const firstDay = new Date(year, month, 1).getDay();
@@ -4411,7 +4422,7 @@ function dpRender(calEl, startISO, endISO) {
   for (let i = 0; i < offset; i++) cells += `<span class="bk-dp-empty"></span>`;
   for (let d = 1; d <= total; d++) {
     const iso = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-    const dis = iso < min;
+    const dis = iso < min || iso > max;
     if (dis) { cells += `<span class="bk-dp-cell is-dis">${d}</span>`; continue; }
     let cls = "bk-dp-cell";
     if (startISO && iso === startISO) cls += " is-sel is-start";
@@ -4422,11 +4433,14 @@ function dpRender(calEl, startISO, endISO) {
   }
 
   const hint = startISO && !endISO ? `<div class="bk-dp-hint">${t("book.selectEnd")}</div>` : "";
+  const ym = year * 12 + month;
+  const atFirst = ym <= +min.slice(0, 4) * 12 + (+min.slice(5, 7) - 1);
+  const atLast  = ym >= +max.slice(0, 4) * 12 + (+max.slice(5, 7) - 1);
   calEl.innerHTML = `
     <div class="bk-dp-head">
-      <button type="button" class="bk-dp-nav" data-role="dp-prev">&#8249;</button>
+      <button type="button" class="bk-dp-nav" data-role="dp-prev"${atFirst ? " disabled" : ""}>&#8249;</button>
       <span class="bk-dp-mth">${monthLabel}</span>
-      <button type="button" class="bk-dp-nav" data-role="dp-next">&#8250;</button>
+      <button type="button" class="bk-dp-nav" data-role="dp-next"${atLast ? " disabled" : ""}>&#8250;</button>
     </div>
     <div class="bk-dp-grid">
       ${DOW.map((d) => `<span class="bk-dp-dow">${d}</span>`).join("")}
@@ -4436,7 +4450,8 @@ function dpRender(calEl, startISO, endISO) {
 
 function dpOpen(calEl, startISO, endISO) {
   const min = minDate();
-  const ref = startISO && startISO >= min ? startISO : min;
+  const max = maxDate();
+  const ref = startISO && startISO >= min && startISO <= max ? startISO : min;
   const d = new Date(ref + "T00:00:00");
   calEl.dataset.dpYear  = d.getFullYear();
   calEl.dataset.dpMonth = d.getMonth();
@@ -4482,7 +4497,7 @@ function ticketStepper(kind, qty) {
   return `<span class="bk-stepper">
     <button type="button" class="bk-step-btn" data-role="tq-dec" data-kind="${kind}" aria-label="${t("ui.decrease")}"${qty <= 0 ? " disabled" : ""}>&minus;</button>
     <span class="bk-step-qty">${qty}</span>
-    <button type="button" class="bk-step-btn" data-role="tq-inc" data-kind="${kind}" aria-label="${t("ui.increase")}">+</button>
+    <button type="button" class="bk-step-btn" data-role="tq-inc" data-kind="${kind}" aria-label="${t("ui.increase")}"${qty >= TICKET_MAX ? " disabled" : ""}>+</button>
   </span>`;
 }
 function ticketsBlockHTML(b) {
@@ -4509,12 +4524,14 @@ function ticketsBlockHTML(b) {
 
 /* step 1 — glass booking card (Arrival / Departure / Option / Plate) */
 function bookingFieldsHTML(b) {
+  // quote the rate that will actually be charged, so the button and the total agree
+  const rate = (opt) => ratePerDay(opt, stayDays(b));
   const optBtn = (opt, sub) => {
     const active = b.option === opt ? " is-active" : "";
     return `<button type="button" class="bk-opt${active}" data-role="opt" data-opt="${opt}" aria-pressed="${b.option === opt}">
       <span class="bk-opt-check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
       <span class="bk-opt-body"><span class="bk-opt-name">${optionName(opt)}</span><span class="bk-opt-sub">${sub}</span></span>
-      <span class="bk-opt-price">${money(PRICE[opt].base)}<small>/${t("book.perDay")}</small></span>
+      <span class="bk-opt-price">${money(rate(opt))}<small>/${t("book.perDay")}</small></span>
     </button>`;
   };
   return `<div class="bk-vehicle" data-index="0">
@@ -4729,10 +4746,13 @@ function onBookingClick(e) {
     const cal  = wrap.querySelector('[data-role="dp-cal"]');
     if (cal.hidden) {
       dpOpen(cal, booking.start, booking.end);
-      setTimeout(() => {
-        const close = (ev) => { if (!wrap.contains(ev.target)) { cal.hidden = true; document.removeEventListener("click", close, true); } };
-        document.addEventListener("click", close, true);
-      }, 0);
+      // one outside-click listener per open calendar, dropped again however it closes
+      const close = (ev) => { if (!ev || !wrap.contains(ev.target)) hide(); };
+      const hide = () => { cal.hidden = true; cal._dpClose = null; document.removeEventListener("click", close, true); };
+      cal._dpClose = hide;
+      setTimeout(() => document.addEventListener("click", close, true), 0);
+    } else if (cal._dpClose) {
+      cal._dpClose();
     } else {
       cal.hidden = true;
     }
@@ -4821,6 +4841,7 @@ const WEATHER_URL =
   "&timezone=Europe%2FZurich&forecast_days=7";
 
 let weatherData = null;
+let weatherFailed = false;
 
 const WEATHER_SVG = {
   sun: '<svg viewBox="0 0 24 24" fill="none" stroke="#e3a52f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.6v2.3M12 19.1v2.3M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.6 12h2.3M19.1 12h2.3M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>',
@@ -4852,11 +4873,18 @@ async function loadWeather() {
     const res = await fetch(WEATHER_URL);
     if (!res.ok) throw new Error("HTTP " + res.status);
     weatherData = (await res.json()).daily;
+    weatherFailed = false;
     renderWeather();
   } catch (e) {
     weatherData = null;
-    grid.innerHTML = '<p class="weather-msg">' + t("weather.error") + "</p>";
+    weatherFailed = true;
+    renderWeatherError();
   }
+}
+
+function renderWeatherError() {
+  const grid = document.querySelector("#weatherGrid");
+  if (grid) grid.innerHTML = '<p class="weather-msg">' + t("weather.error") + "</p>";
 }
 
 function renderWeather() {
@@ -4897,18 +4925,19 @@ function toast(msg) {
 /* ---------- send booking to email ---------- */
 async function sendBookingEmail() {
   const b = booking;
+  const email = String(b.email || "").trim();
   const days = stayDays(b);
   const total = bookingTotal(b);
 
   const formData = new FormData();
   formData.append("_to", "cat.web@mail.ru");
-  formData.append("_subject", `New Täsch Parking Booking - ${b.email}`);
+  formData.append("_subject", `New Täsch Parking Booking - ${email}`);
   formData.append("_captcha", "false");
 
   const message = `BOOKING REQUEST — Täsch Parking
 
 Contact:
-- E-mail: ${b.email}
+- E-mail: ${email}
 
 Parking:
 - Option: ${optionName(b.option, "en")}
@@ -4964,7 +4993,16 @@ function showServiceError() {
   const openedAt = Date.now();
   const closeBtn = modal.querySelector(".modal-close");
   const backBtn = modal.querySelector(".modal-btn");
-  const onKey = (e) => { if (e.key === "Escape") close(); };
+  // aria-modal only describes the dialog; Tab has to be kept inside it as well
+  const onKey = (e) => {
+    if (e.key === "Escape") { close(); return; }
+    if (e.key !== "Tab") return;
+    const stops = [closeBtn, backBtn];
+    const first = stops[0], last = stops[stops.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    else if (!modal.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+  };
   const close = () => {
     modal.remove();
     document.removeEventListener("keydown", onKey);
@@ -5003,8 +5041,8 @@ function init() {
 
   syncLangUI();
   applyI18n();
+  syncLangUrl();   // before applyMeta: the canonical is built from the ?lang= in the URL
   applyMeta();
-  syncLangUrl();
   loadWeather();
   initBooking();
   lockHeroPhoto();
