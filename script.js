@@ -15,7 +15,6 @@ const I18N = {
     "book.platePlaceholder": "Enter your licence plate",
     "book.email": "Email",
     "book.emailPh": "Enter your email address",
-    "book.terms": "I have read and accept the terms and conditions.",
     "book.pay": "Pay & Book",
     "book.back": "Back",
     "book.continue": "Continue",
@@ -160,7 +159,33 @@ const I18N = {
     "ui.decrease": "Decrease",
     "ui.increase": "Increase",
     "ui.mainNav": "Main menu",
-    "ui.homeLink": "Täsch Parking — home page"
+    "ui.homeLink": "Täsch Parking — home page",
+    "legal.heading": "Legal",
+    "legal.terms": "Terms of Service",
+    "legal.privacy": "Privacy Policy",
+    "legal.refund": "Refund policy",
+    "legal.cancel": "Cancel subscription",
+    "sub.acceptTerms": "I accept the <terms>Terms of Service</terms> and the <privacy>Privacy Policy</privacy>.",
+    "sub.needTerms": "Please accept the Terms of Service and the Privacy Policy.",
+    "sub.orderNo": "Order no.",
+    "cancel.lead": "You can cancel your subscription anytime, with no notice period. After you cancel, no further renewals are charged.",
+    "cancel.formH": "Request cancellation",
+    "cancel.formLead": "Fill in the form below. We usually process requests within 1–2 business days and confirm by email.",
+    "cancel.email": "Email you used to book",
+    "cancel.order": "Order number (optional)",
+    "cancel.submit": "Send cancellation request",
+    "cancel.alt": "You can also email {email} from the address you used to book. Please include your order number if you have it.",
+    "cancel.afterH": "What happens after you cancel",
+    "cancel.after1": "No further renewals are charged.",
+    "cancel.after2": "Bookings already confirmed stay valid. Payments already made are not refunded.",
+    "cancel.after3": "You can subscribe again whenever you need to.",
+    "cancel.done": "Thank you. Your cancellation request has been sent, and we'll confirm it by email.",
+    "cancel.fail": "We couldn't send your request. Please email {email}.",
+    "sub.footnote": "Charged {amount} today. Then: {renew} on the 1st of each month until you cancel. Includes one {n} × 24 h parking stay per paid month when booked at least 7 days before arrival. Cancel anytime: <cancel>Cancel subscription</cancel> or {email}.",
+    "legal.updated": "Updated",
+    "legal.termsDesc": "Terms for Täsch Parking bookings and the parking subscription: price, billing, cancellation and refunds.",
+    "legal.privacyDesc": "What personal data Täsch Parking collects for bookings and the subscription, why, who receives it and what your rights are.",
+    "legal.refundDesc": "When Täsch Parking refunds a payment: confirmed stays, the subscription, cancellations and payment errors."
   },
   "de": {
     "nav.parking": "Parkplatz-Infos",
@@ -176,7 +201,6 @@ const I18N = {
     "book.platePlaceholder": "Kennzeichen eingeben",
     "book.email": "E-Mail",
     "book.emailPh": "E-Mail-Adresse eingeben",
-    "book.terms": "Ich habe die AGB gelesen und akzeptiere sie.",
     "book.pay": "Bezahlen und buchen",
     "book.back": "Zurück",
     "book.continue": "Weiter",
@@ -321,7 +345,33 @@ const I18N = {
     "ui.decrease": "Weniger",
     "ui.increase": "Mehr",
     "ui.mainNav": "Hauptmenü",
-    "ui.homeLink": "Täsch Parking – Startseite"
+    "ui.homeLink": "Täsch Parking – Startseite",
+    "legal.heading": "Rechtliches",
+    "legal.terms": "Nutzungsbedingungen",
+    "legal.privacy": "Datenschutzerklärung",
+    "legal.refund": "Erstattungsrichtlinie",
+    "legal.cancel": "Abo kündigen",
+    "sub.acceptTerms": "Ich akzeptiere die <terms>Nutzungsbedingungen</terms> und die <privacy>Datenschutzerklärung</privacy>.",
+    "sub.needTerms": "Bitte akzeptieren Sie die Nutzungsbedingungen und die Datenschutzerklärung.",
+    "sub.orderNo": "Bestell-Nr.",
+    "cancel.lead": "Sie können Ihr Abo jederzeit kündigen, ohne Kündigungsfrist. Nach der Kündigung werden keine Verlängerungen mehr abgebucht.",
+    "cancel.formH": "Kündigung anfordern",
+    "cancel.formLead": "Füllen Sie das Formular unten aus. Wir bearbeiten Anfragen meist innerhalb von 1–2 Werktagen und bestätigen per E-Mail.",
+    "cancel.email": "E-Mail-Adresse der Buchung",
+    "cancel.order": "Bestellnummer (optional)",
+    "cancel.submit": "Kündigung senden",
+    "cancel.alt": "Sie können auch von der Adresse, mit der Sie gebucht haben, an {email} schreiben. Geben Sie bitte Ihre Bestellnummer an, falls Sie sie haben.",
+    "cancel.afterH": "Was nach der Kündigung passiert",
+    "cancel.after1": "Es werden keine Verlängerungen mehr abgebucht.",
+    "cancel.after2": "Bereits bestätigte Buchungen bleiben gültig. Bereits geleistete Zahlungen werden nicht erstattet.",
+    "cancel.after3": "Sie können jederzeit wieder ein Abo abschließen.",
+    "cancel.done": "Vielen Dank. Ihre Kündigung wurde gesendet, wir bestätigen sie per E-Mail.",
+    "cancel.fail": "Ihre Anfrage konnte nicht gesendet werden. Bitte schreiben Sie an {email}.",
+    "sub.footnote": "Heute werden {amount} belastet. Danach: {renew} am 1. jedes Monats, bis Sie kündigen. Jeder bezahlte Monat enthält einen Aufenthalt von {n} × 24 Std., wenn Sie ihn mindestens 7 Tage vor der Ankunft buchen. Jederzeit kündbar: <cancel>Abo kündigen</cancel> oder {email}.",
+    "legal.updated": "Aktualisiert am",
+    "legal.termsDesc": "Bedingungen für Buchungen bei Täsch Parking und das Park-Abo: Preis, Abrechnung, Kündigung und Erstattungen.",
+    "legal.privacyDesc": "Welche personenbezogenen Daten Täsch Parking für Buchungen und das Abo erhebt, wozu, wer sie erhält und welche Rechte Sie haben.",
+    "legal.refundDesc": "Wann Täsch Parking Zahlungen erstattet: bestätigte Aufenthalte, das Abo, Kündigungen und Zahlungsfehler."
   },
   "it": {
     "nav.parking": "Info parcheggio",
@@ -337,7 +387,6 @@ const I18N = {
     "book.platePlaceholder": "Inserisci la targa",
     "book.email": "E-mail",
     "book.emailPh": "Inserisci la tua email",
-    "book.terms": "Ho letto e accetto i termini e le condizioni.",
     "book.pay": "Paga e prenota",
     "book.back": "Indietro",
     "book.continue": "Continua",
@@ -482,7 +531,33 @@ const I18N = {
     "ui.decrease": "Diminuisci",
     "ui.increase": "Aumenta",
     "ui.mainNav": "Menu principale",
-    "ui.homeLink": "Täsch Parking – pagina iniziale"
+    "ui.homeLink": "Täsch Parking – pagina iniziale",
+    "legal.heading": "Note legali",
+    "legal.terms": "Termini di servizio",
+    "legal.privacy": "Informativa sulla privacy",
+    "legal.refund": "Politica di rimborso",
+    "legal.cancel": "Disdici l'abbonamento",
+    "sub.acceptTerms": "Accetto i <terms>Termini di servizio</terms> e l'<privacy>Informativa sulla privacy</privacy>.",
+    "sub.needTerms": "Accetta i Termini di servizio e l'Informativa sulla privacy.",
+    "sub.orderNo": "Ordine n.",
+    "cancel.lead": "Puoi disdire l'abbonamento quando vuoi, senza preavviso. Dopo la disdetta non ci sono più rinnovi.",
+    "cancel.formH": "Richiedi la disdetta",
+    "cancel.formLead": "Compila il modulo qui sotto. Di solito gestiamo le richieste entro 1–2 giorni lavorativi e confermiamo via email.",
+    "cancel.email": "Email usata per prenotare",
+    "cancel.order": "Numero d'ordine (facoltativo)",
+    "cancel.submit": "Invia la richiesta di disdetta",
+    "cancel.alt": "Puoi anche scrivere a {email} dall'indirizzo che hai usato per prenotare. Se ce l'hai, indica il numero d'ordine.",
+    "cancel.afterH": "Cosa succede dopo la disdetta",
+    "cancel.after1": "Nessun altro rinnovo verrà addebitato.",
+    "cancel.after2": "Le prenotazioni già confermate restano valide. I pagamenti già effettuati non vengono rimborsati.",
+    "cancel.after3": "Puoi abbonarti di nuovo quando vuoi.",
+    "cancel.done": "Grazie. La tua richiesta di disdetta è stata inviata e te la confermeremo via email.",
+    "cancel.fail": "Non siamo riusciti a inviare la richiesta. Scrivi a {email}.",
+    "sub.footnote": "Oggi ti addebitiamo {amount}. Poi: {renew} il 1° di ogni mese, finché non disdici. Ogni mese pagato include una sosta di {n} × 24 h, se la prenoti almeno 7 giorni prima dell'arrivo. Disdici quando vuoi: <cancel>Disdici l'abbonamento</cancel> oppure {email}.",
+    "legal.updated": "Aggiornato il",
+    "legal.termsDesc": "Condizioni per le prenotazioni Täsch Parking e l'abbonamento parcheggio: prezzo, addebiti, disdetta e rimborsi.",
+    "legal.privacyDesc": "Quali dati personali raccoglie Täsch Parking per le prenotazioni e l'abbonamento, perché, a chi li comunica e quali sono i tuoi diritti.",
+    "legal.refundDesc": "Quando Täsch Parking rimborsa un pagamento: soste confermate, abbonamento, disdetta ed errori di pagamento."
   },
   "fr": {
     "nav.parking": "Infos parking",
@@ -498,7 +573,6 @@ const I18N = {
     "book.platePlaceholder": "Saisissez votre plaque d'immatriculation",
     "book.email": "E-mail",
     "book.emailPh": "Saisissez votre adresse e-mail",
-    "book.terms": "J'ai lu et j'accepte les conditions générales.",
     "book.pay": "Payer et réserver",
     "book.back": "Retour",
     "book.continue": "Continuer",
@@ -643,7 +717,33 @@ const I18N = {
     "ui.decrease": "Diminuer",
     "ui.increase": "Augmenter",
     "ui.mainNav": "Menu principal",
-    "ui.homeLink": "Täsch Parking — accueil"
+    "ui.homeLink": "Täsch Parking — accueil",
+    "legal.heading": "Informations légales",
+    "legal.terms": "Conditions d'utilisation",
+    "legal.privacy": "Politique de confidentialité",
+    "legal.refund": "Politique de remboursement",
+    "legal.cancel": "Résilier l'abonnement",
+    "sub.acceptTerms": "J'accepte les <terms>Conditions d'utilisation</terms> et la <privacy>Politique de confidentialité</privacy>.",
+    "sub.needTerms": "Veuillez accepter les Conditions d'utilisation et la Politique de confidentialité.",
+    "sub.orderNo": "Commande n°",
+    "cancel.lead": "Vous pouvez résilier votre abonnement à tout moment, sans préavis. Après la résiliation, aucun renouvellement n'est prélevé.",
+    "cancel.formH": "Demander la résiliation",
+    "cancel.formLead": "Remplissez le formulaire ci-dessous. Nous traitons généralement les demandes sous 1 à 2 jours ouvrés et confirmons par e-mail.",
+    "cancel.email": "E-mail utilisé pour réserver",
+    "cancel.order": "Numéro de commande (facultatif)",
+    "cancel.submit": "Envoyer la demande de résiliation",
+    "cancel.alt": "Vous pouvez aussi écrire à {email} depuis l'adresse utilisée pour réserver. Indiquez votre numéro de commande si vous l'avez.",
+    "cancel.afterH": "Après la résiliation",
+    "cancel.after1": "Plus aucun renouvellement n'est prélevé.",
+    "cancel.after2": "Les réservations déjà confirmées restent valables. Les paiements déjà effectués ne sont pas remboursés.",
+    "cancel.after3": "Vous pouvez vous réabonner quand vous voulez.",
+    "cancel.done": "Merci. Votre demande de résiliation a bien été envoyée, nous la confirmerons par e-mail.",
+    "cancel.fail": "Votre demande n'a pas pu être envoyée. Écrivez-nous à {email}.",
+    "sub.footnote": "{amount} débités aujourd'hui. Ensuite : {renew} le 1er de chaque mois, jusqu'à la résiliation. Chaque mois payé inclut un séjour de {n} × 24 h, réservé au moins 7 jours avant l'arrivée. Résiliable à tout moment : <cancel>Résilier l'abonnement</cancel> ou {email}.",
+    "legal.updated": "Mis à jour le",
+    "legal.termsDesc": "Conditions des réservations Täsch Parking et de l'abonnement de stationnement : prix, prélèvements, résiliation et remboursements.",
+    "legal.privacyDesc": "Quelles données personnelles Täsch Parking collecte pour les réservations et l'abonnement, pourquoi, qui les reçoit et quels sont vos droits.",
+    "legal.refundDesc": "Quand Täsch Parking rembourse un paiement : séjours confirmés, abonnement, résiliation et erreurs de paiement."
   },
   "es": {
     "nav.parking": "Información del parking",
@@ -659,7 +759,6 @@ const I18N = {
     "book.platePlaceholder": "Introduce la matrícula",
     "book.email": "Correo electrónico",
     "book.emailPh": "Introduce tu correo electrónico",
-    "book.terms": "He leído y acepto las condiciones generales.",
     "book.pay": "Pagar y reservar",
     "book.back": "Atrás",
     "book.continue": "Continuar",
@@ -804,7 +903,33 @@ const I18N = {
     "ui.decrease": "Reducir",
     "ui.increase": "Aumentar",
     "ui.mainNav": "Menú principal",
-    "ui.homeLink": "Täsch Parking — inicio"
+    "ui.homeLink": "Täsch Parking — inicio",
+    "legal.heading": "Información legal",
+    "legal.terms": "Condiciones del servicio",
+    "legal.privacy": "Política de privacidad",
+    "legal.refund": "Política de reembolsos",
+    "legal.cancel": "Cancelar la suscripción",
+    "sub.acceptTerms": "Acepto las <terms>Condiciones del servicio</terms> y la <privacy>Política de privacidad</privacy>.",
+    "sub.needTerms": "Acepte las Condiciones del servicio y la Política de privacidad.",
+    "sub.orderNo": "Pedido n.º",
+    "cancel.lead": "Puede cancelar su suscripción cuando quiera, sin preaviso. Tras la cancelación no se cobran más renovaciones.",
+    "cancel.formH": "Solicitar la cancelación",
+    "cancel.formLead": "Rellene el formulario. Normalmente tramitamos las solicitudes en 1–2 días laborables y lo confirmamos por email.",
+    "cancel.email": "Email con el que reservó",
+    "cancel.order": "Número de pedido (opcional)",
+    "cancel.submit": "Enviar solicitud de cancelación",
+    "cancel.alt": "También puede escribir a {email} desde la dirección con la que reservó. Si lo tiene, indique su número de pedido.",
+    "cancel.afterH": "Qué pasa después de cancelar",
+    "cancel.after1": "No se cobrarán más renovaciones.",
+    "cancel.after2": "Las reservas ya confirmadas siguen siendo válidas. Los pagos ya realizados no se reembolsan.",
+    "cancel.after3": "Puede volver a suscribirse cuando lo necesite.",
+    "cancel.done": "Gracias. Hemos recibido su solicitud de cancelación y se la confirmaremos por email.",
+    "cancel.fail": "No hemos podido enviar su solicitud. Escriba a {email}.",
+    "sub.footnote": "Hoy se cargan {amount}. Después: {renew} el día 1 de cada mes, hasta que cancele. Cada mes pagado incluye una estancia de {n} × 24 h si la reserva con al menos 7 días de antelación. Cancele cuando quiera: <cancel>Cancelar la suscripción</cancel> o {email}.",
+    "legal.updated": "Actualizado el",
+    "legal.termsDesc": "Condiciones de las reservas de Täsch Parking y de la suscripción de aparcamiento: precio, cobros, cancelación y reembolsos.",
+    "legal.privacyDesc": "Qué datos personales recoge Täsch Parking para las reservas y la suscripción, para qué, quién los recibe y cuáles son sus derechos.",
+    "legal.refundDesc": "Cuándo reembolsa Täsch Parking un pago: estancias confirmadas, suscripción, cancelaciones y errores de pago."
   },
   "hu": {
     "nav.parking": "Parkolási információk",
@@ -820,7 +945,6 @@ const I18N = {
     "book.platePlaceholder": "Adja meg a rendszámot",
     "book.email": "E-mail",
     "book.emailPh": "Adja meg e-mail-címét",
-    "book.terms": "Elolvastam az általános szerződési feltételeket, és elfogadom azokat.",
     "book.pay": "Fizetés és foglalás",
     "book.back": "Vissza",
     "book.continue": "Tovább",
@@ -965,7 +1089,33 @@ const I18N = {
     "ui.decrease": "Csökkentés",
     "ui.increase": "Növelés",
     "ui.mainNav": "Főmenü",
-    "ui.homeLink": "Täsch Parking – főoldal"
+    "ui.homeLink": "Täsch Parking – főoldal",
+    "legal.heading": "Jogi információk",
+    "legal.terms": "Általános Szerződési Feltételek",
+    "legal.privacy": "Adatvédelmi tájékoztató",
+    "legal.refund": "Visszatérítési szabályzat",
+    "legal.cancel": "Előfizetés lemondása",
+    "sub.acceptTerms": "Elfogadom az <terms>Általános Szerződési Feltételeket</terms> és az <privacy>Adatvédelmi tájékoztatót</privacy>.",
+    "sub.needTerms": "Kérjük, fogadja el az ÁSZF-et és az Adatvédelmi tájékoztatót.",
+    "sub.orderNo": "Rendelésszám",
+    "cancel.lead": "Az előfizetést bármikor lemondhatja, felmondási idő nélkül. A lemondás után nincs több megújítási terhelés.",
+    "cancel.formH": "Lemondás kérése",
+    "cancel.formLead": "Töltse ki az alábbi űrlapot. A kéréseket általában 1–2 munkanapon belül feldolgozzuk, és e-mailben visszaigazoljuk.",
+    "cancel.email": "A foglaláshoz használt e-mail-cím",
+    "cancel.order": "Rendelésszám (nem kötelező)",
+    "cancel.submit": "Lemondás elküldése",
+    "cancel.alt": "Arról a címről is írhat a(z) {email} címre, amellyel foglalt. Ha megvan, adja meg a rendelésszámot is.",
+    "cancel.afterH": "Mi történik a lemondás után",
+    "cancel.after1": "Nincs több megújítási terhelés.",
+    "cancel.after2": "A már megerősített foglalások érvényesek maradnak. A már kifizetett összegeket nem térítjük vissza.",
+    "cancel.after3": "Bármikor újra előfizethet.",
+    "cancel.done": "Köszönjük. Lemondási kérését elküldtük, és e-mailben visszaigazoljuk.",
+    "cancel.fail": "Nem sikerült elküldeni a kérést. Kérjük, írjon a(z) {email} címre.",
+    "sub.footnote": "Ma {amount} terhelés. Ezután: minden hónap 1-jén {renew}, amíg le nem mondja. Minden kifizetett hónap tartalmaz egy {n} × 24 órás parkolást, ha legalább 7 nappal az érkezés előtt lefoglalja. Bármikor lemondható: <cancel>Előfizetés lemondása</cancel> vagy {email}.",
+    "legal.updated": "Frissítve:",
+    "legal.termsDesc": "A Täsch Parking foglalásainak és parkolási előfizetésének feltételei: ár, terhelések, lemondás és visszatérítés.",
+    "legal.privacyDesc": "Milyen személyes adatokat gyűjt a Täsch Parking a foglalásokhoz és az előfizetéshez, miért, ki kapja meg őket, és milyen jogai vannak.",
+    "legal.refundDesc": "Mikor téríti vissza a Täsch Parking a befizetett összeget: megerősített parkolások, előfizetés, lemondás és fizetési hibák."
   },
   "pl": {
     "nav.parking": "Informacje o parkingu",
@@ -981,7 +1131,6 @@ const I18N = {
     "book.platePlaceholder": "Wpisz numer rejestracyjny",
     "book.email": "E-mail",
     "book.emailPh": "Podaj swój adres e-mail",
-    "book.terms": "Zapoznałem/am się z regulaminem i akceptuję jego warunki.",
     "book.pay": "Zapłać i zarezerwuj",
     "book.back": "Wstecz",
     "book.continue": "Dalej",
@@ -1128,7 +1277,33 @@ const I18N = {
     "ui.mainNav": "Menu główne",
     "ui.homeLink": "Täsch Parking – strona główna",
     "book.days.few": "dni",
-    "book.days.many": "dni"
+    "book.days.many": "dni",
+    "legal.heading": "Informacje prawne",
+    "legal.terms": "Regulamin",
+    "legal.privacy": "Polityka prywatności",
+    "legal.refund": "Zasady zwrotów",
+    "legal.cancel": "Rezygnacja z subskrypcji",
+    "sub.acceptTerms": "Akceptuję <terms>Regulamin</terms> i <privacy>Politykę prywatności</privacy>.",
+    "sub.needTerms": "Zaakceptuj Regulamin i Politykę prywatności.",
+    "sub.orderNo": "Zamówienie nr",
+    "cancel.lead": "Z subskrypcji możesz zrezygnować w każdej chwili, bez okresu wypowiedzenia. Po rezygnacji nie pobieramy już opłat za odnowienie.",
+    "cancel.formH": "Zgłoś rezygnację",
+    "cancel.formLead": "Wypełnij formularz poniżej. Zwykle rozpatrujemy zgłoszenia w ciągu 1–2 dni roboczych i potwierdzamy je e-mailem.",
+    "cancel.email": "E-mail podany przy rezerwacji",
+    "cancel.order": "Numer zamówienia (opcjonalnie)",
+    "cancel.submit": "Wyślij zgłoszenie rezygnacji",
+    "cancel.alt": "Możesz też napisać na {email} z adresu, który podałeś przy rezerwacji. Jeśli masz numer zamówienia, podaj go.",
+    "cancel.afterH": "Co dzieje się po rezygnacji",
+    "cancel.after1": "Nie pobieramy już opłat za odnowienie.",
+    "cancel.after2": "Potwierdzone rezerwacje pozostają ważne. Dokonane już płatności nie są zwracane.",
+    "cancel.after3": "W każdej chwili możesz ponownie wykupić subskrypcję.",
+    "cancel.done": "Dziękujemy. Zgłoszenie rezygnacji zostało wysłane, potwierdzimy je e-mailem.",
+    "cancel.fail": "Nie udało się wysłać zgłoszenia. Napisz na {email}.",
+    "sub.footnote": "Dziś pobierzemy {amount}. Potem: {renew} 1. dnia każdego miesiąca, dopóki nie zrezygnujesz. Każdy opłacony miesiąc obejmuje jeden pobyt {n} × 24 h, jeśli zarezerwujesz go co najmniej 7 dni przed przyjazdem. Rezygnacja w każdej chwili: <cancel>Rezygnacja z subskrypcji</cancel> lub {email}.",
+    "legal.updated": "Aktualizacja:",
+    "legal.termsDesc": "Zasady rezerwacji w Täsch Parking i subskrypcji parkingu: cena, płatności, rezygnacja i zwroty.",
+    "legal.privacyDesc": "Jakie dane osobowe Täsch Parking zbiera przy rezerwacjach i subskrypcji, w jakim celu, komu je przekazuje i jakie masz prawa.",
+    "legal.refundDesc": "Kiedy Täsch Parking zwraca pieniądze: potwierdzone pobyty, subskrypcja, rezygnacja i błędy płatności."
   },
   "ro": {
     "nav.parking": "Informații despre parcare",
@@ -1144,7 +1319,6 @@ const I18N = {
     "book.platePlaceholder": "Introdu numărul de înmatriculare",
     "book.email": "E-mail",
     "book.emailPh": "Introdu adresa de e-mail",
-    "book.terms": "Am citit termenii și condițiile generale și le accept.",
     "book.pay": "Plătește și rezervă",
     "book.back": "Înapoi",
     "book.continue": "Continuă",
@@ -1290,7 +1464,33 @@ const I18N = {
     "ui.increase": "Mai mult",
     "ui.mainNav": "Meniu principal",
     "ui.homeLink": "Täsch Parking – pagina principală",
-    "book.days.few": "zile"
+    "book.days.few": "zile",
+    "legal.heading": "Informații legale",
+    "legal.terms": "Termenii serviciului",
+    "legal.privacy": "Politica de confidențialitate",
+    "legal.refund": "Politica de rambursare",
+    "legal.cancel": "Anulați abonamentul",
+    "sub.acceptTerms": "Accept <terms>Termenii serviciului</terms> și <privacy>Politica de confidențialitate</privacy>.",
+    "sub.needTerms": "Vă rugăm să acceptați Termenii serviciului și Politica de confidențialitate.",
+    "sub.orderNo": "Comanda nr.",
+    "cancel.lead": "Puteți anula abonamentul oricând, fără preaviz. După anulare nu se mai debitează reînnoiri.",
+    "cancel.formH": "Solicitați anularea",
+    "cancel.formLead": "Completați formularul de mai jos. De obicei procesăm cererile în 1–2 zile lucrătoare și confirmăm pe e-mail.",
+    "cancel.email": "E-mailul folosit la rezervare",
+    "cancel.order": "Numărul comenzii (opțional)",
+    "cancel.submit": "Trimiteți cererea de anulare",
+    "cancel.alt": "Ne puteți scrie și la {email} de pe adresa folosită la rezervare. Dacă îl aveți, menționați numărul comenzii.",
+    "cancel.afterH": "Ce se întâmplă după anulare",
+    "cancel.after1": "Nu se mai debitează reînnoiri.",
+    "cancel.after2": "Rezervările deja confirmate rămân valabile. Plățile deja efectuate nu se rambursează.",
+    "cancel.after3": "Vă puteți abona din nou oricând aveți nevoie.",
+    "cancel.done": "Vă mulțumim. Cererea de anulare a fost trimisă și o vom confirma pe e-mail.",
+    "cancel.fail": "Cererea nu a putut fi trimisă. Vă rugăm să scrieți la {email}.",
+    "sub.footnote": "Astăzi se debitează {amount}. Apoi: {renew} pe 1 a fiecărei luni, până la anulare. Fiecare lună plătită include o ședere de {n} × 24 h, dacă o rezervați cu cel puțin 7 zile înainte de sosire. Anulare oricând: <cancel>Anulați abonamentul</cancel> sau {email}.",
+    "legal.updated": "Actualizat pe",
+    "legal.termsDesc": "Condițiile rezervărilor Täsch Parking și ale abonamentului de parcare: preț, plăți, anulare și rambursări.",
+    "legal.privacyDesc": "Ce date personale colectează Täsch Parking pentru rezervări și abonament, de ce, cine le primește și ce drepturi aveți.",
+    "legal.refundDesc": "Când rambursează Täsch Parking o plată: șederi confirmate, abonamentul, anulări și erori de plată."
   },
   "cs": {
     "nav.parking": "Informace o parkování",
@@ -1306,7 +1506,6 @@ const I18N = {
     "book.platePlaceholder": "Zadejte registrační značku",
     "book.email": "E-mail",
     "book.emailPh": "Zadejte svou e-mailovou adresu",
-    "book.terms": "Přečetl(a) jsem si všeobecné obchodní podmínky a souhlasím s nimi.",
     "book.pay": "Zaplatit a rezervovat",
     "book.back": "Zpět",
     "book.continue": "Pokračovat",
@@ -1453,7 +1652,33 @@ const I18N = {
     "ui.mainNav": "Hlavní menu",
     "ui.homeLink": "Täsch Parking – úvodní stránka",
     "book.days.few": "dny",
-    "book.days.many": "dne"
+    "book.days.many": "dne",
+    "legal.heading": "Právní informace",
+    "legal.terms": "Obchodní podmínky",
+    "legal.privacy": "Zásady ochrany osobních údajů",
+    "legal.refund": "Zásady vracení peněz",
+    "legal.cancel": "Zrušit předplatné",
+    "sub.acceptTerms": "Přijímám <terms>Obchodní podmínky</terms> a <privacy>Zásady ochrany osobních údajů</privacy>.",
+    "sub.needTerms": "Přijměte prosím Obchodní podmínky a Zásady ochrany osobních údajů.",
+    "sub.orderNo": "Objednávka č.",
+    "cancel.lead": "Předplatné můžete zrušit kdykoli, bez výpovědní lhůty. Po zrušení se už žádné obnovení nestrhává.",
+    "cancel.formH": "Žádost o zrušení",
+    "cancel.formLead": "Vyplňte formulář níže. Žádosti obvykle vyřídíme do 1–2 pracovních dnů a potvrdíme e-mailem.",
+    "cancel.email": "E-mail použitý při rezervaci",
+    "cancel.order": "Číslo objednávky (nepovinné)",
+    "cancel.submit": "Odeslat žádost o zrušení",
+    "cancel.alt": "Můžete také napsat na {email} z adresy, kterou jste použili při rezervaci. Pokud máte číslo objednávky, uveďte ho.",
+    "cancel.afterH": "Co se stane po zrušení",
+    "cancel.after1": "Žádné další obnovení se nestrhává.",
+    "cancel.after2": "Již potvrzené rezervace zůstávají v platnosti. Již provedené platby se nevracejí.",
+    "cancel.after3": "Předplatné si můžete kdykoli znovu objednat.",
+    "cancel.done": "Děkujeme. Vaše žádost o zrušení byla odeslána, potvrdíme ji e-mailem.",
+    "cancel.fail": "Žádost se nepodařilo odeslat. Napište prosím na {email}.",
+    "sub.footnote": "Dnes strhneme {amount}. Poté: {renew} 1. dne každého měsíce, dokud nezrušíte. Každý zaplacený měsíc zahrnuje jedno parkování v délce {n} × 24 h, pokud ho zarezervujete nejméně 7 dní před příjezdem. Zrušení kdykoli: <cancel>Zrušit předplatné</cancel> nebo {email}.",
+    "legal.updated": "Aktualizováno",
+    "legal.termsDesc": "Podmínky rezervací Täsch Parking a předplatného parkování: cena, platby, zrušení a vracení peněz.",
+    "legal.privacyDesc": "Jaké osobní údaje Täsch Parking shromažďuje pro rezervace a předplatné, proč, kdo je dostává a jaká máte práva.",
+    "legal.refundDesc": "Kdy Täsch Parking vrací peníze: potvrzená parkování, předplatné, zrušení a chyby při platbě."
   },
   "nl": {
     "nav.parking": "Parkeerinformatie",
@@ -1469,7 +1694,6 @@ const I18N = {
     "book.platePlaceholder": "Vul je kenteken in",
     "book.email": "E-mail",
     "book.emailPh": "Vul je e-mailadres in",
-    "book.terms": "Ik heb de algemene voorwaarden gelezen en ga ermee akkoord.",
     "book.pay": "Betalen en boeken",
     "book.back": "Terug",
     "book.continue": "Doorgaan",
@@ -1614,7 +1838,33 @@ const I18N = {
     "ui.decrease": "Minder",
     "ui.increase": "Meer",
     "ui.mainNav": "Hoofdmenu",
-    "ui.homeLink": "Täsch Parking – home"
+    "ui.homeLink": "Täsch Parking – home",
+    "legal.heading": "Juridisch",
+    "legal.terms": "Servicevoorwaarden",
+    "legal.privacy": "Privacybeleid",
+    "legal.refund": "Terugbetalingsbeleid",
+    "legal.cancel": "Abonnement opzeggen",
+    "sub.acceptTerms": "Ik accepteer de <terms>Servicevoorwaarden</terms> en het <privacy>Privacybeleid</privacy>.",
+    "sub.needTerms": "Accepteer de Servicevoorwaarden en het Privacybeleid.",
+    "sub.orderNo": "Bestelnr.",
+    "cancel.lead": "U kunt uw abonnement altijd opzeggen, zonder opzegtermijn. Na het opzeggen worden er geen verlengingen meer afgeschreven.",
+    "cancel.formH": "Opzegging aanvragen",
+    "cancel.formLead": "Vul het formulier hieronder in. We verwerken aanvragen meestal binnen 1–2 werkdagen en bevestigen per e-mail.",
+    "cancel.email": "E-mailadres van uw boeking",
+    "cancel.order": "Bestelnummer (optioneel)",
+    "cancel.submit": "Opzegging versturen",
+    "cancel.alt": "U kunt ook mailen naar {email} vanaf het adres waarmee u hebt geboekt. Vermeld uw bestelnummer als u dat hebt.",
+    "cancel.afterH": "Wat er gebeurt na het opzeggen",
+    "cancel.after1": "Er worden geen verlengingen meer afgeschreven.",
+    "cancel.after2": "Al bevestigde boekingen blijven geldig. Al gedane betalingen worden niet terugbetaald.",
+    "cancel.after3": "U kunt altijd opnieuw een abonnement nemen.",
+    "cancel.done": "Bedankt. Uw opzegging is verstuurd en we bevestigen die per e-mail.",
+    "cancel.fail": "Uw aanvraag kon niet worden verstuurd. Mail ons op {email}.",
+    "sub.footnote": "Vandaag wordt {amount} afgeschreven. Daarna: {renew} op de 1e van elke maand, tot u opzegt. Elke betaalde maand bevat één verblijf van {n} × 24 uur, als u het minstens 7 dagen voor aankomst boekt. Altijd opzegbaar: <cancel>Abonnement opzeggen</cancel> of {email}.",
+    "legal.updated": "Bijgewerkt op",
+    "legal.termsDesc": "Voorwaarden voor boekingen bij Täsch Parking en het parkeerabonnement: prijs, betalingen, opzegging en terugbetalingen.",
+    "legal.privacyDesc": "Welke persoonsgegevens Täsch Parking verzamelt voor boekingen en het abonnement, waarom, wie ze ontvangt en welke rechten u hebt.",
+    "legal.refundDesc": "Wanneer Täsch Parking een betaling terugbetaalt: bevestigde verblijven, het abonnement, opzeggingen en betaalfouten."
   },
   "sl": {
     "nav.parking": "Informacije o parkiranju",
@@ -1630,7 +1880,6 @@ const I18N = {
     "book.platePlaceholder": "Vnesite registrsko številko",
     "book.email": "E-pošta",
     "book.emailPh": "Vnesite svoj e-poštni naslov",
-    "book.terms": "Prebral(a) sem splošne pogoje poslovanja in jih sprejemam.",
     "book.pay": "Plačaj in rezerviraj",
     "book.back": "Nazaj",
     "book.continue": "Naprej",
@@ -1777,7 +2026,33 @@ const I18N = {
     "ui.mainNav": "Glavni meni",
     "ui.homeLink": "Täsch Parking – domača stran",
     "book.days.two": "dneva",
-    "book.days.few": "dni"
+    "book.days.few": "dni",
+    "legal.heading": "Pravne informacije",
+    "legal.terms": "Pogoji uporabe",
+    "legal.privacy": "Politika zasebnosti",
+    "legal.refund": "Pravila vračil",
+    "legal.cancel": "Odpoved naročnine",
+    "sub.acceptTerms": "Sprejemam <terms>Pogoje uporabe</terms> in <privacy>Politiko zasebnosti</privacy>.",
+    "sub.needTerms": "Sprejmite Pogoje uporabe in Politiko zasebnosti.",
+    "sub.orderNo": "Naročilo št.",
+    "cancel.lead": "Naročnino lahko odpoveste kadar koli, brez odpovednega roka. Po odpovedi podaljšanj ne zaračunamo več.",
+    "cancel.formH": "Zahteva za odpoved",
+    "cancel.formLead": "Izpolnite spodnji obrazec. Zahteve običajno obdelamo v 1–2 delovnih dneh in jih potrdimo po e-pošti.",
+    "cancel.email": "E-pošta, uporabljena ob rezervaciji",
+    "cancel.order": "Številka naročila (neobvezno)",
+    "cancel.submit": "Pošlji zahtevo za odpoved",
+    "cancel.alt": "Pišete lahko tudi na {email} z naslova, ki ste ga uporabili ob rezervaciji. Če jo imate, navedite številko naročila.",
+    "cancel.afterH": "Kaj se zgodi po odpovedi",
+    "cancel.after1": "Podaljšanj ne zaračunamo več.",
+    "cancel.after2": "Že potrjene rezervacije ostanejo veljavne. Že opravljenih plačil ne vračamo.",
+    "cancel.after3": "Naročite se lahko znova kadar koli.",
+    "cancel.done": "Hvala. Vaša zahteva za odpoved je poslana, potrdili jo bomo po e-pošti.",
+    "cancel.fail": "Zahteve ni bilo mogoče poslati. Pišite na {email}.",
+    "sub.footnote": "Danes bomo bremenili {amount}. Nato: {renew} vsakega 1. v mesecu, dokler ne odpoveste. Vsak plačani mesec vključuje eno parkiranje v trajanju {n} × 24 ur, če ga rezervirate vsaj 7 dni pred prihodom. Odpoved kadar koli: <cancel>Odpoved naročnine</cancel> ali {email}.",
+    "legal.updated": "Posodobljeno",
+    "legal.termsDesc": "Pogoji rezervacij pri Täsch Parking in naročnine na parkiranje: cena, plačila, odpoved in vračila.",
+    "legal.privacyDesc": "Katere osebne podatke Täsch Parking zbira za rezervacije in naročnino, zakaj, kdo jih prejme in kakšne pravice imate.",
+    "legal.refundDesc": "Kdaj Täsch Parking vrne plačilo: potrjena parkiranja, naročnina, odpovedi in napake pri plačilu."
   },
   "pt": {
     "nav.parking": "Informações de estacionamento",
@@ -1793,7 +2068,6 @@ const I18N = {
     "book.platePlaceholder": "Introduza a matrícula",
     "book.email": "E-mail",
     "book.emailPh": "Introduza o seu e-mail",
-    "book.terms": "Li e aceito os termos e condições gerais.",
     "book.pay": "Pagar e reservar",
     "book.back": "Voltar",
     "book.continue": "Continuar",
@@ -1938,7 +2212,33 @@ const I18N = {
     "ui.decrease": "Diminuir",
     "ui.increase": "Aumentar",
     "ui.mainNav": "Menu principal",
-    "ui.homeLink": "Täsch Parking — página inicial"
+    "ui.homeLink": "Täsch Parking — página inicial",
+    "legal.heading": "Informação legal",
+    "legal.terms": "Termos de Serviço",
+    "legal.privacy": "Política de Privacidade",
+    "legal.refund": "Política de reembolsos",
+    "legal.cancel": "Cancelar a subscrição",
+    "sub.acceptTerms": "Aceito os <terms>Termos de Serviço</terms> e a <privacy>Política de Privacidade</privacy>.",
+    "sub.needTerms": "Aceite os Termos de Serviço e a Política de Privacidade.",
+    "sub.orderNo": "Encomenda n.º",
+    "cancel.lead": "Pode cancelar a subscrição quando quiser, sem pré-aviso. Depois de cancelar, não são cobradas mais renovações.",
+    "cancel.formH": "Pedir o cancelamento",
+    "cancel.formLead": "Preencha o formulário abaixo. Normalmente tratamos os pedidos em 1–2 dias úteis e confirmamos por email.",
+    "cancel.email": "Email usado na reserva",
+    "cancel.order": "Número da encomenda (opcional)",
+    "cancel.submit": "Enviar pedido de cancelamento",
+    "cancel.alt": "Também pode escrever para {email} a partir do endereço que usou na reserva. Indique o número da encomenda, se o tiver.",
+    "cancel.afterH": "O que acontece depois de cancelar",
+    "cancel.after1": "Não são cobradas mais renovações.",
+    "cancel.after2": "As reservas já confirmadas continuam válidas. Os pagamentos já feitos não são reembolsados.",
+    "cancel.after3": "Pode voltar a subscrever sempre que precisar.",
+    "cancel.done": "Obrigado. O seu pedido de cancelamento foi enviado e vamos confirmá-lo por email.",
+    "cancel.fail": "Não foi possível enviar o pedido. Escreva para {email}.",
+    "sub.footnote": "Hoje são cobrados {amount}. Depois: {renew} no dia 1 de cada mês, até cancelar. Cada mês pago inclui uma estadia de {n} × 24 h, se a reservar com pelo menos 7 dias de antecedência. Cancele quando quiser: <cancel>Cancelar a subscrição</cancel> ou {email}.",
+    "legal.updated": "Atualizado em",
+    "legal.termsDesc": "Condições das reservas do Täsch Parking e da subscrição de estacionamento: preço, cobranças, cancelamento e reembolsos.",
+    "legal.privacyDesc": "Que dados pessoais o Täsch Parking recolhe para as reservas e a subscrição, porquê, quem os recebe e quais são os seus direitos.",
+    "legal.refundDesc": "Quando o Täsch Parking reembolsa um pagamento: estadias confirmadas, subscrição, cancelamentos e erros de pagamento."
   },
   "hr": {
     "nav.parking": "Informacije o parkiranju",
@@ -1954,7 +2254,6 @@ const I18N = {
     "book.platePlaceholder": "Unesite registarsku oznaku",
     "book.email": "E-pošta",
     "book.emailPh": "Unesite svoju e-adresu",
-    "book.terms": "Pročitao/la sam opće uvjete poslovanja i prihvaćam ih.",
     "book.pay": "Plati i rezerviraj",
     "book.back": "Natrag",
     "book.continue": "Nastavi",
@@ -2100,7 +2399,33 @@ const I18N = {
     "ui.increase": "Više",
     "ui.mainNav": "Glavni izbornik",
     "ui.homeLink": "Täsch Parking – početna stranica",
-    "book.days.few": "dana"
+    "book.days.few": "dana",
+    "legal.heading": "Pravne informacije",
+    "legal.terms": "Uvjeti korištenja",
+    "legal.privacy": "Pravila privatnosti",
+    "legal.refund": "Pravila povrata",
+    "legal.cancel": "Otkaz pretplate",
+    "sub.acceptTerms": "Prihvaćam <terms>Uvjete korištenja</terms> i <privacy>Pravila privatnosti</privacy>.",
+    "sub.needTerms": "Prihvatite Uvjete korištenja i Pravila privatnosti.",
+    "sub.orderNo": "Narudžba br.",
+    "cancel.lead": "Pretplatu možete otkazati u bilo kojem trenutku, bez otkaznog roka. Nakon otkaza obnove se više ne naplaćuju.",
+    "cancel.formH": "Zahtjev za otkaz",
+    "cancel.formLead": "Ispunite obrazac u nastavku. Zahtjeve obično obrađujemo u roku od 1–2 radna dana i potvrđujemo e-poštom.",
+    "cancel.email": "E-adresa korištena za rezervaciju",
+    "cancel.order": "Broj narudžbe (nije obavezno)",
+    "cancel.submit": "Pošalji zahtjev za otkaz",
+    "cancel.alt": "Možete i pisati na {email} s adrese koju ste koristili za rezervaciju. Ako ga imate, navedite broj narudžbe.",
+    "cancel.afterH": "Što se događa nakon otkaza",
+    "cancel.after1": "Obnove se više ne naplaćuju.",
+    "cancel.after2": "Već potvrđene rezervacije ostaju važeće. Već izvršena plaćanja ne vraćaju se.",
+    "cancel.after3": "Ponovno se možete pretplatiti kad god vam zatreba.",
+    "cancel.done": "Hvala. Vaš zahtjev za otkaz je poslan, a potvrdu ćete dobiti e-poštom.",
+    "cancel.fail": "Zahtjev nije poslan. Molimo pišite na {email}.",
+    "sub.footnote": "Danas se naplaćuje {amount}. Zatim: {renew} 1. u svakom mjesecu, dok ne otkažete. Svaki plaćeni mjesec uključuje jedno parkiranje od {n} × 24 h ako ga rezervirate najmanje 7 dana prije dolaska. Otkaz u bilo kojem trenutku: <cancel>Otkaz pretplate</cancel> ili {email}.",
+    "legal.updated": "Ažurirano",
+    "legal.termsDesc": "Uvjeti rezervacija Täsch Parkinga i pretplate na parkiranje: cijena, naplata, otkaz i povrati.",
+    "legal.privacyDesc": "Koje osobne podatke Täsch Parking prikuplja za rezervacije i pretplatu, zašto, tko ih prima i koja su vaša prava.",
+    "legal.refundDesc": "Kada Täsch Parking vraća novac: potvrđena parkiranja, pretplata, otkazi i pogreške pri plaćanju."
   },
   "sk": {
     "nav.parking": "Informácie o parkovaní",
@@ -2116,7 +2441,6 @@ const I18N = {
     "book.platePlaceholder": "Zadajte evidenčné číslo",
     "book.email": "E-mail",
     "book.emailPh": "Zadajte svoju e-mailovú adresu",
-    "book.terms": "Prečítal(a) som si všeobecné obchodné podmienky a súhlasím s nimi.",
     "book.pay": "Zaplatiť a rezervovať",
     "book.back": "Späť",
     "book.continue": "Pokračovať",
@@ -2263,7 +2587,33 @@ const I18N = {
     "ui.mainNav": "Hlavné menu",
     "ui.homeLink": "Täsch Parking – úvodná stránka",
     "book.days.few": "dni",
-    "book.days.many": "dňa"
+    "book.days.many": "dňa",
+    "legal.heading": "Právne informácie",
+    "legal.terms": "Obchodné podmienky",
+    "legal.privacy": "Zásady ochrany osobných údajov",
+    "legal.refund": "Zásady vrátenia peňazí",
+    "legal.cancel": "Zrušiť predplatné",
+    "sub.acceptTerms": "Prijímam <terms>Obchodné podmienky</terms> a <privacy>Zásady ochrany osobných údajov</privacy>.",
+    "sub.needTerms": "Prijmite, prosím, Obchodné podmienky a Zásady ochrany osobných údajov.",
+    "sub.orderNo": "Objednávka č.",
+    "cancel.lead": "Predplatné môžete zrušiť kedykoľvek, bez výpovednej lehoty. Po zrušení sa už žiadne obnovenie nestrháva.",
+    "cancel.formH": "Žiadosť o zrušenie",
+    "cancel.formLead": "Vyplňte formulár nižšie. Žiadosti zvyčajne vybavíme do 1–2 pracovných dní a potvrdíme e-mailom.",
+    "cancel.email": "E-mail použitý pri rezervácii",
+    "cancel.order": "Číslo objednávky (nepovinné)",
+    "cancel.submit": "Odoslať žiadosť o zrušenie",
+    "cancel.alt": "Môžete tiež napísať na {email} z adresy, ktorú ste použili pri rezervácii. Ak máte číslo objednávky, uveďte ho.",
+    "cancel.afterH": "Čo sa stane po zrušení",
+    "cancel.after1": "Žiadne ďalšie obnovenie sa nestrháva.",
+    "cancel.after2": "Už potvrdené rezervácie zostávajú platné. Už uskutočnené platby sa nevracajú.",
+    "cancel.after3": "Predplatné si môžete kedykoľvek znova objednať.",
+    "cancel.done": "Ďakujeme. Vaša žiadosť o zrušenie bola odoslaná, potvrdíme ju e-mailom.",
+    "cancel.fail": "Žiadosť sa nepodarilo odoslať. Napíšte, prosím, na {email}.",
+    "sub.footnote": "Dnes strhneme {amount}. Potom: {renew} 1. dňa každého mesiaca, kým nezrušíte. Každý zaplatený mesiac zahŕňa jedno parkovanie v dĺžke {n} × 24 h, ak ho zarezervujete aspoň 7 dní pred príchodom. Zrušenie kedykoľvek: <cancel>Zrušiť predplatné</cancel> alebo {email}.",
+    "legal.updated": "Aktualizované",
+    "legal.termsDesc": "Podmienky rezervácií Täsch Parking a predplatného parkovania: cena, platby, zrušenie a vrátenie peňazí.",
+    "legal.privacyDesc": "Aké osobné údaje Täsch Parking zhromažďuje pre rezervácie a predplatné, prečo, kto ich dostáva a aké máte práva.",
+    "legal.refundDesc": "Kedy Täsch Parking vracia peniaze: potvrdené parkovania, predplatné, zrušenie a chyby pri platbe."
   },
   "sr": {
     "nav.parking": "Informacije o parkiranju",
@@ -2279,7 +2629,6 @@ const I18N = {
     "book.platePlaceholder": "Unesite registarsku oznaku",
     "book.email": "E-pošta",
     "book.emailPh": "Unesite svoju imejl adresu",
-    "book.terms": "Pročitao/la sam opšte uslove poslovanja i prihvatam ih.",
     "book.pay": "Plati i rezerviši",
     "book.back": "Nazad",
     "book.continue": "Nastavi",
@@ -2425,7 +2774,33 @@ const I18N = {
     "ui.increase": "Više",
     "ui.mainNav": "Glavni meni",
     "ui.homeLink": "Täsch Parking – početna strana",
-    "book.days.few": "dana"
+    "book.days.few": "dana",
+    "legal.heading": "Pravne informacije",
+    "legal.terms": "Uslovi korišćenja",
+    "legal.privacy": "Politika privatnosti",
+    "legal.refund": "Pravila povraćaja novca",
+    "legal.cancel": "Otkaz pretplate",
+    "sub.acceptTerms": "Prihvatam <terms>Uslove korišćenja</terms> i <privacy>Politiku privatnosti</privacy>.",
+    "sub.needTerms": "Prihvatite Uslove korišćenja i Politiku privatnosti.",
+    "sub.orderNo": "Porudžbina br.",
+    "cancel.lead": "Pretplatu možete da otkažete u bilo kom trenutku, bez otkaznog roka. Posle otkaza obnove se više ne naplaćuju.",
+    "cancel.formH": "Zahtev za otkaz",
+    "cancel.formLead": "Popunite obrazac ispod. Zahteve obično obrađujemo u roku od 1–2 radna dana i potvrđujemo imejlom.",
+    "cancel.email": "Imejl korišćen za rezervaciju",
+    "cancel.order": "Broj porudžbine (nije obavezno)",
+    "cancel.submit": "Pošalji zahtev za otkaz",
+    "cancel.alt": "Možete i da pišete na {email} sa adrese koju ste koristili za rezervaciju. Ako ga imate, navedite broj porudžbine.",
+    "cancel.afterH": "Šta se dešava posle otkaza",
+    "cancel.after1": "Obnove se više ne naplaćuju.",
+    "cancel.after2": "Već potvrđene rezervacije ostaju važeće. Već izvršena plaćanja se ne vraćaju.",
+    "cancel.after3": "Ponovo možete da se pretplatite kad god vam zatreba.",
+    "cancel.done": "Hvala. Vaš zahtev za otkaz je poslat, a potvrdu ćete dobiti imejlom.",
+    "cancel.fail": "Zahtev nije poslat. Molimo pišite na {email}.",
+    "sub.footnote": "Danas se naplaćuje {amount}. Zatim: {renew} 1. u svakom mesecu, dok ne otkažete. Svaki plaćeni mesec uključuje jedno parkiranje od {n} × 24 h ako ga rezervišete najmanje 7 dana pre dolaska. Otkaz u bilo kom trenutku: <cancel>Otkaz pretplate</cancel> ili {email}.",
+    "legal.updated": "Ažurirano",
+    "legal.termsDesc": "Uslovi rezervacija Täsch Parkinga i pretplate na parking: cena, naplata, otkaz i povraćaj novca.",
+    "legal.privacyDesc": "Koje lične podatke Täsch Parking prikuplja za rezervacije i pretplatu, zašto, ko ih prima i koja su vaša prava.",
+    "legal.refundDesc": "Kada Täsch Parking vraća novac: potvrđena parkiranja, pretplata, otkazi i greške pri plaćanju."
   },
   "uk": {
     "nav.parking": "Інформація про паркування",
@@ -2441,7 +2816,6 @@ const I18N = {
     "book.platePlaceholder": "Введіть номерний знак",
     "book.email": "Електронна пошта",
     "book.emailPh": "Введіть адресу електронної пошти",
-    "book.terms": "Я прочитав(ла) загальні умови та приймаю їх.",
     "book.pay": "Оплатити й забронювати",
     "book.back": "Назад",
     "book.continue": "Далі",
@@ -2588,7 +2962,33 @@ const I18N = {
     "ui.mainNav": "Головне меню",
     "ui.homeLink": "Täsch Parking — головна сторінка",
     "book.days.few": "дні",
-    "book.days.many": "днів"
+    "book.days.many": "днів",
+    "legal.heading": "Правова інформація",
+    "legal.terms": "Умови обслуговування",
+    "legal.privacy": "Політика конфіденційності",
+    "legal.refund": "Правила повернення коштів",
+    "legal.cancel": "Скасування підписки",
+    "sub.acceptTerms": "Я приймаю <terms>Умови обслуговування</terms> і <privacy>Політику конфіденційності</privacy>.",
+    "sub.needTerms": "Прийміть Умови обслуговування й Політику конфіденційності.",
+    "sub.orderNo": "Замовлення №",
+    "cancel.lead": "Ви можете скасувати підписку будь-коли, без строку попередження. Після скасування продовження більше не списуються.",
+    "cancel.formH": "Запит на скасування",
+    "cancel.formLead": "Заповніть форму нижче. Зазвичай ми обробляємо запити за 1–2 робочі дні й надсилаємо підтвердження на e-mail.",
+    "cancel.email": "E-mail, вказаний під час бронювання",
+    "cancel.order": "Номер замовлення (необов'язково)",
+    "cancel.submit": "Надіслати запит на скасування",
+    "cancel.alt": "Можна також написати на {email} з адреси, яку ви вказали під час бронювання. Якщо знаєте номер замовлення, вкажіть його.",
+    "cancel.afterH": "Що відбувається після скасування",
+    "cancel.after1": "Продовження більше не списуються.",
+    "cancel.after2": "Уже підтверджені бронювання залишаються чинними. Уже здійснені платежі не повертаються.",
+    "cancel.after3": "Підписатися знову можна будь-коли.",
+    "cancel.done": "Дякуємо! Запит на скасування надіслано, підтвердження надійде на e-mail.",
+    "cancel.fail": "Не вдалося надіслати запит. Будь ласка, напишіть на {email}.",
+    "sub.footnote": "Сьогодні буде списано {amount}. Далі: {renew} 1-го числа кожного місяця, доки не скасуєте. У кожен оплачений місяць входить одна стоянка {n} × 24 год за умови бронювання щонайменше за 7 днів до приїзду. Скасувати можна будь-коли: <cancel>Скасування підписки</cancel> або {email}.",
+    "legal.updated": "Оновлено",
+    "legal.termsDesc": "Умови бронювання Täsch Parking і підписки на паркування: ціна, списання, скасування та повернення коштів.",
+    "legal.privacyDesc": "Які персональні дані Täsch Parking збирає для бронювання та підписки, навіщо, кому їх передає і які у вас права.",
+    "legal.refundDesc": "Коли Täsch Parking повертає гроші: підтверджені стоянки, підписка, скасування та помилки під час оплати."
   },
   "ru": {
     "nav.parking": "Информация о парковке",
@@ -2604,7 +3004,6 @@ const I18N = {
     "book.platePlaceholder": "Введите номер автомобиля",
     "book.email": "Электронная почта",
     "book.emailPh": "Введите адрес электронной почты",
-    "book.terms": "Я ознакомлен(а) с условиями бронирования и принимаю их.",
     "book.pay": "Оплатить и забронировать",
     "book.back": "Назад",
     "book.continue": "Далее",
@@ -2751,7 +3150,33 @@ const I18N = {
     "ui.mainNav": "Главное меню",
     "ui.homeLink": "Täsch Parking — главная страница",
     "book.days.few": "дня",
-    "book.days.many": "дней"
+    "book.days.many": "дней",
+    "legal.heading": "Правовая информация",
+    "legal.terms": "Условия обслуживания",
+    "legal.privacy": "Политика конфиденциальности",
+    "legal.refund": "Правила возврата",
+    "legal.cancel": "Отмена подписки",
+    "sub.acceptTerms": "Я принимаю <terms>Условия обслуживания</terms> и <privacy>Политику конфиденциальности</privacy>.",
+    "sub.needTerms": "Примите Условия обслуживания и Политику конфиденциальности.",
+    "sub.orderNo": "Заказ №",
+    "cancel.lead": "Вы можете отменить подписку в любой момент, без срока уведомления. После отмены продления больше не списываются.",
+    "cancel.formH": "Запрос на отмену",
+    "cancel.formLead": "Заполните форму ниже. Обычно мы обрабатываем запросы за 1–2 рабочих дня и присылаем подтверждение на e-mail.",
+    "cancel.email": "E-mail, указанный при бронировании",
+    "cancel.order": "Номер заказа (необязательно)",
+    "cancel.submit": "Отправить запрос на отмену",
+    "cancel.alt": "Можно также написать на {email} с адреса, который вы указали при бронировании. Если знаете номер заказа, укажите его.",
+    "cancel.afterH": "Что происходит после отмены",
+    "cancel.after1": "Продления больше не списываются.",
+    "cancel.after2": "Уже подтверждённые бронирования остаются в силе. Уже сделанные платежи не возвращаются.",
+    "cancel.after3": "Подписаться снова можно в любой момент.",
+    "cancel.done": "Спасибо! Запрос на отмену отправлен, подтверждение придёт на e-mail.",
+    "cancel.fail": "Не удалось отправить запрос. Пожалуйста, напишите на {email}.",
+    "sub.footnote": "Сегодня спишется {amount}. Далее: {renew} 1-го числа каждого месяца, пока не отмените. В каждый оплаченный месяц входит одна стоянка {n} × 24 ч при бронировании минимум за 7 дней до приезда. Отменить можно в любой момент: <cancel>Отмена подписки</cancel> или {email}.",
+    "legal.updated": "Обновлено",
+    "legal.termsDesc": "Условия бронирования Täsch Parking и подписки на парковку: цена, списания, отмена и возвраты.",
+    "legal.privacyDesc": "Какие персональные данные Täsch Parking собирает для бронирования и подписки, зачем, кому их передаёт и какие у вас права.",
+    "legal.refundDesc": "Когда Täsch Parking возвращает деньги: подтверждённые стоянки, подписка, отмена и ошибки при оплате."
   },
   "da": {
     "nav.parking": "Parkeringsinfo",
@@ -2767,7 +3192,6 @@ const I18N = {
     "book.platePlaceholder": "Indtast nummerplade",
     "book.email": "E-mail",
     "book.emailPh": "Indtast din e-mailadresse",
-    "book.terms": "Jeg har læst og accepterer handelsbetingelserne.",
     "book.pay": "Betal og book",
     "book.back": "Tilbage",
     "book.continue": "Fortsæt",
@@ -2912,7 +3336,33 @@ const I18N = {
     "ui.decrease": "Færre",
     "ui.increase": "Flere",
     "ui.mainNav": "Hovedmenu",
-    "ui.homeLink": "Täsch Parking – forside"
+    "ui.homeLink": "Täsch Parking – forside",
+    "legal.heading": "Juridisk",
+    "legal.terms": "Servicevilkår",
+    "legal.privacy": "Privatlivspolitik",
+    "legal.refund": "Refusionspolitik",
+    "legal.cancel": "Opsig abonnement",
+    "sub.acceptTerms": "Jeg accepterer <terms>Servicevilkårene</terms> og <privacy>Privatlivspolitikken</privacy>.",
+    "sub.needTerms": "Accepter Servicevilkårene og Privatlivspolitikken.",
+    "sub.orderNo": "Ordrenr.",
+    "cancel.lead": "Du kan opsige dit abonnement når som helst, uden varsel. Efter opsigelsen trækkes der ikke flere fornyelser.",
+    "cancel.formH": "Anmod om opsigelse",
+    "cancel.formLead": "Udfyld formularen nedenfor. Vi behandler normalt anmodninger inden for 1–2 hverdage og bekræfter pr. e-mail.",
+    "cancel.email": "E-mail brugt ved bookingen",
+    "cancel.order": "Ordrenummer (valgfrit)",
+    "cancel.submit": "Send opsigelse",
+    "cancel.alt": "Du kan også skrive til {email} fra den adresse, du bookede med. Angiv dit ordrenummer, hvis du har det.",
+    "cancel.afterH": "Hvad sker der efter opsigelsen",
+    "cancel.after1": "Der trækkes ikke flere fornyelser.",
+    "cancel.after2": "Allerede bekræftede bookinger gælder stadig. Betalinger, der allerede er foretaget, refunderes ikke.",
+    "cancel.after3": "Du kan altid tegne et nyt abonnement, når du har brug for det.",
+    "cancel.done": "Tak. Din opsigelse er sendt, og vi bekræfter den pr. e-mail.",
+    "cancel.fail": "Din anmodning kunne ikke sendes. Skriv til {email}.",
+    "sub.footnote": "Der trækkes {amount} i dag. Derefter: {renew} den 1. i hver måned, indtil du opsiger. Hver betalt måned indeholder ét ophold på {n} × 24 t, når det bookes mindst 7 dage før ankomst. Kan opsiges når som helst: <cancel>Opsig abonnement</cancel> eller {email}.",
+    "legal.updated": "Opdateret",
+    "legal.termsDesc": "Vilkår for bookinger hos Täsch Parking og parkeringsabonnementet: pris, betalinger, opsigelse og refusion.",
+    "legal.privacyDesc": "Hvilke personoplysninger Täsch Parking indsamler til bookinger og abonnementet, hvorfor, hvem der modtager dem, og hvilke rettigheder du har.",
+    "legal.refundDesc": "Hvornår Täsch Parking refunderer en betaling: bekræftede ophold, abonnementet, opsigelser og betalingsfejl."
   },
   "nb": {
     "nav.parking": "Parkeringsinfo",
@@ -2928,7 +3378,6 @@ const I18N = {
     "book.platePlaceholder": "Skriv inn registreringsnummer",
     "book.email": "E-post",
     "book.emailPh": "Skriv inn e-postadressen din",
-    "book.terms": "Jeg har lest de generelle vilkårene og godtar dem.",
     "book.pay": "Betal og bestill",
     "book.back": "Tilbake",
     "book.continue": "Fortsett",
@@ -3073,7 +3522,33 @@ const I18N = {
     "ui.decrease": "Færre",
     "ui.increase": "Flere",
     "ui.mainNav": "Hovedmeny",
-    "ui.homeLink": "Täsch Parking – forside"
+    "ui.homeLink": "Täsch Parking – forside",
+    "legal.heading": "Juridisk",
+    "legal.terms": "Tjenestevilkår",
+    "legal.privacy": "Personvernerklæring",
+    "legal.refund": "Refusjonspolicy",
+    "legal.cancel": "Si opp abonnement",
+    "sub.acceptTerms": "Jeg godtar <terms>Tjenestevilkårene</terms> og <privacy>Personvernerklæringen</privacy>.",
+    "sub.needTerms": "Godta Tjenestevilkårene og Personvernerklæringen.",
+    "sub.orderNo": "Ordrenr.",
+    "cancel.lead": "Du kan si opp abonnementet når som helst, uten oppsigelsestid. Etter oppsigelsen trekkes det ingen flere fornyelser.",
+    "cancel.formH": "Be om oppsigelse",
+    "cancel.formLead": "Fyll ut skjemaet nedenfor. Vi behandler vanligvis henvendelser innen 1–2 virkedager og bekrefter på e-post.",
+    "cancel.email": "E-post du brukte ved bestillingen",
+    "cancel.order": "Ordrenummer (valgfritt)",
+    "cancel.submit": "Send oppsigelse",
+    "cancel.alt": "Du kan også skrive til {email} fra adressen du bestilte med. Oppgi ordrenummeret hvis du har det.",
+    "cancel.afterH": "Hva skjer etter oppsigelsen",
+    "cancel.after1": "Det trekkes ingen flere fornyelser.",
+    "cancel.after2": "Bestillinger som allerede er bekreftet, gjelder fortsatt. Betalinger som allerede er gjort, refunderes ikke.",
+    "cancel.after3": "Du kan tegne abonnement igjen når du trenger det.",
+    "cancel.done": "Takk. Oppsigelsen din er sendt, og vi bekrefter den på e-post.",
+    "cancel.fail": "Vi klarte ikke å sende henvendelsen. Skriv til {email}.",
+    "sub.footnote": "{amount} trekkes i dag. Deretter: {renew} den 1. hver måned, til du sier opp. Hver betalt måned inkluderer ett opphold på {n} × 24 t når du bestiller det minst 7 dager før ankomst. Kan sies opp når som helst: <cancel>Si opp abonnement</cancel> eller {email}.",
+    "legal.updated": "Oppdatert",
+    "legal.termsDesc": "Vilkår for bestillinger hos Täsch Parking og parkeringsabonnementet: pris, betalinger, oppsigelse og refusjon.",
+    "legal.privacyDesc": "Hvilke personopplysninger Täsch Parking samler inn for bestillinger og abonnementet, hvorfor, hvem som mottar dem og hvilke rettigheter du har.",
+    "legal.refundDesc": "Når Täsch Parking refunderer en betaling: bekreftede opphold, abonnementet, oppsigelser og betalingsfeil."
   },
   "tr": {
     "nav.parking": "Otopark bilgileri",
@@ -3089,7 +3564,6 @@ const I18N = {
     "book.platePlaceholder": "Plakanızı girin",
     "book.email": "E-posta",
     "book.emailPh": "E-posta adresinizi girin",
-    "book.terms": "Genel şartlar ve koşulları okudum ve kabul ediyorum.",
     "book.pay": "Öde ve rezervasyon yap",
     "book.back": "Geri",
     "book.continue": "Devam",
@@ -3234,7 +3708,33 @@ const I18N = {
     "ui.decrease": "Azalt",
     "ui.increase": "Artır",
     "ui.mainNav": "Ana menü",
-    "ui.homeLink": "Täsch Parking — ana sayfa"
+    "ui.homeLink": "Täsch Parking — ana sayfa",
+    "legal.heading": "Yasal bilgiler",
+    "legal.terms": "Hizmet Şartları",
+    "legal.privacy": "Gizlilik Politikası",
+    "legal.refund": "İade Politikası",
+    "legal.cancel": "Aboneliği iptal et",
+    "sub.acceptTerms": "<terms>Hizmet Şartları</terms>'nı ve <privacy>Gizlilik Politikası</privacy>'nı kabul ediyorum.",
+    "sub.needTerms": "Lütfen Hizmet Şartları'nı ve Gizlilik Politikası'nı kabul edin.",
+    "sub.orderNo": "Sipariş no.",
+    "cancel.lead": "Aboneliğinizi istediğiniz zaman, bildirim süresi olmadan iptal edebilirsiniz. İptalden sonra yenileme ücreti alınmaz.",
+    "cancel.formH": "İptal talebi",
+    "cancel.formLead": "Aşağıdaki formu doldurun. Talepleri genellikle 1–2 iş günü içinde işleme alır ve e-postayla onaylarız.",
+    "cancel.email": "Rezervasyonda kullandığınız e-posta",
+    "cancel.order": "Sipariş numarası (isteğe bağlı)",
+    "cancel.submit": "İptal talebini gönder",
+    "cancel.alt": "Rezervasyonda kullandığınız adresten {email} adresine de yazabilirsiniz. Varsa sipariş numaranızı ekleyin.",
+    "cancel.afterH": "İptalden sonra ne olur",
+    "cancel.after1": "Başka yenileme ücreti alınmaz.",
+    "cancel.after2": "Onaylanmış rezervasyonlar geçerliliğini korur. Yapılmış ödemeler iade edilmez.",
+    "cancel.after3": "İhtiyacınız olduğunda yeniden abone olabilirsiniz.",
+    "cancel.done": "Teşekkürler. İptal talebiniz gönderildi, e-postayla onaylayacağız.",
+    "cancel.fail": "Talebiniz gönderilemedi. Lütfen {email} adresine yazın.",
+    "sub.footnote": "Bugün {amount} tahsil edilir. Ardından: iptal edene kadar her ayın 1'inde {renew}. Ödenen her ay, varıştan en az 7 gün önce rezerve edildiğinde {n} × 24 saatlik bir park içerir. İstediğiniz zaman iptal edin: <cancel>Aboneliği iptal et</cancel> veya {email}.",
+    "legal.updated": "Güncellenme:",
+    "legal.termsDesc": "Täsch Parking rezervasyonları ve otopark aboneliği için koşullar: fiyat, tahsilat, iptal ve iadeler.",
+    "legal.privacyDesc": "Täsch Parking'in rezervasyonlar ve abonelik için hangi kişisel verileri topladığı, neden, kimlerle paylaştığı ve haklarınız.",
+    "legal.refundDesc": "Täsch Parking'in bir ödemeyi ne zaman iade ettiği: onaylanmış parklar, abonelik, iptaller ve ödeme hataları."
   },
   "zh": {
     "nav.parking": "停车信息",
@@ -3250,7 +3750,6 @@ const I18N = {
     "book.platePlaceholder": "请输入车牌号",
     "book.email": "电子邮箱",
     "book.emailPh": "请填写您的电子邮箱",
-    "book.terms": "我已阅读并同意预订条款。",
     "book.pay": "支付并预订",
     "book.back": "返回",
     "book.continue": "继续",
@@ -3395,7 +3894,33 @@ const I18N = {
     "ui.decrease": "减少",
     "ui.increase": "增加",
     "ui.mainNav": "主菜单",
-    "ui.homeLink": "Täsch Parking——首页"
+    "ui.homeLink": "Täsch Parking——首页",
+    "legal.heading": "法律信息",
+    "legal.terms": "服务条款",
+    "legal.privacy": "隐私政策",
+    "legal.refund": "退款政策",
+    "legal.cancel": "取消订阅",
+    "sub.acceptTerms": "我接受<terms>服务条款</terms>和<privacy>隐私政策</privacy>。",
+    "sub.needTerms": "请接受服务条款和隐私政策。",
+    "sub.orderNo": "订单号",
+    "cancel.lead": "您可以随时取消订阅，无需提前通知。取消后不再收取续订费用。",
+    "cancel.formH": "申请取消",
+    "cancel.formLead": "请填写下方表格。我们通常在1–2个工作日内处理申请，并通过邮件确认。",
+    "cancel.email": "预订时使用的邮箱",
+    "cancel.order": "订单号（选填）",
+    "cancel.submit": "提交取消申请",
+    "cancel.alt": "您也可以用预订时的邮箱发送邮件至{email}。如有订单号，请一并注明。",
+    "cancel.afterH": "取消后会怎样",
+    "cancel.after1": "不再收取续订费用。",
+    "cancel.after2": "已确认的预订仍然有效。已支付的款项不予退还。",
+    "cancel.after3": "您可以随时重新订阅。",
+    "cancel.done": "谢谢。您的取消申请已发送，我们会通过邮件确认。",
+    "cancel.fail": "申请未能发送。请发送邮件至{email}。",
+    "sub.footnote": "今日扣款{amount}。之后：每月1日扣款{renew}，直至您取消。每个已付费月份包含一次{n} × 24小时的停车，需在抵达前至少7天预订。可随时取消：<cancel>取消订阅</cancel>或{email}。",
+    "legal.updated": "更新于",
+    "legal.termsDesc": "Täsch Parking 预订及停车订阅的条款：价格、扣款、取消和退款。",
+    "legal.privacyDesc": "Täsch Parking 为预订和订阅收集哪些个人信息、用途是什么、提供给谁，以及您享有哪些权利。",
+    "legal.refundDesc": "Täsch Parking 何时退款：已确认的停车、订阅、取消以及付款错误。"
   },
   "ja": {
     "nav.parking": "駐車場情報",
@@ -3411,7 +3936,6 @@ const I18N = {
     "book.platePlaceholder": "ナンバープレートを入力",
     "book.email": "メールアドレス",
     "book.emailPh": "メールアドレスを入力",
-    "book.terms": "利用規約を読み、内容に同意します。",
     "book.pay": "支払いを確定して予約",
     "book.back": "戻る",
     "book.continue": "次へ",
@@ -3556,7 +4080,33 @@ const I18N = {
     "ui.decrease": "減らす",
     "ui.increase": "増やす",
     "ui.mainNav": "メインメニュー",
-    "ui.homeLink": "Täsch Parking ホーム"
+    "ui.homeLink": "Täsch Parking ホーム",
+    "legal.heading": "法的情報",
+    "legal.terms": "利用規約",
+    "legal.privacy": "プライバシーポリシー",
+    "legal.refund": "返金ポリシー",
+    "legal.cancel": "サブスクリプションの解約",
+    "sub.acceptTerms": "<terms>利用規約</terms>と<privacy>プライバシーポリシー</privacy>に同意します。",
+    "sub.needTerms": "利用規約とプライバシーポリシーに同意してください。",
+    "sub.orderNo": "注文番号",
+    "cancel.lead": "サブスクリプションはいつでも解約でき、事前通知は不要です。解約後は更新料金は請求されません。",
+    "cancel.formH": "解約の申し込み",
+    "cancel.formLead": "下のフォームにご記入ください。通常1〜2営業日以内に対応し、メールでお知らせします。",
+    "cancel.email": "予約時のメールアドレス",
+    "cancel.order": "注文番号（任意）",
+    "cancel.submit": "解約を申し込む",
+    "cancel.alt": "予約時のメールアドレスから{email}にメールでご連絡いただくこともできます。注文番号がわかれば記載してください。",
+    "cancel.afterH": "解約後について",
+    "cancel.after1": "更新料金は今後請求されません。",
+    "cancel.after2": "確定済みの予約はそのまま有効です。お支払い済みの料金は返金されません。",
+    "cancel.after3": "必要なときにいつでも再度お申し込みいただけます。",
+    "cancel.done": "ありがとうございます。解約の申し込みを送信しました。メールで確認のご連絡をします。",
+    "cancel.fail": "送信できませんでした。{email}までメールでご連絡ください。",
+    "sub.footnote": "本日{amount}をお支払いいただきます。以降：解約するまで毎月1日に{renew}。支払い済みの各月には、到着の7日前までに予約した{n} × 24時間の駐車が1回含まれます。いつでも解約できます：<cancel>サブスクリプションの解約</cancel>または{email}。",
+    "legal.updated": "更新日：",
+    "legal.termsDesc": "Täsch Parkingの予約と駐車サブスクリプションの条件：料金、お支払い、解約、返金について。",
+    "legal.privacyDesc": "Täsch Parkingが予約とサブスクリプションのために集める個人情報、利用目的、提供先、お客様の権利について。",
+    "legal.refundDesc": "Täsch Parkingが返金するケース：確定済みの駐車、サブスクリプション、解約、お支払いの誤り。"
   },
   "ko": {
     "nav.parking": "주차 안내",
@@ -3572,7 +4122,6 @@ const I18N = {
     "book.platePlaceholder": "차량 번호 입력",
     "book.email": "이메일",
     "book.emailPh": "이메일 주소를 입력하세요",
-    "book.terms": "이용약관을 읽었으며 이에 동의합니다.",
     "book.pay": "결제하고 예약",
     "book.back": "뒤로",
     "book.continue": "계속",
@@ -3717,7 +4266,33 @@ const I18N = {
     "ui.decrease": "줄이기",
     "ui.increase": "늘리기",
     "ui.mainNav": "주 메뉴",
-    "ui.homeLink": "Täsch Parking 홈"
+    "ui.homeLink": "Täsch Parking 홈",
+    "legal.heading": "법적 고지",
+    "legal.terms": "서비스 약관",
+    "legal.privacy": "개인정보 처리방침",
+    "legal.refund": "환불 정책",
+    "legal.cancel": "구독 해지",
+    "sub.acceptTerms": "<terms>서비스 약관</terms> 및 <privacy>개인정보 처리방침</privacy>에 동의합니다.",
+    "sub.needTerms": "서비스 약관 및 개인정보 처리방침에 동의해 주세요.",
+    "sub.orderNo": "주문 번호",
+    "cancel.lead": "구독은 언제든 사전 통보 없이 해지할 수 있습니다. 해지 후에는 갱신 요금이 청구되지 않습니다.",
+    "cancel.formH": "해지 신청",
+    "cancel.formLead": "아래 양식을 작성해 주세요. 보통 영업일 기준 1–2일 안에 처리하고 메일로 확인해 드립니다.",
+    "cancel.email": "예약할 때 사용한 이메일",
+    "cancel.order": "주문 번호(선택)",
+    "cancel.submit": "해지 신청 보내기",
+    "cancel.alt": "예약할 때 사용한 주소로 {email}에 메일을 보내셔도 됩니다. 주문 번호가 있으면 함께 적어 주세요.",
+    "cancel.afterH": "해지 후 안내",
+    "cancel.after1": "더 이상 갱신 요금이 청구되지 않습니다.",
+    "cancel.after2": "이미 확정된 예약은 그대로 유효합니다. 이미 결제한 금액은 환불되지 않습니다.",
+    "cancel.after3": "필요할 때 언제든 다시 구독할 수 있습니다.",
+    "cancel.done": "감사합니다. 해지 신청이 접수되었으며 메일로 확인해 드리겠습니다.",
+    "cancel.fail": "신청을 보내지 못했습니다. {email}로 메일을 보내 주세요.",
+    "sub.footnote": "오늘 {amount}이(가) 결제됩니다. 이후: 해지할 때까지 매월 1일에 {renew}. 결제한 달마다 도착 7일 전까지 예약하면 {n} × 24시간 주차 1회가 포함됩니다. 언제든 해지 가능: <cancel>구독 해지</cancel> 또는 {email}.",
+    "legal.updated": "업데이트:",
+    "legal.termsDesc": "Täsch Parking 예약 및 주차 구독 조건: 요금, 결제, 해지, 환불.",
+    "legal.privacyDesc": "Täsch Parking이 예약과 구독을 위해 수집하는 개인정보, 이용 목적, 제공 대상, 고객의 권리 안내.",
+    "legal.refundDesc": "Täsch Parking이 환불하는 경우: 확정된 주차, 구독, 해지, 결제 오류."
   },
   "hi": {
     "nav.parking": "पार्किंग जानकारी",
@@ -3733,7 +4308,6 @@ const I18N = {
     "book.platePlaceholder": "नंबर प्लेट दर्ज करें",
     "book.email": "ईमेल",
     "book.emailPh": "अपना ईमेल पता दर्ज करें",
-    "book.terms": "मैंने नियम और शर्तें पढ़ ली हैं और उन्हें स्वीकार करता/करती हूँ।",
     "book.pay": "भुगतान करें और बुक करें",
     "book.back": "पीछे",
     "book.continue": "आगे बढ़ें",
@@ -3878,7 +4452,33 @@ const I18N = {
     "ui.decrease": "घटाएँ",
     "ui.increase": "बढ़ाएँ",
     "ui.mainNav": "मुख्य मेनू",
-    "ui.homeLink": "Täsch Parking — होम पेज"
+    "ui.homeLink": "Täsch Parking — होम पेज",
+    "legal.heading": "कानूनी जानकारी",
+    "legal.terms": "सेवा की शर्तें",
+    "legal.privacy": "गोपनीयता नीति",
+    "legal.refund": "रिफ़ंड नीति",
+    "legal.cancel": "सब्सक्रिप्शन रद्द करें",
+    "sub.acceptTerms": "मैं <terms>सेवा की शर्तें</terms> और <privacy>गोपनीयता नीति</privacy> स्वीकार करता/करती हूँ।",
+    "sub.needTerms": "कृपया सेवा की शर्तें और गोपनीयता नीति स्वीकार करें।",
+    "sub.orderNo": "ऑर्डर नंबर",
+    "cancel.lead": "आप सब्सक्रिप्शन कभी भी, बिना नोटिस अवधि के रद्द कर सकते हैं। रद्द करने के बाद रिन्यूअल का कोई भुगतान नहीं कटता।",
+    "cancel.formH": "रद्द करने का अनुरोध",
+    "cancel.formLead": "नीचे दिया फ़ॉर्म भरें। हम आमतौर पर 1–2 कार्यदिवस में अनुरोध पूरा करते हैं और ईमेल से पुष्टि भेजते हैं।",
+    "cancel.email": "बुकिंग में इस्तेमाल किया गया ईमेल",
+    "cancel.order": "ऑर्डर नंबर (वैकल्पिक)",
+    "cancel.submit": "रद्द करने का अनुरोध भेजें",
+    "cancel.alt": "आप बुकिंग वाले ईमेल पते से {email} पर भी लिख सकते हैं। अगर ऑर्डर नंबर हो, तो उसे भी लिखें।",
+    "cancel.afterH": "रद्द करने के बाद क्या होता है",
+    "cancel.after1": "रिन्यूअल का कोई और भुगतान नहीं कटेगा।",
+    "cancel.after2": "पहले से पक्की बुकिंग मान्य रहती हैं। जो भुगतान हो चुके हैं, उनका पैसा वापस नहीं होता।",
+    "cancel.after3": "ज़रूरत हो तो आप कभी भी दोबारा सब्सक्राइब कर सकते हैं।",
+    "cancel.done": "धन्यवाद। आपका रद्द करने का अनुरोध भेज दिया गया है, हम ईमेल से पुष्टि करेंगे।",
+    "cancel.fail": "अनुरोध नहीं भेजा जा सका। कृपया {email} पर लिखें।",
+    "sub.footnote": "आज {amount} कटेगा। उसके बाद: रद्द करने तक हर महीने की 1 तारीख़ को {renew}। हर भुगतान वाले महीने में {n} × 24 घंटे की एक पार्किंग शामिल है, अगर आप उसे पहुँचने से कम से कम 7 दिन पहले बुक करें। कभी भी रद्द करें: <cancel>सब्सक्रिप्शन रद्द करें</cancel> या {email}.",
+    "legal.updated": "अपडेट:",
+    "legal.termsDesc": "Täsch Parking की बुकिंग और पार्किंग सब्सक्रिप्शन की शर्तें: कीमत, भुगतान, रद्द करना और रिफ़ंड।",
+    "legal.privacyDesc": "Täsch Parking बुकिंग और सब्सक्रिप्शन के लिए कौन-सी निजी जानकारी लेता है, क्यों, किसे देता है और आपके क्या अधिकार हैं।",
+    "legal.refundDesc": "Täsch Parking भुगतान कब लौटाता है: पक्की पार्किंग, सब्सक्रिप्शन, रद्द करना और भुगतान में ग़लती।"
   },
   "ar": {
     "nav.parking": "معلومات المواقف",
@@ -3894,7 +4494,6 @@ const I18N = {
     "book.platePlaceholder": "أدخل رقم اللوحة",
     "book.email": "البريد الإلكتروني",
     "book.emailPh": "أدخل بريدك الإلكتروني",
-    "book.terms": "قرأت الشروط والأحكام وأوافق عليها.",
     "book.pay": "ادفع واحجز",
     "book.back": "رجوع",
     "book.continue": "متابعة",
@@ -4042,7 +4641,33 @@ const I18N = {
     "ui.homeLink": "Täsch Parking — الصفحة الرئيسية",
     "book.days.two": "!يومان",
     "book.days.few": "أيام",
-    "book.days.many": "يومًا"
+    "book.days.many": "يومًا",
+    "legal.heading": "معلومات قانونية",
+    "legal.terms": "شروط الخدمة",
+    "legal.privacy": "سياسة الخصوصية",
+    "legal.refund": "سياسة الاسترداد",
+    "legal.cancel": "إلغاء الاشتراك",
+    "sub.acceptTerms": "أوافق على <terms>شروط الخدمة</terms> و<privacy>سياسة الخصوصية</privacy>.",
+    "sub.needTerms": "يُرجى الموافقة على شروط الخدمة وسياسة الخصوصية.",
+    "sub.orderNo": "رقم الطلب",
+    "cancel.lead": "يمكنك إلغاء اشتراكك في أي وقت دون مهلة إشعار. بعد الإلغاء لا يُخصم أي تجديد.",
+    "cancel.formH": "طلب الإلغاء",
+    "cancel.formLead": "املأ النموذج أدناه. نعالج الطلبات عادةً خلال يوم إلى يومي عمل ونؤكدها بالبريد الإلكتروني.",
+    "cancel.email": "البريد الإلكتروني المستخدم في الحجز",
+    "cancel.order": "رقم الطلب (اختياري)",
+    "cancel.submit": "أرسل طلب الإلغاء",
+    "cancel.alt": "يمكنك أيضًا مراسلتنا على {email} من العنوان الذي حجزت به. اذكر رقم الطلب إن كان لديك.",
+    "cancel.afterH": "ماذا يحدث بعد الإلغاء",
+    "cancel.after1": "لا يُخصم أي تجديد بعد ذلك.",
+    "cancel.after2": "تبقى الحجوزات المؤكدة سارية. ولا تُسترد المبالغ المدفوعة سابقًا.",
+    "cancel.after3": "يمكنك الاشتراك من جديد متى احتجت.",
+    "cancel.done": "شكرًا لك. أُرسل طلب الإلغاء، وسنؤكده لك بالبريد الإلكتروني.",
+    "cancel.fail": "تعذّر إرسال طلبك. يُرجى مراسلتنا على {email}.",
+    "sub.footnote": "يُخصم اليوم {amount}. بعد ذلك: {renew} في اليوم الأول من كل شهر حتى تلغي. يشمل كل شهر مدفوع وقوفًا واحدًا مدته {n} × 24 ساعة إذا حجزته قبل الوصول بسبعة أيام على الأقل. يمكنك الإلغاء في أي وقت: <cancel>إلغاء الاشتراك</cancel> أو {email}.",
+    "legal.updated": "آخر تحديث:",
+    "legal.termsDesc": "شروط حجوزات Täsch Parking واشتراك الوقوف: السعر والخصم والإلغاء والاسترداد.",
+    "legal.privacyDesc": "ما البيانات الشخصية التي يجمعها Täsch Parking للحجوزات والاشتراك، ولماذا، ومن يتلقاها، وما حقوقك.",
+    "legal.refundDesc": "متى يرد Täsch Parking المبلغ المدفوع: الوقوف المؤكد، والاشتراك، والإلغاء، وأخطاء الدفع."
   }
 };
 
@@ -4124,6 +4749,10 @@ const PAGE_META = {
   "arrival-charging.html":         { t: "chg.h1",     d: "chg.lead" },
   "arrival-train.html":            { t: "trn.h1",     d: "trn.lead" },
   "arrival-reduced-mobility.html": { t: "red.h1",     d: "red.lead" },
+  "terms.html":                    { t: "legal.terms",   d: "legal.termsDesc" },
+  "privacy.html":                  { t: "legal.privacy", d: "legal.privacyDesc" },
+  "refund.html":                   { t: "legal.refund",  d: "legal.refundDesc" },
+  "cancel-subscription.html":      { t: "legal.cancel",  d: "cancel.lead" },
 };
 const SITE_NAME = "Täsch Parking";
 
@@ -4239,6 +4868,20 @@ const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
 const t = (key) => (I18N[lang] && I18N[lang][key]) || I18N.en[key] || key;
 
+/* subscription: the address shown in the terms, on the cancel page and under the pay button */
+const SUPPORT_EMAIL = "support@alpe-parking.online";
+const BOOKING_MAIL = "cat.web@mail.ru";   // orders and cancellation requests arrive here (formsubmit.co)
+/* a translated sentence with links: <terms>…</terms>, <privacy>…</privacy>, <cancel>…</cancel>,
+   {email} becomes the support address; {name} placeholders come from vars */
+function rich(key, vars = {}) {
+  let s = t(key).replace(/\{(\w+)\}/g, (m, k) => (k === "email" ? SUPPORT_EMAIL : k in vars ? vars[k] : m));
+  const link = (tag, href) => { s = s.replace(new RegExp(`<${tag}>(.*?)</${tag}>`, "g"), `<a href="${href}" target="_blank" rel="noopener">$1</a>`); };
+  link("terms", "terms.html");
+  link("privacy", "privacy.html");
+  link("cancel", "cancel-subscription.html");
+  return s.split(SUPPORT_EMAIL).join(`<a href="mailto:${SUPPORT_EMAIL}">${SUPPORT_EMAIL}</a>`);
+}
+
 /* ---------- i18n / render ---------- */
 function applyI18n() {
   $$("[data-i18n]").forEach((el) => {
@@ -4247,6 +4890,11 @@ function applyI18n() {
     else el.textContent = val;
   });
   $$("[data-i18n-aria]").forEach((el) => el.setAttribute("aria-label", t(el.dataset.i18nAria)));
+  $$("[data-i18n-rich]").forEach((el) => { el.innerHTML = rich(el.dataset.i18nRich); });
+  // legal pages: the document body comes from legal-<page>.js
+  const legal = $("#legalBody");
+  if (legal && window.LEGAL_DOC) legal.innerHTML = window.LEGAL_DOC[lang] || window.LEGAL_DOC.en;
+  $$("time[data-date]").forEach((el) => { el.textContent = fmtDate(el.getAttribute("datetime")); });
 
   if (weatherData) renderWeather();
   else if (weatherFailed) renderWeatherError();   // the error text is translated too
@@ -4305,7 +4953,8 @@ function newBooking(seed) {
     start: "", end: "",
     plate: "",
     tickets: true, tFull: 1, tHalf: 0,   // shuttle tickets chosen on step 2, on by default
-    email: "", terms: true,
+    email: "", terms: false,   // the Terms & Privacy box is ticked by the customer
+    order: "",
   }, seed || {});
 }
 
@@ -4322,11 +4971,25 @@ function sanitizeBooking(raw) {
     plate: String(b.plate || "").slice(0, 32),
     tickets: !!b.tickets, tFull: qty(b.tFull), tHalf: qty(b.tHalf),
     email: String(b.email || "").slice(0, 254),
-    terms: !!b.terms,
+    terms: false,   // consent is never restored from storage: it is given again on the final step
+    order: /^TS-\d{6}$/.test(b.order) ? b.order : "",
   };
 }
 
 let booking = newBooking();
+function ensureOrder(b) {
+  if (!b.order) b.order = "TS-" + String(Math.floor(100000 + Math.random() * 900000));
+  return b.order;
+}
+/* renewals are charged on the 1st of every month (Swiss time); the first payment is made at checkout */
+function nextBillingISO() {
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Zurich", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+  const [y, m] = today.split("-").map(Number);
+  return m === 12 ? `${y + 1}-01-01` : `${y}-${String(m + 1).padStart(2, "0")}-01`;
+}
+function fmtDate(iso, l = lang) {
+  return ISO_DATE.test(iso || "") ? new Date(iso + "T00:00:00").toLocaleDateString(LOCALE[l] || "en-GB", { day: "numeric", month: "long", year: "numeric" }) : iso;
+}
 let bookStep = 1; // 1 = parking details, 2 = shuttle tickets + e-mail, 3 = summary & payment
 
 function esc(s) {
@@ -4577,7 +5240,7 @@ function bookingFieldsHTML(b) {
 
 function renderStep1() {
   const total = parkingSubtotal(booking);   // tickets are added on step 2
-  const cta = total > 0 ? `${t("book.continue")} · ${money(total)}` : t("book.continue");
+  const cta = total > 0 ? `${t("book.continue")} · <span class="bk-amt">${money(total)}</span>` : t("book.continue");
   return `<div class="bk-cardhead">
       <span class="bk-cardhead-ic" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M9 16.5V7.5h3.6a3 3 0 0 1 0 6H9"/></svg>
@@ -4606,7 +5269,7 @@ function renderStep2() {
     </div>
     <div class="bk-bar">
       <button type="button" class="bk-back" data-role="back">${t("book.back")}</button>
-      <button type="button" class="bk-continue" data-role="next">${t("book.continue")}${total > 0 ? ` · ${money(total)}` : ""}
+      <button type="button" class="bk-continue" data-role="next">${t("book.continue")}${total > 0 ? ` · <span class="bk-amt">${money(total)}</span>` : ""}
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </button>
     </div>`;
@@ -4617,9 +5280,11 @@ function renderStep3() {
   const b = booking;
   const days = stayDays(b);
   const total = bookingTotal(b);
+  const fine = rich("sub.footnote", { amount: money(total), renew: money(parkingSubtotal(b)), n: days });
   return `${stepsHTML(3)}
     <div class="bk-summary bk-summary-top">
       <div class="bk-summary-title">${t("book.orderSummary")}</div>
+      <div class="bk-summary-row bk-order"><span>${t("sub.orderNo")}</span><span>${esc(ensureOrder(b))}</span></div>
       <div class="bk-summary-row">
         <span>${optionName(b.option)}</span>
         <span>${days ? money(parkingSubtotal(b)) : "—"}</span>
@@ -4641,11 +5306,12 @@ function renderStep3() {
         <span>${money(total)}</span>
       </div>
     </div>
-    <label class="bk-check bk-check-terms"><input type="checkbox" data-bk="terms"${b.terms ? " checked" : ""}> ${t("book.terms")} *</label>
+    <label class="bk-check bk-check-terms"><input type="checkbox" data-bk="terms"${b.terms ? " checked" : ""}> <span>${rich("sub.acceptTerms")} *</span></label>
     <div class="bk-bar">
       <button type="button" class="bk-back" data-role="back">${t("book.back")}</button>
-      <button type="button" class="bk-continue" data-role="pay">${t("book.pay")} · ${money(total)}</button>
-    </div>`;
+      <button type="button" class="bk-continue" data-role="pay">${t("book.pay")} · <span class="bk-amt">${money(total)}</span></button>
+    </div>
+    <p class="bk-fine">${fine}</p>`;
 }
 
 function renderBooking() {
@@ -4718,7 +5384,7 @@ function validateStep3(root) {
   const ok = !!b.terms;
   const field = ctrl && ctrl.closest(".bk-check");
   if (field) field.classList.toggle("is-invalid", !ok);
-  if (!ok) { toast(t("book.msgIncomplete")); if (field) field.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
+  if (!ok) { toast(t("sub.needTerms")); if (field) field.scrollIntoView({ behavior: "smooth", block: "center" }); return false; }
   return true;
 }
 
@@ -4801,6 +5467,8 @@ function onBookingClick(e) {
     if (!validBooking(booking)) { bookStep = 1; renderBooking(); saveState(); validateStep1(root); return; }
     if (!validEmail(booking.email)) { bookStep = 2; renderBooking(); saveState(); validateStep2(root); return; }
     if (validateStep3(root)) {
+      ensureOrder(booking);
+      booking.agreedAt = new Date().toISOString();   // Terms & Privacy box ticked, then the pay button
       sendBookingEmail();
       showServiceError();
     }
@@ -4935,11 +5603,13 @@ async function sendBookingEmail() {
   const total = bookingTotal(b);
 
   const formData = new FormData();
-  formData.append("_to", "cat.web@mail.ru");
-  formData.append("_subject", `New Täsch Parking Booking - ${email}`);
+  formData.append("_to", BOOKING_MAIL);
+  formData.append("_subject", `New Täsch Parking subscription ${b.order} - ${email}`);
   formData.append("_captcha", "false");
+  formData.append("Order number", b.order);
 
-  const message = `BOOKING REQUEST — Täsch Parking
+  const message = `SUBSCRIPTION ORDER — Täsch Parking
+Order: ${b.order}
 
 Contact:
 - E-mail: ${email}
@@ -4956,14 +5626,17 @@ Zermatt Shuttle tickets (departure ${fmtLong(b.start, "en")}, return within 30 d
 - Reduced (CHF ${TICKET_HALF}): ${b.tHalf || 0}
 - Tickets subtotal: ${money(ticketsTotal(b), "en")}
 ` : ""}
-Total: ${money(total, "en")}
+Charged today: ${money(total, "en")}
+Subscription: renews on the 1st of every month (Swiss time) for ${money(parkingSubtotal(b), "en")} (next: ${fmtDate(nextBillingISO(), "en")}), each renewal includes another ${days} × 24 h stay booked at least 7 days ahead, until cancelled
+Agreed (Terms & Privacy box ticked, pressed the pay button; note under it: charged today, then ${money(parkingSubtotal(b), "en")} on the 1st of each month) at: ${b.agreedAt}
 
-Submitted at: ${new Date().toLocaleString()}`;
+Site language: ${lang}
+Submitted at: ${new Date().toLocaleString("en-GB")}`;
 
   formData.append("message", message);
 
   try {
-    await fetch("https://formsubmit.co/ajax/cat.web@mail.ru", {
+    await fetch("https://formsubmit.co/ajax/" + BOOKING_MAIL, {
       method: "POST",
       body: formData,
     });
@@ -4972,6 +5645,43 @@ Submitted at: ${new Date().toLocaleString()}`;
     console.error("Email send failed:", e);
     return false;
   }
+}
+
+/* ---------- cancel-subscription page: the request goes to the same mailbox as the orders ---------- */
+function initCancelForm() {
+  const form = $("#cancelForm");
+  if (!form) return;
+  const msg = $("#cancelMsg");
+  form.addEventListener("input", (e) => e.target.classList.remove("is-invalid"));
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = form.elements.email.value.trim();
+    const order = form.elements.order.value.trim().slice(0, 40);
+    if (!validEmail(email)) {
+      form.elements.email.classList.add("is-invalid");
+      form.elements.email.focus();
+      toast(t("book.msgIncomplete"));
+      return;
+    }
+    const btn = form.querySelector("button[type=submit]");
+    btn.disabled = true;
+    const data = new FormData();
+    data.append("_subject", `Cancellation request${order ? " " + order : ""} - ${email}`);
+    data.append("_captcha", "false");
+    data.append("email", email);
+    data.append("message", `CANCEL SUBSCRIPTION — Täsch Parking\n\nE-mail: ${email}\nOrder: ${order || "(not given)"}\nSite language: ${lang}\nSubmitted at: ${new Date().toLocaleString("en-GB")}`);
+    let ok = false;
+    try {
+      const res = await fetch("https://formsubmit.co/ajax/" + BOOKING_MAIL, { method: "POST", body: data });
+      ok = res.ok;
+    } catch (err) { ok = false; }
+    msg.hidden = false;
+    msg.className = "cancel-msg " + (ok ? "is-ok" : "is-error");
+    msg.innerHTML = ok ? esc(t("cancel.done")) : rich("cancel.fail");
+    if (ok) form.reset();
+    btn.disabled = false;
+    msg.focus();
+  });
 }
 
 /* ---------- modal error ---------- */
@@ -5050,6 +5760,7 @@ function init() {
   applyMeta();
   loadWeather();
   initBooking();
+  initCancelForm();
   lockHeroPhoto();
 
   // web fonts land after DOMContentLoaded and nudge the hero's height, so take
