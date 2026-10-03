@@ -11,7 +11,7 @@ Reservamos em seu nome um lugar no Matterhorn Terminal (Bahnhofplatz, 3929 Täsc
 
 ## 3. Subscrição
 
-- O preço depende do número de dias de estacionamento: por exemplo, {p1} por um dia ou {p2} por dois dias; a partir de 13 dias, {rate} por dia. Cobramos exatamente o valor que vê no pagamento.
+- O preço depende do número de dias de estacionamento: por exemplo, {p1} por um dia, {p2} por dois dias ou {p3} por três dias. Pode reservar até 30 dias. Cobramos exatamente o valor que vê no pagamento.
 - No pagamento, paga o estacionamento que reserva e os bilhetes do Zermatt Shuttle que adicionar. Depois, a subscrição renova-se automaticamente no dia 1 de cada mês civil (hora da Suíça) pelo preço desse estacionamento, até a cancelar. Os bilhetes do comboio não fazem parte da renovação.
 - Cada renovação inclui outra estadia no Matterhorn Terminal com a mesma duração, se a reservar com pelo menos 7 dias de antecedência. As estadias não usadas não passam para o mês seguinte.
 - A subscrição não é um passe de estacionamento ilimitado.

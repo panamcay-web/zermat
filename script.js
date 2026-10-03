@@ -69,7 +69,6 @@ const I18N = {
     "book.days": "days",
     "book.maxHeight": "Maximum height for vehicles: 2.30 metres.",
     "book.priceHint": "Select your dates to see the price.",
-    "book.longStay": "Long-stay rate (13+ days)",
     "book.holderNote": "Your booking confirmation will be sent to this email address.",
     "book.addTickets": "Add Zermatt Shuttle train tickets",
     "book.ticketsInfo": "Täsch → Zermatt on your arrival date · return any day within 30 days",
@@ -254,7 +253,6 @@ const I18N = {
     "book.days": "Tage",
     "book.maxHeight": "Maximale Fahrzeughöhe: 2,30 Meter.",
     "book.priceHint": "Wählen Sie Ihren Zeitraum, um den Preis zu sehen.",
-    "book.longStay": "Langzeittarif ab 13 Tagen",
     "book.holderNote": "Ihre Buchungsbestätigung senden wir an diese E-Mail-Adresse.",
     "gh.title": "Parkplatz-Infos",
     "gh.lead": "Alles Wissenswerte zum Parken am Matterhorn Terminal in Täsch und zur Weiterreise ins autofreie Zermatt – Anreise, Laden Ihres Elektroautos und wie der Shuttlezug funktioniert.",
@@ -440,7 +438,6 @@ const I18N = {
     "book.days": "giorni",
     "book.maxHeight": "Altezza massima dei veicoli: 2,30 metri.",
     "book.priceHint": "Scegli le date per vedere il prezzo.",
-    "book.longStay": "Tariffa lunga sosta (da 13 giorni)",
     "book.holderNote": "La conferma della prenotazione verrà inviata a questo indirizzo e-mail.",
     "gh.title": "Info parcheggio",
     "gh.lead": "Tutto quello che c'è da sapere per parcheggiare al Matterhorn Terminal di Täsch e raggiungere Zermatt senza auto – come arrivare, ricaricare l'auto elettrica e come funziona il treno navetta.",
@@ -626,7 +623,6 @@ const I18N = {
     "book.days": "jours",
     "book.maxHeight": "Hauteur maximale des véhicules : 2,30 mètres.",
     "book.priceHint": "Choisissez vos dates pour voir le prix.",
-    "book.longStay": "Tarif longue durée (dès 13 jours)",
     "book.holderNote": "La confirmation de réservation sera envoyée à cette adresse e-mail.",
     "gh.title": "Infos parking",
     "gh.lead": "Tout ce qu'il faut savoir pour se garer au Matterhorn Terminal de Täsch et rejoindre Zermatt, station sans voitures — l'accès, la recharge de votre voiture électrique et le fonctionnement de la navette.",
@@ -812,7 +808,6 @@ const I18N = {
     "book.days": "días",
     "book.maxHeight": "Altura máxima de los vehículos: 2,30 metros.",
     "book.priceHint": "Elige tus fechas para ver el precio.",
-    "book.longStay": "Tarifa de larga estancia (desde 13 días)",
     "book.holderNote": "La confirmación de la reserva se enviará a este correo electrónico.",
     "gh.title": "Información del parking",
     "gh.lead": "Todo lo que necesitas saber para aparcar en el Matterhorn Terminal de Täsch y llegar a Zermatt, el pueblo sin coches — cómo llegar, recargar tu coche eléctrico y cómo funciona el tren lanzadera.",
@@ -998,7 +993,6 @@ const I18N = {
     "book.days": "nap",
     "book.maxHeight": "A járművek maximális magassága: 2,30 méter.",
     "book.priceHint": "Válassza ki a dátumokat az ár megtekintéséhez.",
-    "book.longStay": "Kedvezményes hosszú távú díj (13 naptól)",
     "book.holderNote": "A foglalás visszaigazolását erre az e-mail-címre küldjük.",
     "gh.title": "Parkolási információk",
     "gh.lead": "Minden tudnivaló a täschi Matterhorn Terminalban való parkolásról és az autómentes Zermattba jutásról – hogyan érkezzen, hogyan töltse fel elektromos autóját, és hogyan működik az ingavonat.",
@@ -1184,7 +1178,6 @@ const I18N = {
     "book.days": "dni",
     "book.maxHeight": "Maksymalna wysokość pojazdów: 2,30 metra.",
     "book.priceHint": "Wybierz daty, aby zobaczyć cenę.",
-    "book.longStay": "Taryfa długoterminowa (od 13 dni)",
     "book.holderNote": "Potwierdzenie rezerwacji wyślemy na ten adres e-mail.",
     "gh.title": "Informacje o parkingu",
     "gh.lead": "Wszystko, co trzeba wiedzieć o parkowaniu w Matterhorn Terminal w Täsch i dojeździe do Zermatt, gdzie nie ma samochodów – jak dojechać, jak naładować samochód elektryczny i jak działa pociąg wahadłowy.",
@@ -1372,7 +1365,6 @@ const I18N = {
     "book.days": "de zile",
     "book.maxHeight": "Înălțimea maximă a vehiculelor: 2,30 metri.",
     "book.priceHint": "Alege datele pentru a vedea prețul.",
-    "book.longStay": "Tarif pentru sejur lung (de la 13 zile)",
     "book.holderNote": "Confirmarea rezervării va fi trimisă la această adresă de e-mail.",
     "gh.title": "Informații parcare",
     "gh.lead": "Tot ce trebuie să știi despre parcarea la Matterhorn Terminal din Täsch și despre drumul spre Zermatt, stațiunea fără mașini – cum ajungi, cum îți încarci mașina electrică și cum funcționează trenul navetă.",
@@ -1559,7 +1551,6 @@ const I18N = {
     "book.days": "dní",
     "book.maxHeight": "Maximální výška vozidel: 2,30 metru.",
     "book.priceHint": "Vyberte data a zobrazí se cena.",
-    "book.longStay": "Dlouhodobá sazba (od 13 dnů)",
     "book.holderNote": "Potvrzení rezervace vám pošleme na tuto e-mailovou adresu.",
     "gh.title": "Informace o parkování",
     "gh.lead": "Vše, co potřebujete vědět o parkování v Matterhorn Terminalu v Täsch a cestě do Zermattu, kde auta nejezdí – jak přijet, jak nabít elektromobil a jak funguje kyvadlový vlak.",
@@ -1747,7 +1738,6 @@ const I18N = {
     "book.days": "dagen",
     "book.maxHeight": "Maximale voertuighoogte: 2,30 meter.",
     "book.priceHint": "Kies je data om de prijs te zien.",
-    "book.longStay": "Langparkeertarief (vanaf 13 dagen)",
     "book.holderNote": "De bevestiging van je boeking wordt naar dit e-mailadres gestuurd.",
     "gh.title": "Parkeerinformatie",
     "gh.lead": "Alles wat je moet weten om te parkeren bij de Matterhorn Terminal in Täsch en het autovrije Zermatt te bereiken – hoe je er komt, je elektrische auto opladen en hoe de pendeltrein werkt.",
@@ -1933,7 +1923,6 @@ const I18N = {
     "book.days": "dni",
     "book.maxHeight": "Največja višina vozil: 2,30 metra.",
     "book.priceHint": "Izberite datume za prikaz cene.",
-    "book.longStay": "Cena za daljše parkiranje (od 13 dni)",
     "book.holderNote": "Potrdilo o rezervaciji bomo poslali na ta e-poštni naslov.",
     "gh.title": "Informacije o parkiranju",
     "gh.lead": "Vse, kar morate vedeti o parkiranju na Matterhorn Terminalu v Täschu in poti v Zermatt brez avtomobilov – kako priti, kako napolniti električni avto in kako deluje vlak.",
@@ -2121,7 +2110,6 @@ const I18N = {
     "book.days": "dias",
     "book.maxHeight": "Altura máxima dos veículos: 2,30 metros.",
     "book.priceHint": "Escolha as suas datas para ver o preço.",
-    "book.longStay": "Tarifa de longa duração (a partir de 13 dias)",
     "book.holderNote": "A confirmação da reserva será enviada para este endereço de e-mail.",
     "gh.title": "Info de estacionamento",
     "gh.lead": "Tudo o que precisa de saber para estacionar no Matterhorn Terminal em Täsch e chegar a Zermatt, a vila sem carros — como chegar, carregar o seu carro elétrico e como funciona o comboio de ligação.",
@@ -2307,7 +2295,6 @@ const I18N = {
     "book.days": "dana",
     "book.maxHeight": "Maksimalna visina vozila: 2,30 metra.",
     "book.priceHint": "Odaberite datume za prikaz cijene.",
-    "book.longStay": "Cijena za dulje parkiranje (od 13 dana)",
     "book.holderNote": "Potvrdu rezervacije poslat ćemo na ovu e-adresu.",
     "gh.title": "Informacije o parkingu",
     "gh.lead": "Sve što trebate znati o parkiranju na Matterhorn Terminalu u Täschu i dolasku u Zermatt bez automobila – kako doći, kako napuniti električni automobil i kako radi vlak.",
@@ -2494,7 +2481,6 @@ const I18N = {
     "book.days": "dní",
     "book.maxHeight": "Maximálna výška vozidiel: 2,30 metra.",
     "book.priceHint": "Vyberte dátumy a zobrazí sa cena.",
-    "book.longStay": "Dlhodobá sadzba (od 13 dní)",
     "book.holderNote": "Potvrdenie rezervácie vám pošleme na túto e-mailovú adresu.",
     "gh.title": "Informácie o parkovaní",
     "gh.lead": "Všetko, čo potrebujete vedieť o parkovaní v Matterhorn Termináli v Täsch a ceste do Zermattu, kde autá nejazdia – ako prísť, ako nabiť elektromobil a ako funguje kyvadlový vlak.",
@@ -2682,7 +2668,6 @@ const I18N = {
     "book.days": "dana",
     "book.maxHeight": "Maksimalna visina vozila: 2,30 metra.",
     "book.priceHint": "Izaberite datume da vidite cenu.",
-    "book.longStay": "Cena za duže parkiranje (od 13 dana)",
     "book.holderNote": "Potvrdu rezervacije poslaćemo na ovu imejl adresu.",
     "gh.title": "Informacije o parkingu",
     "gh.lead": "Sve što treba da znate o parkiranju na Matterhorn Terminalu u Täschu i dolasku u Zermatt bez automobila – kako doći, kako napuniti električni automobil i kako radi voz.",
@@ -2869,7 +2854,6 @@ const I18N = {
     "book.days": "днів",
     "book.maxHeight": "Максимальна висота транспортних засобів: 2,30 метра.",
     "book.priceHint": "Оберіть дати, щоб побачити ціну.",
-    "book.longStay": "Тариф за тривале перебування (від 13 днів)",
     "book.holderNote": "Підтвердження бронювання надійде на цю адресу електронної пошти.",
     "gh.title": "Інформація про паркування",
     "gh.lead": "Усе, що потрібно знати про паркування в Matterhorn Terminal у Täsch і про дорогу до Zermatt, де немає автомобілів, — як дістатися, як зарядити електромобіль і як працює потяг.",
@@ -3058,7 +3042,6 @@ const I18N = {
     "book.days": "дней",
     "book.maxHeight": "Максимальная высота автомобиля: 2,30 метра.",
     "book.priceHint": "Выберите даты, чтобы увидеть цену.",
-    "book.longStay": "Тариф для длительной парковки (от 13 дней)",
     "book.holderNote": "Подтверждение бронирования придёт на этот адрес электронной почты.",
     "book.addTickets": "Добавить билеты на поезд Zermatt Shuttle",
     "book.ticketsInfo": "Täsch → Zermatt в день заезда · обратно в любой день в течение 30 дней",
@@ -3245,7 +3228,6 @@ const I18N = {
     "book.days": "dage",
     "book.maxHeight": "Maksimal køretøjshøjde: 2,30 meter.",
     "book.priceHint": "Vælg dine datoer for at se prisen.",
-    "book.longStay": "Langtidspris (fra 13 dage)",
     "book.holderNote": "Bekræftelsen på din booking sendes til denne e-mailadresse.",
     "gh.title": "Parkeringsinfo",
     "gh.lead": "Alt hvad du behøver at vide om parkering ved Matterhorn Terminal i Täsch og om at nå det bilfrie Zermatt – hvordan du ankommer, oplader din elbil og hvordan shuttletoget fungerer.",
@@ -3431,7 +3413,6 @@ const I18N = {
     "book.days": "dager",
     "book.maxHeight": "Maksimal kjøretøyhøyde: 2,30 meter.",
     "book.priceHint": "Velg datoene dine for å se prisen.",
-    "book.longStay": "Langtidspris (fra 13 dager)",
     "book.holderNote": "Bekreftelsen på bestillingen sendes til denne e-postadressen.",
     "gh.title": "Parkeringsinfo",
     "gh.lead": "Alt du trenger å vite om parkering ved Matterhorn Terminal i Täsch og om å nå det bilfrie Zermatt – hvordan du kommer dit, lader elbilen og hvordan pendeltoget fungerer.",
@@ -3617,7 +3598,6 @@ const I18N = {
     "book.days": "gün",
     "book.maxHeight": "Araçlar için maksimum yükseklik: 2,30 metre.",
     "book.priceHint": "Fiyatı görmek için tarihlerinizi seçin.",
-    "book.longStay": "Uzun süreli park tarifesi (13 günden itibaren)",
     "book.holderNote": "Rezervasyon onayınız bu e-posta adresine gönderilecek.",
     "gh.title": "Otopark bilgileri",
     "gh.lead": "Täsch'teki Matterhorn Terminal'de park etme ve otomobilsiz Zermatt'a ulaşma hakkında bilmeniz gereken her şey — nasıl gelinir, elektrikli aracınızı nasıl şarj edersiniz ve mekik tren nasıl çalışır.",
@@ -3803,7 +3783,6 @@ const I18N = {
     "book.days": "{n}天",
     "book.maxHeight": "车辆最大高度：2.30 米。",
     "book.priceHint": "选择日期以查看价格。",
-    "book.longStay": "长期停车费率（13 天起）",
     "book.holderNote": "预订确认邮件将发送至此邮箱。",
     "gh.title": "停车信息",
     "gh.lead": "关于在 Täsch 的 Matterhorn Terminal 停车以及前往无车 Zermatt 的一切须知——如何抵达、如何为电动车充电，以及接驳列车如何运作。",
@@ -3989,7 +3968,6 @@ const I18N = {
     "book.days": "{n}日間",
     "book.maxHeight": "車両の最大高さ：2.30メートル。",
     "book.priceHint": "料金を表示するには日付を選択してください。",
-    "book.longStay": "長期料金（13日以上）",
     "book.holderNote": "予約確認メールはこのアドレスに送信されます。",
     "gh.title": "駐車案内",
     "gh.lead": "Täsch の Matterhorn Terminal での駐車と、カーフリーの Zermatt への行き方に関するすべて——アクセス方法、電気自動車の充電、シャトル列車の仕組み。",
@@ -4175,7 +4153,6 @@ const I18N = {
     "book.days": "{n}일",
     "book.maxHeight": "차량 최대 높이: 2.30미터.",
     "book.priceHint": "가격을 보려면 날짜를 선택하세요.",
-    "book.longStay": "장기 주차 요금 (13일 이상)",
     "book.holderNote": "예약 확인 메일이 이 주소로 발송됩니다.",
     "gh.title": "주차 안내",
     "gh.lead": "Täsch의 Matterhorn Terminal 주차와 차 없는 Zermatt로 가는 방법에 대한 모든 것 — 오는 방법, 전기차 충전, 그리고 셔틀 열차의 작동 방식.",
@@ -4361,7 +4338,6 @@ const I18N = {
     "book.days": "दिन",
     "book.maxHeight": "वाहनों की अधिकतम ऊँचाई: 2.30 मीटर।",
     "book.priceHint": "कीमत देखने के लिए अपनी तिथियाँ चुनें।",
-    "book.longStay": "लंबे प्रवास की दर (13 दिन से)",
     "book.holderNote": "बुकिंग की पुष्टि इसी ईमेल पते पर भेजी जाएगी।",
     "gh.title": "पार्किंग जानकारी",
     "gh.lead": "Täsch में Matterhorn Terminal पर पार्किंग और कार-मुक्त Zermatt पहुँचने के बारे में सब कुछ — कैसे पहुँचें, अपनी इलेक्ट्रिक कार कैसे चार्ज करें, और शटल ट्रेन कैसे काम करती है।",
@@ -4547,7 +4523,6 @@ const I18N = {
     "book.days": "يوم",
     "book.maxHeight": "أقصى ارتفاع للمركبات: 2.30 متر.",
     "book.priceHint": "اختر تواريخك لعرض السعر.",
-    "book.longStay": "سعر الإقامة الطويلة (من 13 يومًا)",
     "book.holderNote": "سيُرسَل تأكيد الحجز إلى عنوان البريد الإلكتروني هذا.",
     "gh.title": "معلومات المواقف",
     "gh.lead": "كل ما تحتاج معرفته عن الوقوف في Matterhorn Terminal في Täsch والوصول إلى Zermatt الخالية من السيارات — كيفية الوصول، وشحن سيارتك الكهربائية، وكيف يعمل قطار المكوك.",
@@ -4673,12 +4648,17 @@ const I18N = {
 
 /* ======================================================================
    Täsch Parking — pricing & booking logic
-   Parking and parking with e-charging cost the same (the energy itself is paid at the
-   charger): a fixed price for the whole stay from 1 to 12 days, then CHF 23 a day.
+   Prices are the official Matterhorn Terminal Täsch online prices (matterhorngotthardbahn.ch,
+   "Parking Terminal Täsch" Normal and Electro cost the same; the energy is paid at the charger),
+   read from the operator's booking API on 2026-10-03 — they don't depend on the date of arrival.
+   Online bookings run from 1 to 30 days, as on the official site.
    ====================================================================== */
-const STAY_PRICES = [34, 50, 79.8, 106.2, 136.8, 158.1, 187, 203.2, 217.6, 243.2, 268.8, 294.4]; // CHF for 1…12 days
-const LONG_STAY_DAYS = 13;         // from 13 days every day costs the same…
-const LONG_STAY_RATE = 23;         // …CHF 23
+const STAY_PRICES = [                          // CHF for the whole stay: index 0 = 1 day … index 29 = 30 days
+  17, 25, 42, 59, 76, 93, 110, 127, 136, 152,
+  168, 184, 200, 216, 232, 240.5, 256, 271.5, 287, 302.5,
+  318, 333.5, 338, 353, 368, 383, 398, 413, 428, 443,
+];
+const MAX_STAY_DAYS = STAY_PRICES.length;      // 30
 const TICKET_FULL = 22;            // Zermatt Shuttle return ticket (CHF)
 const TICKET_HALF = 11;            // half fare (Half Fare travelcard / children 6–15 / dogs over 30 cm)
 const TICKET_MAX = 20;             // per fare type
@@ -4850,6 +4830,7 @@ function loadState() {
       // a departure date without an arrival date can't be shown or priced
       if (!booking.start) booking.end = "";
       if (booking.end && booking.end < booking.start) booking.end = "";
+      if (booking.end && booking.end > lastEndISO(booking.start)) booking.end = "";
       bookStep = [1, 2, 3].includes(state.bookStep) ? state.bookStep : 1;
       // a later step may only be restored while everything before it is still valid
       if (bookStep > 1 && !validBooking(booking)) bookStep = 1;
@@ -5015,8 +4996,13 @@ function stayDays(b) {
   return days > 0 ? days : 0;
 }
 function stayPrice(days) {
-  if (!days) return 0;
-  return days >= LONG_STAY_DAYS ? days * LONG_STAY_RATE : STAY_PRICES[days - 1];
+  return days >= 1 && days <= MAX_STAY_DAYS ? STAY_PRICES[days - 1] : 0;
+}
+/* the last departure date that keeps a stay within MAX_STAY_DAYS */
+function lastEndISO(startISO) {
+  const d = new Date(startISO + "T00:00:00");
+  d.setDate(d.getDate() + MAX_STAY_DAYS - 1);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 function parkingSubtotal(b) {
   return stayPrice(stayDays(b));
@@ -5050,7 +5036,7 @@ function plateLabel(b) {
 }
 function validBooking(b) {
   return !!b.start && !!b.end && b.start >= minDate() && b.end >= b.start
-    && b.end <= maxDate() && !!(b.plate && b.plate.trim());
+    && b.end <= maxDate() && stayDays(b) <= MAX_STAY_DAYS && !!(b.plate && b.plate.trim());
 }
 
 function stepsHTML(active) {
@@ -5088,7 +5074,8 @@ function dpRender(calEl, startISO, endISO) {
   for (let i = 0; i < offset; i++) cells += `<span class="bk-dp-empty"></span>`;
   for (let d = 1; d <= total; d++) {
     const iso = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-    const dis = iso < min || iso > max;
+    // while the departure is being picked, days past the 30-day limit are greyed out
+    const dis = iso < min || iso > max || (startISO && !endISO && iso > lastEndISO(startISO));
     if (dis) { cells += `<span class="bk-dp-cell is-dis">${d}</span>`; continue; }
     let cls = "bk-dp-cell";
     if (startISO && iso === startISO) cls += " is-sel is-start";
@@ -5138,10 +5125,7 @@ function priceRowHTML(b) {
     return `<div class="bk-price bk-price-empty">${t("book.priceHint")}</div>`;
   }
   const psub = stayPrice(days);
-  // 1–12 days is one price for the stay; from 13 days it is a daily rate
-  const calc = days >= LONG_STAY_DAYS
-    ? `${money(LONG_STAY_RATE)} × ${dayCountLabel(days)} <span class="bk-price-note">${t("book.longStay")}</span>`
-    : dayCountLabel(days);
+  const calc = dayCountLabel(days);   // one price for the whole stay
   // step 1 shows the parking price only — shuttle tickets are added on step 2
   return `<div class="bk-price">
     <div class="bk-price-line"><span>${optionName(b.option)} · ${calc}</span><span>${money(psub)}</span></div>
@@ -5618,7 +5602,7 @@ Parking:
 - Option: ${optionName(b.option, "en")}
 - Period: ${fmtLong(b.start, "en")} → ${fmtLong(b.end, "en")} (${days} day(s))
 - Licence plate: ${plateLabel(b)}
-- Price: ${days >= LONG_STAY_DAYS ? `${money(LONG_STAY_RATE, "en")} / day (${LONG_STAY_DAYS}+ days)` : `fixed price for ${days} day(s)`}
+- Price: official price for ${days} day(s)
 - Parking subtotal: ${money(parkingSubtotal(b), "en")}
 ${(b.tickets && ticketsCount(b) > 0) ? `
 Zermatt Shuttle tickets (departure ${fmtLong(b.start, "en")}, return within 30 days):

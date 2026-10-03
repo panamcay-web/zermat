@@ -11,7 +11,7 @@ Rezervăm în numele dvs. un loc de parcare la Matterhorn Terminal (Bahnhofplatz
 
 ## 3. Abonament
 
-- Prețul depinde de numărul de zile de parcare: de exemplu, {p1} pentru o zi sau {p2} pentru două zile; de la 13 zile, {rate} pe zi. Debităm exact suma pe care o vedeți la plată.
+- Prețul depinde de numărul de zile de parcare: de exemplu, {p1} pentru o zi, {p2} pentru două zile sau {p3} pentru trei zile. Puteți rezerva pentru cel mult 30 de zile. Debităm exact suma pe care o vedeți la plată.
 - La plată achitați parcarea pe care o rezervați și biletele Zermatt Shuttle adăugate. Apoi abonamentul se reînnoiește automat pe 1 a fiecărei luni calendaristice (ora Elveției) la prețul acestei parcări, până când îl anulați. Biletele de tren nu fac parte din reînnoire.
 - Fiecare reînnoire include încă o ședere la Matterhorn Terminal de aceeași durată, dacă o rezervați cu cel puțin 7 zile înainte de sosire. Șederile nefolosite nu se reportează în luna următoare.
 - Abonamentul nu este un abonament de parcare nelimitat.

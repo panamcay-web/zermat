@@ -11,7 +11,7 @@ Nous réservons en votre nom une place au Matterhorn Terminal (Bahnhofplatz, 392
 
 ## 3. Abonnement
 
-- Le prix dépend du nombre de jours de stationnement : par exemple {p1} pour un jour ou {p2} pour deux jours ; dès 13 jours, {rate} par jour. Nous débitons exactement le montant affiché au paiement.
+- Le prix dépend du nombre de jours de stationnement : par exemple {p1} pour un jour, {p2} pour deux jours ou {p3} pour trois jours. La réservation est possible jusqu'à 30 jours. Nous débitons exactement le montant affiché au paiement.
 - Au paiement, vous réglez le stationnement que vous réservez et les éventuels billets Zermatt Shuttle. L'abonnement se renouvelle ensuite automatiquement le 1er de chaque mois civil (heure suisse) au prix de ce stationnement, jusqu'à ce que vous le résiliiez. Les billets de navette ne sont pas compris dans le renouvellement.
 - Chaque renouvellement inclut un autre séjour au Matterhorn Terminal de la même durée, à réserver au moins 7 jours avant l'arrivée. Les séjours non utilisés ne sont pas reportés au mois suivant.
 - L'abonnement n'est pas un forfait de stationnement illimité.

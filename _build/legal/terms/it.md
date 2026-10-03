@@ -11,7 +11,7 @@ Prenotiamo per te un posto auto al Matterhorn Terminal (Bahnhofplatz, 3929 Täsc
 
 ## 3. Abbonamento
 
-- Il prezzo dipende dal numero di giorni di sosta: per esempio {p1} per un giorno o {p2} per due giorni; da 13 giorni {rate} al giorno. Ti addebitiamo esattamente l'importo che vedi al pagamento.
+- Il prezzo dipende dal numero di giorni di sosta: per esempio {p1} per un giorno, {p2} per due giorni o {p3} per tre giorni. Puoi prenotare fino a 30 giorni. Ti addebitiamo esattamente l'importo che vedi al pagamento.
 - Al pagamento saldi la sosta che prenoti e gli eventuali biglietti Zermatt Shuttle. Poi l'abbonamento si rinnova automaticamente il 1° di ogni mese di calendario (ora svizzera) al prezzo di quella sosta, finché non lo disdici. I biglietti della navetta non sono inclusi nel rinnovo.
 - Ogni rinnovo include un'altra sosta al Matterhorn Terminal della stessa durata, se la prenoti almeno 7 giorni prima dell'arrivo. Le soste non usate non passano al mese successivo.
 - L'abbonamento non è un pass illimitato per il parcheggio.

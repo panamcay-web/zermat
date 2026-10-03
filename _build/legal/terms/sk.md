@@ -11,7 +11,7 @@ Vaším menom rezervujeme parkovacie miesto v Matterhorn Termináli (Bahnhofplat
 
 ## 3. Predplatné
 
-- Cena závisí od počtu dní parkovania: napríklad {p1} za jeden deň alebo {p2} za dva dni; od 13 dní {rate} za deň. Strhneme presne tú sumu, ktorú vidíte pri platbe.
+- Cena závisí od počtu dní parkovania: napríklad {p1} za jeden deň, {p2} za dva dni alebo {p3} za tri dni. Rezervovať možno najviac na 30 dní. Strhneme presne tú sumu, ktorú vidíte pri platbe.
 - Pri platbe uhradíte rezervované parkovanie a pridané lístky na Zermatt Shuttle. Potom sa predplatné automaticky obnovuje 1. dňa každého kalendárneho mesiaca (podľa švajčiarskeho času) za cenu tohto parkovania, kým ho nezrušíte. Lístky na vlak nie sú súčasťou obnovenia.
 - Každé obnovenie zahŕňa ďalšie parkovanie v Matterhorn Termináli v rovnakej dĺžke, ak ho zarezervujete aspoň 7 dní pred príchodom. Nevyužité parkovania sa do ďalšieho mesiaca neprenášajú.
 - Predplatné nie je neobmedzená parkovacia permanentka.

@@ -11,7 +11,7 @@ Wir reservieren in Ihrem Auftrag einen Stellplatz im Matterhorn Terminal (Bahnho
 
 ## 3. Abo
 
-- Der Preis richtet sich nach der Zahl der Parktage: zum Beispiel {p1} für einen Tag oder {p2} für zwei Tage; ab 13 Tagen {rate} pro Tag. Abgebucht wird genau der Betrag, den Sie beim Bezahlen sehen.
+- Der Preis richtet sich nach der Zahl der Parktage: zum Beispiel {p1} für einen Tag, {p2} für zwei Tage oder {p3} für drei Tage. Buchbar sind bis zu 30 Tage. Abgebucht wird genau der Betrag, den Sie beim Bezahlen sehen.
 - Beim Bezahlen begleichen Sie das gebuchte Parken sowie hinzugefügte Zermatt-Shuttle-Tickets. Danach verlängert sich das Abo automatisch am 1. jedes Kalendermonats (Schweizer Zeit) zum Preis dieses Parkens, bis Sie kündigen. Shuttle-Tickets sind in der Verlängerung nicht enthalten.
 - Jede Verlängerung enthält einen weiteren Aufenthalt im Matterhorn Terminal in derselben Länge, wenn Sie ihn mindestens 7 Tage vor der Ankunft buchen. Nicht genutzte Aufenthalte verfallen am Monatsende.
 - Das Abo ist keine Parkflatrate ohne Limit.

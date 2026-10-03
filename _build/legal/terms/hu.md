@@ -11,7 +11,7 @@ Az Ön nevében lefoglalunk egy parkolóhelyet a Matterhorn Terminalban (Bahnhof
 
 ## 3. Előfizetés
 
-- Az ár a parkolási napok számától függ: például egy nap {p1}, két nap {p2}; 13 naptól naponta {rate}. Pontosan azt az összeget terheljük, amelyet fizetéskor lát.
+- Az ár a parkolási napok számától függ: például egy nap {p1}, két nap {p2}, három nap {p3}. Legfeljebb 30 napra foglalhat. Pontosan azt az összeget terheljük, amelyet fizetéskor lát.
 - Fizetéskor a lefoglalt parkolást és a hozzáadott Zermatt Shuttle-jegyeket fizeti ki. Ezután az előfizetés minden naptári hónap 1-jén (svájci idő szerint) automatikusan megújul ennek a parkolásnak az áráért, amíg le nem mondja. A vonatjegyek nem részei a megújításnak.
 - Minden megújítás tartalmaz egy újabb, ugyanolyan hosszú parkolást a Matterhorn Terminalban, ha legalább 7 nappal az érkezés előtt lefoglalja. A fel nem használt parkolások nem vihetők át a következő hónapra.
 - Az előfizetés nem korlátlan parkolóbérlet.

@@ -11,7 +11,7 @@ W Twoim imieniu rezerwujemy miejsce na parkingu Matterhorn Terminal (Bahnhofplat
 
 ## 3. Subskrypcja
 
-- Cena zależy od liczby dni parkowania: na przykład {p1} za jeden dzień albo {p2} za dwa dni; od 13 dni {rate} za dzień. Pobieramy dokładnie tę kwotę, którą widzisz przy płatności.
+- Cena zależy od liczby dni parkowania: na przykład {p1} za jeden dzień, {p2} za dwa dni albo {p3} za trzy dni. Rezerwować można maksymalnie na 30 dni. Pobieramy dokładnie tę kwotę, którą widzisz przy płatności.
 - Przy płatności opłacasz zarezerwowane parkowanie i dodane bilety Zermatt Shuttle. Potem subskrypcja odnawia się automatycznie 1. dnia każdego miesiąca kalendarzowego (czasu szwajcarskiego) na kwotę tego parkowania, dopóki z niej nie zrezygnujesz. Bilety na pociąg nie wchodzą w odnowienie.
 - Każde odnowienie obejmuje kolejny pobyt na parkingu Matterhorn Terminal o tej samej długości, jeśli zarezerwujesz go co najmniej 7 dni przed przyjazdem. Niewykorzystane pobyty nie przechodzą na kolejny miesiąc.
 - Subskrypcja nie jest nielimitowanym abonamentem parkingowym.

@@ -32,10 +32,10 @@ LANGS = list(I18N)
 VER = re.search(r'script\.js\?v=(\d+)', open(os.path.join(SITE, "index.html"), encoding="utf-8").read()).group(1)
 
 # prices come from the pricing code, so the terms can't drift from the checkout
-stay = json.loads(re.search(r"const STAY_PRICES = (\[[^\]]+\])", src).group(1))
-rate = int(re.search(r"const LONG_STAY_RATE = (\d+)", src).group(1))
+arr = re.search(r"const STAY_PRICES = (\[[^\]]+\])", src).group(1)
+stay = json.loads(re.sub(r",\s*\]", "]", re.sub(r"//[^\n]*", "", arr)))
 fmt = lambda n: "CHF " + (str(int(n)) if float(n).is_integer() else f"{n:.2f}")
-PRICES = {"{p1}": fmt(stay[0]), "{p2}": fmt(stay[1]), "{rate}": fmt(rate)}
+PRICES = {"{p1}": fmt(stay[0]), "{p2}": fmt(stay[1]), "{p3}": fmt(stay[2])}
 
 UI = json.load(open(os.path.join(PAD, "legal", "ui.json"), encoding="utf-8"))
 assert set(UI) == set(LANGS), set(UI) ^ set(LANGS)
@@ -93,6 +93,7 @@ for slug in SLUGS:
 # ---------- 2. strings into the I18N block of script.js ----------
 for l in LANGS:
     I18N[l].pop("book.terms", None)          # replaced by sub.acceptTerms (links to the Terms and the Privacy Policy)
+    I18N[l].pop("book.longStay", None)       # no long-stay rate since the official price table (2026-10-03)
     I18N[l].update(UI[l])
 keys = list(I18N["en"])
 assert all(sorted(I18N[l]) == sorted(I18N["en"]) or set(I18N["en"]) <= set(I18N[l]) for l in LANGS)

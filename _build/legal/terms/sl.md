@@ -11,7 +11,7 @@ V vašem imenu rezerviramo parkirno mesto na Matterhorn Terminalu (Bahnhofplatz,
 
 ## 3. Naročnina
 
-- Cena je odvisna od števila dni parkiranja: na primer {p1} za en dan ali {p2} za dva dni; od 13 dni {rate} na dan. Zaračunamo natanko znesek, ki ga vidite ob plačilu.
+- Cena je odvisna od števila dni parkiranja: na primer {p1} za en dan, {p2} za dva dni ali {p3} za tri dni. Rezervirate lahko največ za 30 dni. Zaračunamo natanko znesek, ki ga vidite ob plačilu.
 - Ob plačilu poravnate rezervirano parkiranje in dodane vozovnice za Zermatt Shuttle. Nato se naročnina samodejno podaljša vsakega 1. v koledarskem mesecu (po švicarskem času) za ceno tega parkiranja, dokler je ne odpoveste. Vozovnice za vlak niso del podaljšanja.
 - Vsako podaljšanje vključuje še eno parkiranje na Matterhorn Terminalu v enakem trajanju, če ga rezervirate vsaj 7 dni pred prihodom. Neizkoriščena parkiranja se ne prenesejo v naslednji mesec.
 - Naročnina ni neomejena parkirna vozovnica.

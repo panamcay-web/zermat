@@ -11,7 +11,7 @@ Reservamos en su nombre una plaza en el Matterhorn Terminal (Bahnhofplatz, 3929 
 
 ## 3. Suscripción
 
-- El precio depende del número de días de aparcamiento: por ejemplo, {p1} por un día o {p2} por dos días; desde 13 días, {rate} al día. Le cobramos exactamente el importe que ve al pagar.
+- El precio depende del número de días de aparcamiento: por ejemplo, {p1} por un día, {p2} por dos días o {p3} por tres días. Puede reservar hasta 30 días. Le cobramos exactamente el importe que ve al pagar.
 - Al pagar, abona el aparcamiento que reserva y los billetes de Zermatt Shuttle que añada. Después, la suscripción se renueva automáticamente el día 1 de cada mes natural (hora de Suiza) por el precio de ese aparcamiento, hasta que la cancele. Los billetes del tren lanzadera no se incluyen en la renovación.
 - Cada renovación incluye otra estancia en el Matterhorn Terminal de la misma duración, si la reserva con al menos 7 días de antelación. Las estancias no utilizadas no pasan al mes siguiente.
 - La suscripción no es un abono de aparcamiento ilimitado.

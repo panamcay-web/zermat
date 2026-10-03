@@ -11,7 +11,7 @@ Seçtiğiniz tarihler için Matterhorn Terminal'de (Bahnhofplatz, 3929 Täsch, {
 
 ## 3. Abonelik
 
-- Fiyat, park edilen gün sayısına göre belirlenir: örneğin bir gün için {p1}, iki gün için {p2}; 13 günden itibaren günlük {rate}. Ödeme sırasında gördüğünüz tutarın aynısını tahsil ederiz.
+- Fiyat, park edilen gün sayısına göre belirlenir: örneğin bir gün için {p1}, iki gün için {p2}, üç gün için {p3}. En fazla 30 gün için rezervasyon yapabilirsiniz. Ödeme sırasında gördüğünüz tutarın aynısını tahsil ederiz.
 - Ödeme sırasında rezerve ettiğiniz parkın ve eklediğiniz Zermatt Shuttle biletlerinin ücretini ödersiniz. Ardından abonelik, iptal edene kadar her takvim ayının 1'inde (İsviçre saati) bu parkın ücretiyle otomatik olarak yenilenir. Tren biletleri yenilemeye dahil değildir.
 - Her yenileme, varıştan en az 7 gün önce rezerve etmeniz koşuluyla Matterhorn Terminal'de aynı sürede bir park daha içerir. Kullanılmayan parklar sonraki aya devretmez.
 - Abonelik sınırsız bir otopark kartı değildir.

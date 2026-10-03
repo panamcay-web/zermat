@@ -11,7 +11,7 @@ We reserve a parking space at the Matterhorn Terminal (Bahnhofplatz, 3929 Täsch
 
 ## 3. Subscription
 
-- The price depends on how many days you park: for example, {p1} for one day or {p2} for two days; from 13 days it is {rate} a day. The amount shown at checkout is what we charge.
+- The price depends on how many days you park: for example, {p1} for one day, {p2} for two days or {p3} for three days. You can book for up to 30 days. The amount shown at checkout is what we charge.
 - At checkout you pay for the parking you book and for any Zermatt Shuttle tickets you add. The subscription then renews automatically on the 1st of each calendar month (Swiss time) for the price of that parking, until you cancel. Shuttle tickets are not part of the renewal.
 - Each renewal includes one more stay at the Matterhorn Terminal of the same length, when you book it at least 7 days before arrival. Unused stays don't carry over to the next month.
 - The subscription is not an unlimited parking pass.

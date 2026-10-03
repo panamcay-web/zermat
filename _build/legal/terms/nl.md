@@ -11,7 +11,7 @@ Wij reserveren namens u een parkeerplek bij de Matterhorn Terminal (Bahnhofplatz
 
 ## 3. Abonnement
 
-- De prijs hangt af van het aantal parkeerdagen: bijvoorbeeld {p1} voor één dag of {p2} voor twee dagen; vanaf 13 dagen {rate} per dag. We schrijven precies het bedrag af dat u bij het betalen ziet.
+- De prijs hangt af van het aantal parkeerdagen: bijvoorbeeld {p1} voor één dag, {p2} voor twee dagen of {p3} voor drie dagen. U kunt maximaal 30 dagen boeken. We schrijven precies het bedrag af dat u bij het betalen ziet.
 - Bij het betalen rekent u het parkeren af dat u boekt, plus eventuele Zermatt Shuttle-tickets. Daarna wordt het abonnement automatisch op de 1e van elke kalendermaand (Zwitserse tijd) verlengd voor de prijs van dat parkeren, tot u opzegt. Treintickets horen niet bij de verlenging.
 - Elke verlenging bevat nog een verblijf bij de Matterhorn Terminal van dezelfde duur, als u het minstens 7 dagen voor aankomst boekt. Ongebruikte verblijven schuiven niet door naar de volgende maand.
 - Het abonnement is geen onbeperkte parkeerkaart.

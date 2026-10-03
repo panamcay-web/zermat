@@ -11,7 +11,7 @@ Vi reserverer en parkeringsplass i Matterhorn Terminal (Bahnhofplatz, 3929 Täsc
 
 ## 3. Abonnement
 
-- Prisen avhenger av antall parkeringsdager: for eksempel {p1} for én dag eller {p2} for to dager; fra 13 dager {rate} per dag. Vi trekker nøyaktig beløpet du ser når du betaler.
+- Prisen avhenger av antall parkeringsdager: for eksempel {p1} for én dag, {p2} for to dager eller {p3} for tre dager. Du kan bestille for opptil 30 dager. Vi trekker nøyaktig beløpet du ser når du betaler.
 - Når du betaler, betaler du for parkeringen du bestiller og for eventuelle Zermatt Shuttle-billetter. Deretter fornyes abonnementet automatisk den 1. i hver kalendermåned (sveitsisk tid) til prisen for denne parkeringen, til du sier det opp. Togbilletter er ikke med i fornyelsen.
 - Hver fornyelse inkluderer enda et opphold i Matterhorn Terminal med samme lengde, når du bestiller det minst 7 dager før ankomst. Ubrukte opphold overføres ikke til neste måned.
 - Abonnementet er ikke et ubegrenset parkeringskort.
